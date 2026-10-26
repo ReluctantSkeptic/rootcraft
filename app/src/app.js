@@ -154,19 +154,57 @@ const FX = (() => {
 })();
 
 /* ---------- root card ---------- */
+/* v14 crayon border colours. Each world has its own family of three crayons and the colour rotates by level
+   (level 1 -> first crayon, 2 -> second, ...), so a row of cards looks varied like a box of crayons while each world
+   keeps its own temperature: Ink = primaries (start here), Gold = warm, Silver = cool blues/teal, Amethyst = purple/berry/leaf.
+   [border, back ink]. The back shape alternates dots / star by level. Same table in landing.js (CRAYON). */
+const CRAYON = {
+  ink: [['#E0412F', '#FFF6E6'], ['#2453B8', '#FFF6E6'], ['#F2A61F', '#B8291A']],
+  gold: [['#F0A01C', '#A82A16'], ['#E5602A', '#FFF4E2'], ['#C7362B', '#FFF4E2']],
+  silver: [['#2858C2', '#FFF6E6'], ['#13938C', '#FFF6E6'], ['#1E8CD0', '#FFF6E6']],
+  amethyst: [['#7449C2', '#FFF4FF'], ['#D0407E', '#FFF4F6'], ['#3E9B50', '#FFF8E8']],
+};
+function paintCrayons() {
+  WORLDS.forEach(w => {
+    const p = CRAYON[w.theme && w.theme.name] || CRAYON.ink;
+    w.levels.forEach((lv, li) => { const c = p[li % p.length]; lv.cb = c[0]; lv.cbi = c[1]; lv.cbs = li % 2 ? 'star' : 'dots'; });
+  });
+}
 function rootCard(lv, cls = '', side = '') {
   const title = lv.forms.map(esc).join('<span class="rcard-dot"> · </span>');
-  return `<div class="tilt ${cls}"><article class="rcard" aria-label="${esc(lv.forms.join(', '))}: ${esc(lv.meaning)}, from ${esc(lv.origin)}">
+  return `<div class="tilt ${cls}" style="--cb:${lv.cb || '#E0412F'};--cb-ink:${lv.cbi || '#FFF6E6'}" data-shape="${lv.cbs || 'dots'}"><article class="rcard" aria-label="${esc(lv.forms.join(', '))}: ${esc(lv.meaning)}, from ${esc(lv.origin)}">
+    <div class="rface">
     <div class="rcard-in">
       <header class="rcard-top"><h1 class="rcard-name" tabindex="-1" data-side="${side}"><i class="slot slot-l" aria-hidden="true"></i><span class="rn">${title}</span><i class="slot slot-r" aria-hidden="true"></i></h1></header>
-      <div class="rcard-art"><img src="${lv.art}" alt="" width="600" height="600" decoding="async">
+      <div class="rcard-art" style="--art:url('${lv.art}')"><img src="${lv.art}" alt="" width="600" height="600" decoding="async" draggable="false">
         <i class="holo" aria-hidden="true"><i class="holo-rb"></i><i class="holo-gl"></i><i class="holo-gl holo-gl2"></i><i class="holo-tint"></i></i></div>
       <p class="rcard-mean">${esc(lv.meaning)}</p>
       <footer class="rcard-foot"><span>${esc(lv.origin)}</span><span>${esc(lv.type)}</span></footer>
     </div>
     <i class="sheen" aria-hidden="true"><i class="sheen-rb"></i></i>
     <i class="glare" aria-hidden="true"><i class="glare-dot"></i></i>
+    </div>
   </article></div>`;
+}
+/* v14 card back + flip. A tap (no drag: < 8 px, < 600 ms) flips the card; the back is built on the first flip.
+   Same snippet in landing.js. Only display cards get it (root cards are all .tilt; the level's option cards are .pcard). */
+const CARD_BACK = '<div class="rback" aria-hidden="true"><b class="rb-mark">Root<br>craft</b><span class="rb-tag">learn the roots</span></div>';
+function flipCard(t) {
+  const c = t.querySelector('.rcard'); if (!c) return;
+  if (!c.querySelector('.rback')) { c.insertAdjacentHTML('beforeend', CARD_BACK); c.classList.add('has-back'); void c.offsetWidth; }
+  requestAnimationFrame(() => { const on = c.classList.toggle('is-flipped'); c.setAttribute('data-face', on ? 'back' : 'front'); });
+}
+function bindFlip(t) {
+  if (t._flip) return; t._flip = 1;
+  let p = null;
+  t.addEventListener('pointerdown', e => { p = e.button ? null : { x: e.clientX, y: e.clientY, t: performance.now(), id: e.pointerId }; }, { passive: true });
+  t.addEventListener('pointermove', e => { if (p && e.pointerId === p.id && Math.hypot(e.clientX - p.x, e.clientY - p.y) > 8) p = null; }, { passive: true });
+  t.addEventListener('pointercancel', () => { p = null; });
+  t.addEventListener('pointerup', e => {
+    if (!p || e.pointerId !== p.id) return;
+    const ok = Math.hypot(e.clientX - p.x, e.clientY - p.y) < 8 && performance.now() - p.t < 600;
+    p = null; if (ok) flipCard(t);
+  });
 }
 /* Fit the (possibly multi-form) title on one line: start from the design size, shrink to fit. */
 function fitTitles(root) {
@@ -213,7 +251,8 @@ function holoWatch(el, fn) { if (!holoIO) return fn(true); holoSeen.set(el, fn);
 /* Press sparkle: a small burst of iridescent glints and four-point stars at the press point, clipped by
    the card's rounded rect (the card has overflow hidden). ~650 ms, canvas only, removed when done. */
 function holoSparkle(t, e, reduced) {
-  const card = t.querySelector('.rcard'); if (!card) return;
+  const rc = t.querySelector('.rcard'); if (!rc) return;
+  const card = (rc.classList.contains('is-flipped') && rc.querySelector('.rback')) || rc.querySelector('.rface') || rc;
   const r = t.getBoundingClientRect(), w = card.offsetWidth, h = card.offsetHeight;
   if (!r.width || !w) return;
   const px = (e.clientX - r.left) / r.width * w, py = (e.clientY - r.top) / r.height * h;
@@ -286,6 +325,7 @@ function bindTilt(root) {
     const rb = $$('.holo-rb, .sheen-rb', card), gl = $('.holo-gl', card), gl2 = $('.holo-gl2', card);
     const holo = $('.holo', card), sheen = $('.sheen', card), glare = $('.glare', card), dot = $('.glare-dot', card);
     t.addEventListener('pointerdown', e => holoSparkle(t, e, RM.matches), { passive: true });
+    bindFlip(t);
     if (RM.matches) { t.nudge = () => {}; return; }
     const REST = { x: .5, y: .5, o: 0 };
     const cur = { ...REST }, vel = { x: 0, y: 0, o: 0 };
@@ -1463,6 +1503,7 @@ addEventListener('hashchange', route);
 (async function boot() {
   const res = await fetch(document.documentElement.dataset.data);
   WORLDS = (await res.json()).worlds.sort((a, b) => a.order - b.order);
+  paintCrayons();
   load();
   route();
   if (document.fonts) document.fonts.ready.then(() => { if (WM) return; fitTitles(app); if ($('.tree', app)) drawTree(false); });

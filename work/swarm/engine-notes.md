@@ -68,3 +68,7 @@
 - CSS block "v13 SMOKE BACKGROUND" at the end of styles.css: 170vmax layers, keyframes smkA 96s / smkB 74s alternate, transform only; opacity .10/.08 (.12/.10 at >=900px); html.smoke-off pauses on hidden tab; reduced motion = static.
 - Two layout fixes so the smoke reads cleanly: .backdrop vignette is now a mask on the img (the old opaque ::after hid the smoke at the edges), and the .dock scrim is a full-width ::before (the old background stopped at the #app column and showed as a box).
 - Tests: work/v13/shoot13.py (screens + seeked drift strip), work/v13/check13.py (trace, Words tint, crossfade, hidden, reduced motion). Pre-v13 copies: work/v13/bak/.
+
+## v14 (Oct 25, 2026): crayon cards + card backs
+- Root card = .tilt > .rcard > .rface (+ .rback after first flip). Border colour per level from CRAYON (world palette, rotates by level); paintCrayons() runs at boot and sets lv.cb / lv.cbi / lv.cbs. Tap (no drag) flips any root card; .pcard option cards never flip.
+- Art is now transparent cut-outs (work/art/v14); textures in app/src/card/ are hashed by build.py into play/art/card/. Details: work/v14/NOTES.md.

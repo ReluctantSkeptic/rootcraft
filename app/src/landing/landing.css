@@ -140,35 +140,39 @@ em { font-family: var(--italic); font-style: italic; font-weight: 500; letter-sp
 .row.static .tilt { position: relative; }
 .shelf:has(.static) { -webkit-mask-image: none; mask-image: none; perspective: none; }
 .rcard-words { list-style: none; margin: auto 0 0; padding: 2.4cqw 0 0; border-top: 1px solid rgba(22,20,18,.12); display: flex; flex-direction: column; align-items: center; gap: .4cqw; }
-.rcard-words li { font-weight: 600; font-size: 8.4cqw; line-height: 1.12; letter-spacing: -.02em; color: var(--ink); white-space: nowrap; }
+.rcard-words li { font-weight: 600; font-size: 7.8cqw; line-height: 1.12; letter-spacing: -.02em; color: var(--ink); white-space: nowrap; }
 .rcard-words b, .wroots i b, .tw-w b { color: var(--gold-ink); font-weight: 800; }
 .teach .rcard-in { gap: 2.2cqw; }
 .teach .rcard-art { min-height: 46cqw; }
-.teach .rcard-mean { font-size: 7.6cqw; }
+.teach .rcard-mean { font-size: 7.2cqw; }
 
-/* ---------- root card (from the game) ---------- */
+/* ---------- root card (v14 crayon card, same look as the game: app/src/styles.css) ---------- */
 .tilt { perspective: 900px; width: var(--cw); flex: 0 0 auto; touch-action: pan-y; }
 .rcard {
-  --r: calc(var(--cw) * .07);
-  position: relative; width: var(--cw); aspect-ratio: 63 / 88; border-radius: var(--r); padding: calc(var(--cw) * .03);
-  container-type: inline-size; isolation: isolate; overflow: hidden;
-  background: linear-gradient(125deg, #F7DE92 0%, #C99A3A 18%, #F3E3B0 34%, #A9D3C8 50%, #CBB1E6 64%, #F0C866 80%, #B8862C 100%);
-  box-shadow: var(--sh-3), inset 0 0 0 1px rgba(255,255,255,.35);
-  will-change: transform; backface-visibility: hidden;
+  --r: calc(var(--cw) * .075);
+  position: relative; width: var(--cw); aspect-ratio: 63 / 88; border-radius: var(--r);
+  transform-style: flat; will-change: transform; cursor: pointer; -webkit-tap-highlight-color: transparent;
 }
-.rcard-in {
-  position: relative; height: 100%; border-radius: calc(var(--r) - var(--cw) * .03); background: var(--paper); color: var(--ink);
-  padding: 4.6cqw 4.6cqw 4cqw; display: flex; flex-direction: column; gap: 2.8cqw; overflow: hidden;
-  box-shadow: inset 0 0 0 1px rgba(22,20,18,.14);
-  background-image: radial-gradient(120% 80% at 50% 0%, #F7F4EE, var(--paper) 60%, #E9E3D7);
+.rcard.has-back { transform-style: preserve-3d; }
+.rface, .rback {
+  position: absolute; inset: 0; border-radius: var(--r); overflow: hidden; isolation: isolate; container-type: inline-size;
+  background: url(img/card/grain.webp) 0 0 / 96px 96px, var(--cb, #E0412F);
+  box-shadow: var(--sh-3), inset 0 0 0 1px rgba(0,0,0,.12);
+  backface-visibility: hidden; -webkit-backface-visibility: hidden;
+  transition: transform .52s cubic-bezier(.3,.9,.25,1.06), opacity .3s var(--ease);
 }
-.rcard-name { display: block; white-space: nowrap; padding: 0 1cqw; font-weight: 800; font-size: 17cqw; line-height: .92; letter-spacing: -.02em; }
-.rcard-art { position: relative; flex: 1 1 0; min-height: 60cqw; border-radius: 3.2cqw; overflow: hidden; margin: .6cqw 1.2cqw; isolation: isolate; transform: translateZ(0);
-  box-shadow: 0 0 0 1px rgba(22,20,18,.5), 0 0 0 1.2cqw var(--paper), 0 0 0 calc(1.2cqw + 1px) rgba(22,20,18,.16); }
-.rcard-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.rcard-mean { font-family: var(--italic); font-style: italic; font-weight: 500; font-size: 8cqw; line-height: 1.08; letter-spacing: -.01em; text-align: center; margin-top: .6cqw; text-wrap: balance; }
-.rcard-foot { display: flex; justify-content: space-between; font-size: max(7px, 3.9cqw); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); opacity: .75; border-top: 1px solid rgba(22,20,18,.12); padding-top: 2.2cqw; font-variant-ligatures: none; }
-.holo { position: absolute; inset: 0; mix-blend-mode: color-dodge; opacity: .16; pointer-events: none; overflow: hidden; filter: brightness(.62) contrast(1.6) saturate(1.5); }
+.rface::before { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: #F8F1E2;
+  -webkit-mask: url(img/card/panel.webp) 0 0 / 100% 100% no-repeat; mask: url(img/card/panel.webp) 0 0 / 100% 100% no-repeat; }
+.rcard-in { position: relative; z-index: 1; height: 100%; color: var(--ink); padding: 10.4cqw 10.4cqw 8.8cqw; display: flex; flex-direction: column; gap: 2.4cqw; }
+.rcard-name { display: block; white-space: nowrap; padding: 0; font-weight: 800; font-size: 16cqw; line-height: .92; letter-spacing: -.02em; }
+.rcard-art { position: relative; flex: 1 1 0; min-height: 52cqw; margin: 0 -1cqw; overflow: visible; }
+/* the cut-outs keep the old square framing (character ~85% of it): scale up a little, the overflow is transparent */
+.rcard-art img, .rcard-art .holo { transform: scale(1.08); transform-origin: 50% 52%; }
+.rcard-art img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.rcard-mean { font-family: var(--italic); font-style: italic; font-weight: 500; font-size: 7.6cqw; line-height: 1.08; letter-spacing: -.01em; text-align: center; margin-top: .4cqw; text-wrap: balance; }
+.rcard-foot { display: flex; justify-content: space-between; font-size: max(7px, 3.7cqw); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); opacity: .8; border-top: 1px solid rgba(22,20,18,.12); padding-top: 2cqw; font-variant-ligatures: none; }
+.holo { position: absolute; inset: 0; mix-blend-mode: color-dodge; opacity: .16; pointer-events: none; overflow: hidden; filter: brightness(.62) contrast(1.6) saturate(1.5);
+  -webkit-mask: var(--art) center / contain no-repeat; mask: var(--art) center / contain no-repeat; }
 .holo i, .sheen i, .glare i { position: absolute; display: block; pointer-events: none; }
 .holo-rb, .sheen-rb {
   left: -100%; top: -100%; width: 300%; height: 300%; will-change: transform;
@@ -176,12 +180,27 @@ em { font-family: var(--italic); font-style: italic; font-weight: 500; letter-sp
 }
 .holo-gl { inset: -12%; background: url(img/glitter.webp) center / 34cqw 34cqw repeat; mix-blend-mode: multiply; will-change: transform; }
 .holo-gl2 { background-size: 52cqw 52cqw; mix-blend-mode: screen; opacity: .7; }
-.sheen { position: absolute; inset: 0; border-radius: inherit; overflow: hidden; pointer-events: none; mix-blend-mode: overlay; opacity: .07; }
-.glare { position: absolute; inset: 0; border-radius: inherit; overflow: hidden; pointer-events: none; mix-blend-mode: overlay; opacity: 0; }
+.sheen { position: absolute; inset: 0; z-index: 2; border-radius: inherit; overflow: hidden; pointer-events: none; mix-blend-mode: overlay; opacity: .07; }
+.glare { position: absolute; inset: 0; z-index: 3; border-radius: inherit; overflow: hidden; pointer-events: none; mix-blend-mode: overlay; opacity: 0; }
 .glare-dot { left: -50%; top: -50%; width: 200%; height: 200%; will-change: transform; background: radial-gradient(closest-side, rgba(255,255,255,.95), rgba(255,255,255,.45) 30%, rgba(0,0,0,.25) 75%, rgba(0,0,0,.35)); }
 
 /* v11 press sparkle (canvas drawn by holoSparkle, clipped by the card's rounded rect) */
 .spark { position: absolute; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none; z-index: 4; border-radius: inherit; }
+/* v14 card back */
+.rback { transform: rotateY(180deg); display: grid; place-items: center; align-content: center; gap: 5cqw; text-align: center; pointer-events: none; }
+.rback::before { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: color-mix(in oklab, var(--cb), #fff 22%);
+  -webkit-mask: url(img/card/back-dots.webp) 0 0 / 100% 100% no-repeat; mask: url(img/card/back-dots.webp) 0 0 / 100% 100% no-repeat; }
+.tilt[data-shape="star"] .rback::before { background: color-mix(in oklab, var(--cb), #8A1A00 34%); -webkit-mask-image: url(img/card/back-star.webp); mask-image: url(img/card/back-star.webp); }
+.rb-mark { position: relative; z-index: 1; display: block; font-weight: 800; font-size: 23cqw; line-height: .84; letter-spacing: -.045em; color: var(--cb-ink, #FFF6E6); text-shadow: 0 .6cqw 0 rgba(0,0,0,.12); }
+.rb-tag { position: relative; z-index: 1; font-weight: 700; font-size: max(6px, 3.6cqw); letter-spacing: .16em; text-transform: uppercase; color: var(--cb-ink, #FFF6E6); opacity: .85; }
+.rcard.is-flipped .rface { transform: rotateY(-180deg); }
+.rcard.is-flipped .rback { transform: rotateY(0deg); }
+@media (prefers-reduced-motion: reduce) {
+  .rface, .rback { transition: opacity .3s var(--ease); }
+  .rback, .rcard.is-flipped .rback { transform: none; opacity: 0; }
+  .rcard.is-flipped .rback { opacity: 1; }
+  .rcard.is-flipped .rface { transform: none; opacity: 0; }
+}
 
 /* ---------- how ---------- */
 .how { position: relative; height: 340vh; }
@@ -351,7 +370,6 @@ em { font-family: var(--italic); font-style: italic; font-weight: 500; letter-sp
 .wroots .wr::after { content: '→'; margin-left: .45em; font-weight: 400; color: var(--mist-2); }
 .wcard { position: absolute; right: calc(var(--pad) + 7vw); top: 11vh; z-index: 2; }
 .wcard .tilt { --cw: clamp(220px, min(22vw, 46vh), 340px); }
-.rcard.wfoil { background: linear-gradient(125deg, var(--f0) 0%, var(--f1) 22%, var(--f2) 40%, var(--f1) 58%, var(--f0) 78%, var(--f2) 100%); }
 .pt { position: absolute; inset: -30% 0; z-index: -1; pointer-events: none; opacity: .6; background-size: 420px 420px; animation: drift 46s linear infinite; }
 .pt.b { background-size: 610px 610px; opacity: .5; animation: drift 60s linear infinite reverse, twinkle 3.2s ease-in-out infinite alternate; }
 .wpanel:not(.on) .pt { animation-play-state: paused; }

@@ -18,15 +18,15 @@ const ROW_A = [
   ['port', 'to carry', 'Latin', 'Root', ['trans[port]', '[port]able', 'im[port]']],
   ['spect', 'to look at', 'Latin', 'Root', ['in[spect]', '[spect]acle', 're[spect]']],
   ['rupt', 'to break or burst', 'Latin', 'Root', ['e[rupt]', 'inter[rupt]', 'dis[rupt]']],
-  ['dict', 'to say', 'Latin', 'Root', ['[dict]ionary', 'pre[dict]', 'ver[dict]']],
-  ['struct', 'to build', 'Latin', 'Root', ['con[struct]', 'in[struct]', 'ob[struct]']],
   ['aud', 'to hear', 'Latin', 'Root', ['[aud]ience', '[aud]ible', '[aud]ition']],
+  ['struct', 'to build', 'Latin', 'Root', ['con[struct]', 'in[struct]', 'ob[struct]']],
+  ['dict', 'to say', 'Latin', 'Root', ['[dict]ionary', 'pre[dict]', 'ver[dict]']],
+  ['mot', 'to move', 'Latin', 'Root', ['[mot]ion', '[mot]or', 're[mot]e']],
   ['graph', 'to write or draw', 'Greek', 'Root', ['auto[graph]', 'para[graph]', 'photo[graph]']],
   ['vis', 'to see', 'Latin', 'Root', ['[vis]ion', '[vis]ible', 'tele[vis]ion']],
+  ['form', 'shape', 'Latin', 'Root', ['trans[form]', 'uni[form]', '[form]at']],
   ['tract', 'to pull', 'Latin', 'Root', ['at[tract]', 'sub[tract]', 'ex[tract]']],
   ['phon', 'sound', 'Greek', 'Root', ['tele[phon]e', 'micro[phon]e', 'xylo[phon]e']],
-  ['mot', 'to move', 'Latin', 'Root', ['[mot]ion', '[mot]or', 're[mot]e']],
-  ['form', 'shape', 'Latin', 'Root', ['trans[form]', 'uni[form]', '[form]at']],
 ];
 const ROW_B = [
   ['tele', 'far, far away', 'Greek', 'Prefix', ['[tele]scope', '[tele]vision', '[tele]port']],
@@ -67,10 +67,36 @@ const TICK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-
 
 const holoLayers = `<i class="holo" aria-hidden="true"><i class="holo-rb"></i><i class="holo-gl"></i><i class="holo-gl holo-gl2"></i></i>`;
 const overLayers = `<i class="sheen" aria-hidden="true"><i class="sheen-rb"></i></i><i class="glare" aria-hidden="true"><i class="glare-dot"></i></i>`;
-const rootCard = ([n, m, o, t, words], cls = '') => `<div class="tilt"><article class="rcard ${cls}" aria-label="${n}: ${m}${words ? '. ' + words.map(w => w.replace(/[\[\]]/g, '')).join(', ') : ''}">
-  <div class="rcard-in"><h3 class="rcard-name">${n}</h3>
-  <div class="rcard-art"><img src="img/${n}.webp" alt="" width="440" height="440" loading="lazy" decoding="async" draggable="false">${holoLayers}</div>
-  <p class="rcard-mean">${m}</p>${words ? `<ul class="rcard-words">${words.map(w => `<li>${mark(w)}</li>`).join('')}</ul>` : `<footer class="rcard-foot"><span>${o}</span><span>${t}</span></footer>`}</div>${overLayers}</article></div>`;
+/* v14 crayon border per root: [border, back ink, back shape d=dots s=star]. Generated from the game's CRAYON table
+   (app.js: world palette, colour rotates by level index) so a card is the same colour here and in the game. */
+const CRAYON = {"aqua":"#7449C2|#FFF4FF|d","astro":"#E5602A|#FFF4E2|d","aud":"#E0412F|#FFF6E6|d","auto":"#E5602A|#FFF4E2|s","cent":"#2858C2|#FFF6E6|d","chron":"#F0A01C|#A82A16|d","dent":"#7449C2|#FFF4FF|s","dict":"#F2A61F|#B8291A|s","form":"#E0412F|#FFF6E6|s","graph":"#2453B8|#FFF6E6|d","manu":"#3E9B50|#FFF8E8|d","mot":"#E0412F|#FFF6E6|d","ped":"#D0407E|#FFF4F6|s","phon":"#F2A61F|#B8291A|d","photo":"#E5602A|#FFF4E2|d","poly":"#2858C2|#FFF6E6|s","port":"#E0412F|#FFF6E6|d","pre":"#F2A61F|#B8291A|s","re":"#E0412F|#FFF6E6|d","rupt":"#F2A61F|#B8291A|s","scope":"#F0A01C|#A82A16|d","spect":"#2453B8|#FFF6E6|d","struct":"#2453B8|#FFF6E6|s","tele":"#F0A01C|#A82A16|d","therm":"#F0A01C|#A82A16|s","tract":"#2453B8|#FFF6E6|d","trans":"#2453B8|#FFF6E6|s","tri":"#1E8CD0|#FFF6E6|d","uni":"#2858C2|#FFF6E6|d","vis":"#F2A61F|#B8291A|d"};
+const rootCard = ([n, m, o, t, words], cls = '') => {
+  const [cb, ci, sh] = (CRAYON[n] || '#E0412F|#FFF6E6|d').split('|');
+  return `<div class="tilt" style="--cb:${cb};--cb-ink:${ci}" data-shape="${sh === 's' ? 'star' : 'dots'}"><article class="rcard ${cls}" aria-label="${n}: ${m}${words ? '. ' + words.map(w => w.replace(/[\[\]]/g, '')).join(', ') : ''}">
+  <div class="rface"><div class="rcard-in"><h3 class="rcard-name">${n}</h3>
+  <div class="rcard-art" style="--art:url('img/${n}.webp')"><img src="img/${n}.webp" alt="" width="440" height="440" loading="lazy" decoding="async" draggable="false">${holoLayers}</div>
+  <p class="rcard-mean">${m}</p>${words ? `<ul class="rcard-words">${words.map(w => `<li>${mark(w)}</li>`).join('')}</ul>` : `<footer class="rcard-foot"><span>${o}</span><span>${t}</span></footer>`}</div>${overLayers}</div></article></div>`;
+};
+/* v14 card back + flip: a tap (no drag: < 8 px, < 600 ms) flips the card; the back is built on the first flip.
+   Same snippet in app/src/app.js. Parade drags never flip (they move more than 8 px, or the row captures the pointer). */
+const CARD_BACK = '<div class="rback" aria-hidden="true"><b class="rb-mark">Root<br>craft</b><span class="rb-tag">learn the roots</span></div>';
+function flipCard(t) {
+  const c = t.querySelector('.rcard'); if (!c) return;
+  if (!c.querySelector('.rback')) { c.insertAdjacentHTML('beforeend', CARD_BACK); c.classList.add('has-back'); void c.offsetWidth; }
+  requestAnimationFrame(() => { const on = c.classList.toggle('is-flipped'); c.setAttribute('data-face', on ? 'back' : 'front'); });
+}
+function bindFlip(t) {
+  if (t._flip) return; t._flip = 1;
+  let p = null;
+  t.addEventListener('pointerdown', e => { p = e.button ? null : { x: e.clientX, y: e.clientY, t: performance.now(), id: e.pointerId }; }, { passive: true });
+  t.addEventListener('pointermove', e => { if (p && e.pointerId === p.id && Math.hypot(e.clientX - p.x, e.clientY - p.y) > 8) p = null; }, { passive: true });
+  t.addEventListener('pointercancel', () => { p = null; });
+  t.addEventListener('pointerup', e => {
+    if (!p || e.pointerId !== p.id) return;
+    const ok = Math.hypot(e.clientX - p.x, e.clientY - p.y) < 8 && performance.now() - p.t < 600;
+    p = null; if (ok) flipCard(t);
+  });
+}
 
 /* ---------- holo extras (v11): auto shimmer on touch screens + press sparkle ----------
    Same code in app/src/app.js and app/src/landing/landing.js (separate bundles). */
@@ -106,7 +132,8 @@ function holoWatch(el, fn) { if (!holoIO) return fn(true); holoSeen.set(el, fn);
 /* Press sparkle: a small burst of iridescent glints and four-point stars at the press point, clipped by
    the card's rounded rect (the card has overflow hidden). ~650 ms, canvas only, removed when done. */
 function holoSparkle(t, e, reduced) {
-  const card = t.querySelector('.rcard'); if (!card) return;
+  const rc = t.querySelector('.rcard'); if (!rc) return;
+  const card = (rc.classList.contains('is-flipped') && rc.querySelector('.rback')) || rc.querySelector('.rface') || rc;
   const r = t.getBoundingClientRect(), w = card.offsetWidth, h = card.offsetHeight;
   if (!r.width || !w) return;
   const px = (e.clientX - r.left) / r.width * w, py = (e.clientY - r.top) / r.height * h;
@@ -181,6 +208,7 @@ function makeCard(t, ambient, touch = true) {
   };
   t._c = c;
   t.addEventListener('pointerdown', e => holoSparkle(t, e, RM), { passive: true });
+  bindFlip(t);
   if (RM) return c;
   holoWatch(t, v => { c.vis = v; c.still = false; kick(); });
   const move = e => {
