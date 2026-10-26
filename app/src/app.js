@@ -157,22 +157,24 @@ const FX = (() => {
 /* v14 crayon border colours. Each world has its own family of three crayons and the colour rotates by level
    (level 1 -> first crayon, 2 -> second, ...), so a row of cards looks varied like a box of crayons while each world
    keeps its own temperature: Ink = primaries (start here), Gold = warm, Silver = cool blues/teal, Amethyst = purple/berry/leaf.
-   [border, back ink]. The back shape alternates dots / star by level. Same table in landing.js (CRAYON). */
+   [border, back ink, text (border darkened for >= 4.5:1 on cream; root highlights)]. The back shape alternates dots / star by level. Same table in landing.js (CRAYON). */
 const CRAYON = {
-  ink: [['#E0412F', '#FFF6E6'], ['#2453B8', '#FFF6E6'], ['#F2A61F', '#B8291A']],
-  gold: [['#F0A01C', '#A82A16'], ['#E5602A', '#FFF4E2'], ['#C7362B', '#FFF4E2']],
-  silver: [['#2858C2', '#FFF6E6'], ['#13938C', '#FFF6E6'], ['#1E8CD0', '#FFF6E6']],
-  amethyst: [['#7449C2', '#FFF4FF'], ['#D0407E', '#FFF4F6'], ['#3E9B50', '#FFF8E8']],
+  ink: [['#E0412F', '#FFF6E6', '#B92A1B'], ['#2453B8', '#FFF6E6', '#2049A6'], ['#F2A61F', '#B8291A', '#9A5C08']],
+  gold: [['#F0A01C', '#A82A16', '#9E5E08'], ['#E5602A', '#FFF4E2', '#B4431A'], ['#C7362B', '#FFF4E2', '#A62A20']],
+  silver: [['#2858C2', '#FFF6E6', '#2350B0'], ['#13938C', '#FFF6E6', '#0C726C'], ['#1E8CD0', '#FFF6E6', '#15679C']],
+  amethyst: [['#7449C2', '#FFF4FF', '#6640B4'], ['#D0407E', '#FFF4F6', '#AD2C62'], ['#3E9B50', '#FFF8E8', '#2D7A3C']],
 };
 function paintCrayons() {
   WORLDS.forEach(w => {
     const p = CRAYON[w.theme && w.theme.name] || CRAYON.ink;
-    w.levels.forEach((lv, li) => { const c = p[li % p.length]; lv.cb = c[0]; lv.cbi = c[1]; lv.cbs = li % 2 ? 'star' : 'dots'; });
+    w.levels.forEach((lv, li) => { const c = p[li % p.length]; lv.cb = c[0]; lv.cbi = c[1]; lv.cbt = c[2]; lv.cbs = li % 2 ? 'star' : 'dots'; });
   });
 }
+/* crayon colour vars for anything that belongs to one level (card, level screen, result screen, Words page, map node) */
+const cbVars = lv => `--cb:${lv.cb || '#E0412F'};--cb-ink:${lv.cbi || '#FFF6E6'};--cbt:${lv.cbt || '#B92A1B'}`;
 function rootCard(lv, cls = '', side = '') {
   const title = lv.forms.map(esc).join('<span class="rcard-dot"> · </span>');
-  return `<div class="tilt ${cls}" style="--cb:${lv.cb || '#E0412F'};--cb-ink:${lv.cbi || '#FFF6E6'}" data-shape="${lv.cbs || 'dots'}"><article class="rcard" aria-label="${esc(lv.forms.join(', '))}: ${esc(lv.meaning)}, from ${esc(lv.origin)}">
+  return `<div class="tilt ${cls}" style="${cbVars(lv)}" data-shape="${lv.cbs || 'dots'}"><article class="rcard" aria-label="${esc(lv.forms.join(', '))}: ${esc(lv.meaning)}, from ${esc(lv.origin)}">
     <div class="rface">
     <div class="rcard-in">
       <header class="rcard-top"><h1 class="rcard-name" tabindex="-1" data-side="${side}"><i class="slot slot-l" aria-hidden="true"></i><span class="rn">${title}</span><i class="slot slot-r" aria-hidden="true"></i></h1></header>
@@ -474,7 +476,7 @@ function renderMap(w) {
         const fresh = justDone && justDone.unlocked === l.id && justDone.wid === w.id ? ' is-new' : '';
         const label = open ? `Level ${i + 1}: ${l.root}, ${l.meaning}${s ? `, ${s} star${s > 1 ? 's' : ''}` : ''}` : `Level ${i + 1}, locked`;
         return `<div class="node-wrap" role="listitem" data-i="${i}">
-          <button class="node ${state}${fresh}" data-id="${l.id}" aria-label="${esc(label)}" ${open ? '' : 'aria-disabled="true"'}>
+          <button class="node ${state}${fresh}" style="${cbVars(l)}" data-id="${l.id}" aria-label="${esc(label)}" ${open ? '' : 'aria-disabled="true"'}>
             <span class="node-disc">${open ? `<img src="${l.art}" alt="" loading="${i < cur + 6 ? 'eager' : 'lazy'}" decoding="async">` : `<span class="node-lock">${ICON.lock}</span>`}</span>
             <span class="node-label">${esc(l.root)}${Object.keys(l.halves).length === 2 ? '<i class="node-two" aria-hidden="true"></i>' : ''}</span>
             <span class="node-stars${justDone && justDone.id === l.id ? ' is-fresh' : ''}">${[1, 2, 3].map(k => star(k <= s ? 'on' : '')).join('')}</span>
@@ -533,7 +535,7 @@ function renderLevel(w, lv) {
   S = { w, lv, i, sides, h: 0, halves: sides.map(s => ({ side: s, order: shuffle(lv.halves[s]), sel: new Set() })), busy: false };
   const best = starsOf(w, lv);
   const H = S.halves[0];
-  app.innerHTML = `<div class="screen level-screen">
+  app.innerHTML = `<div class="screen level-screen" style="${cbVars(lv)}">
     <header class="bar">
       <a class="icon-btn" href="${hrefWorld(w)}" aria-label="Back to ${esc(w.name)}">${ICON.back}</a>
       <span class="bar-mid tnum"><span>${i + 1}<span class="dim"> / ${w.levels.length}</span></span>
@@ -653,7 +655,7 @@ function renderResult(r) {
   const secondary = stars === 0 || (!next && !nextWorld) ? `<a class="btn btn-ghost" href="${hrefWorld(w)}">Map</a>`
     : `<button class="btn btn-ghost again" aria-label="Play again">${ICON.replay}</button><a class="btn btn-ghost" href="${hrefWorld(w)}">Map</a>`;
   const two = halves.length === 2;
-  app.innerHTML = `<div class="screen result-screen">
+  app.innerHTML = `<div class="screen result-screen" style="${cbVars(lv)}">
     <header class="bar">
       <a class="icon-btn" href="${hrefWorld(w)}" aria-label="Back to ${esc(w.name)}">${ICON.back}</a>
       <span class="bar-mid tnum"><span>${S.i + 1}<span class="dim"> / ${w.levels.length}</span></span></span>
@@ -872,7 +874,7 @@ const TREE = (() => {
       const hasHL = words.some(c => c.hl);
       if (mode === 'trunk') {
         // phone: a trunk drops from the card; branches peel off left and right in turn
-        const M = 14, n = words.length;
+        const M = box.closest('.wpage') ? 24 : 14, n = words.length;  // chips (::after) bleed 10px past the text box
         const cx = A.cx, top = A.y1 + 6;
         const Ls = words.map((c, k) => k).filter(k => words[k].dir < 0), Rs = words.map((c, k) => k).filter(k => words[k].dir > 0), slots = [];
         while (Ls.length || Rs.length) slots.push(slots.length % 2 === 0 ? (Ls.length ? Ls.shift() : Rs.shift()) : (Rs.length ? Rs.shift() : Ls.shift()));
@@ -1078,7 +1080,7 @@ function wordsMode(D, startIdx, startHL) {
     const R = D.roots[i], t = R.w.theme;
     pg = document.createElement('section');
     pg.className = 'wpage';
-    pg.style.cssText = `--accent:${t.accent};--glitter:${t.glitter};--foil:${foilGradient(t.foil)}`;
+    pg.style.cssText = `--accent:${t.accent};--glitter:${t.glitter};--foil:${foilGradient(t.foil)};${cbVars(R.lv)}`;
     pg.setAttribute('aria-label', `${R.lv.forms.join(', ')}: ${R.lv.meaning}`);
     pg.innerHTML = `<div class="wt"><svg class="wt-svg" aria-hidden="true"></svg>
       <div class="wt-card"><div class="wpc">${rootCard(R.lv, 'tilt-wm')}</div></div>

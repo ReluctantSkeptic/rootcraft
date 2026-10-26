@@ -48,12 +48,24 @@ with sync_playwright() as p:
         if want('map'):
             pg.goto(U + '#/w/w2'); pg.wait_for_timeout(1800); pg.screenshot(path=f'{OUT}{TAG}-{vw}-map.png')
             pg.goto(U + '#/worlds'); pg.wait_for_timeout(1800); pg.screenshot(path=f'{OUT}{TAG}-{vw}-worlds.png')
+        if want('home'):
+            pg.goto(U + '#/'); pg.wait_for_timeout(2200); pg.evaluate(SEEK, 30); pg.screenshot(path=f'{OUT}{TAG}-{vw}-home.png')
+        if want('picked'):
+            pg.goto(U + '#/w/w1/port'); pg.wait_for_timeout(1500)
+            pg.evaluate("()=>{const c=[...document.querySelectorAll('.pcard')];c[0].click();c[2].click();c[4].click()}"); pg.wait_for_timeout(600); pg.evaluate(SEEK, 30)
+            pg.screenshot(path=f'{OUT}{TAG}-{vw}-level-picked.png')
         if want('landing'):
             pg.goto(B + '/'); pg.wait_for_timeout(2600)
             pg.screenshot(path=f'{OUT}{TAG}-{vw}-landing-parade.png')
-            for sec in ('.how', '.worlds'):
+            for sec, fr, nm in (('.how', .35, 'how'), ('.how', .62, 'how-reveal'), ('.worlds', .35, 'worlds')):
                 if pg.locator(sec).count():
-                    pg.evaluate(f"()=>{{const e=document.querySelector('{sec}');window.scrollTo(0,e.offsetTop+e.offsetHeight*.35)}}"); pg.wait_for_timeout(1600)
-                    pg.screenshot(path=f'{OUT}{TAG}-{vw}-landing-{sec[1:]}.png')
+                    pg.evaluate(f"()=>{{const e=document.querySelector('{sec}');window.scrollTo(0,e.offsetTop+e.offsetHeight*{fr})}}"); pg.wait_for_timeout(1800)
+                    pg.screenshot(path=f'{OUT}{TAG}-{vw}-landing-{nm}.png')
+        if want('fake'):
+            pg.goto(B + '/'); pg.wait_for_timeout(2000)
+            for fr in (.505,):
+                pg.evaluate(f"()=>{{const e=document.querySelector('.how');window.scrollTo(0,e.offsetTop+(e.offsetHeight-innerHeight)*{fr})}}"); pg.wait_for_timeout(1600)
+                print(vw, 'fake', pg.evaluate("()=>[...document.querySelectorAll('.pcard.fake')].map(c=>c.className)"))
+                pg.screenshot(path=f'{OUT}{TAG}-{vw}-landing-fake.png')
         ctx.close()
     print('errors', errs[:8])

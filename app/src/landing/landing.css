@@ -475,3 +475,32 @@ em { font-family: var(--italic); font-style: italic; font-weight: 500; letter-sp
   .wintro { padding: 96px 24px 64px; }
 }
 /* ===================== v12 BACKGROUND + LEVELS — end ===================== */
+
+/* =================== v14 CONTAINERS (same recipe as the game, app/src/styles.css "v14 CONTAINERS") =================== */
+.pc-face {
+  --bw: 7px; --rough: 3px; --r0: 18px; isolation: isolate;
+  background: url(img/card/grain.webp) 0 0 / 96px 96px, var(--ckb, var(--cb, #E0412F));
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.16), var(--sh-2);
+}
+.pc-face::before {
+  content: ''; position: absolute; z-index: -1; pointer-events: none; inset: calc(var(--bw) - var(--rough)); padding: var(--rough);
+  border-radius: max(4px, calc(var(--r0) - var(--bw) + 2px)); background: var(--ckp, #F8F1E2); transition: background-color .35s var(--ease);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, url(img/card/speck.webp) 0 0 / 48px 48px padding-box;
+  mask: linear-gradient(#000 0 0) content-box, url(img/card/speck.webp) 0 0 / 48px 48px padding-box;
+}
+.pcard.lit .pc-face { --bw: 9px; --ckp: color-mix(in oklab, var(--cb) 13%, #FBF6EA);
+  background: url(img/card/grain.webp) 0 0 / 96px 96px, var(--cb);
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.2), 0 0 0 3px color-mix(in srgb, var(--cb) 30%, transparent), 0 14px 30px -8px color-mix(in srgb, var(--cb) 60%, transparent), var(--sh-2); }
+.pc-tick { background: url(img/card/grain.webp) 0 0 / 48px 48px, var(--cb, #E0412F); color: var(--cb-ink, #FFF6E6);
+  box-shadow: 0 0 0 3px #F8F1E2, 0 0 0 4.5px rgba(22,20,18,.35), var(--sh-1); width: 30px; height: 30px; }
+.pcard.wrong .pc-face { --ckb: #9A9389; --ckp: #E4DED2; background: url(img/card/grain.webp) 0 0 / 96px 96px, #9A9389; color: var(--ink); box-shadow: inset 0 -3px 0 rgba(0,0,0,.12), var(--sh-1); }
+.pcard.wrong .pc-word { color: #5F5952; }
+.pcard.wrong .pc-word s { text-decoration-thickness: 3px; text-decoration-color: #D23B2A; }
+.pcard.wrong .pc-word b { color: inherit; background: none; -webkit-text-fill-color: currentColor; }
+.pcard.wrong .pc-def { color: #B92A1B; }
+/* root highlights in the card's crayon: darkened for contrast, grain-filled so it reads like crayon */
+.rcard-words b, .pc-word b, .rcard-name {
+  color: var(--cbt, #B92A1B);
+  background: url(img/card/grain.webp) 0 0 / 64px 64px, linear-gradient(var(--cbt, #B92A1B), var(--cbt, #B92A1B));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}

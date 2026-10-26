@@ -68,3 +68,11 @@ for (x,y,rd) in [(.30,.26,.19),(.78,.47,.17),(.24,.62,.16),(.60,.86,.18),(.86,.1
 save_mask(stipple(f+smooth(16,2.5),.62,18),'back-dots.webp')
 import os
 for fn in sorted(os.listdir(OUT)): print(fn, os.path.getsize(OUT+fn))
+# ---- speck.webp: 96px seamless alpha tile, clumpy ~55% coverage. Used as the rough crayon band around the cream
+# panels of small containers (pick cards, chips, buttons): mask = solid content-box + this tile in the padding band.
+T2=96
+n1=ndi.gaussian_filter(rng.random((T2,T2)),.9,mode='wrap'); n2=ndi.gaussian_filter(rng.random((T2,T2)),2.4,mode='wrap')
+v=n1/n1.std()+.8*n2/n2.std(); v=(np.argsort(np.argsort(v.ravel())).reshape(T2,T2)/v.size)
+sp=ndi.gaussian_filter((v>.36).astype(np.float32),.4,mode='wrap')
+Image.fromarray(np.dstack([np.full((T2,T2),255,np.uint8)]*3+[(sp*255).astype(np.uint8)]),'RGBA').save(OUT+'speck.webp','WEBP',lossless=True,method=6)
+print('speck.webp', os.path.getsize(OUT+'speck.webp'))
