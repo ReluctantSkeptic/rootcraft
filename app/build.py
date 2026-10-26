@@ -191,6 +191,15 @@ def main():
         if src == 'styles.css':
             assert 'glitter.webp' in txt
             txt = txt.replace('glitter.webp', gname)
+            # v14 crayon card textures -> hashed art/card/ files
+            os.makedirs(os.path.join(PLAY, 'art', 'card'), exist_ok=True)
+            for f in sorted(os.listdir(os.path.join(SRC, 'card'))):
+                if not f.endswith('.webp'): continue
+                cb = open(os.path.join(SRC, 'card', f), 'rb').read()
+                cname = f"art/card/{f[:-5]}.{h(cb)}.webp"
+                open(os.path.join(PLAY, cname), 'wb').write(cb)
+                assert f'card/{f}' in txt, f
+                txt = txt.replace(f'url(card/{f})', f'url({cname})')
         nm = f"{src.split('.')[0]}.{h(txt)}.{ext}"
         names[src] = nm
         open(os.path.join(PLAY, nm), 'w').write(txt)
@@ -213,6 +222,8 @@ def main():
             if item == 'play': print('warn: landing/play ignored (reserved for the game)'); continue
             (shutil.copytree if os.path.isdir(s) else shutil.copy)(s, d)
         land = 'landing'
+        # v14: the landing cards use the same crayon textures (landing.css -> img/card/*.webp)
+        shutil.copytree(os.path.join(SRC, 'card'), os.path.join(DIST, 'img', 'card'), dirs_exist_ok=True)
     else:
         open(os.path.join(DIST, 'index.html'), 'w').write(
             '<!doctype html><meta charset="utf-8"><title>Rootcraft</title>'

@@ -9,3 +9,4 @@ Files: originals <w>/<id>.png (1024), rejected takes <id>.rN.png. export.py -> w
 sheets.py -> work/screens/v9-cast.png, v9-contact-w*.png. shoot.py -> v9-390-*.png.
 CSS: removed grayscale(1) from .orb-face img, .morb-face img, .wx-rrow img (locked orbs + blurred backdrops stay grayscale). Pre-v9 css in v_ink_backup/.
 Old ink art: work/art/v_ink_backup/.
+v14 (Oct 25): app art is now transparent (cream + disc removed) — see work/art/v14 + work/v14/NOTES.md. export.py here would re-export the OLD opaque look; use work/art/v14/export14.py.

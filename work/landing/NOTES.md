@@ -51,3 +51,6 @@ Perf (headless CPU raster, no GPU; do NOT use --use-angle=swiftshader flags, the
 - CSS lives in the delimited "v12 BACKGROUND + LEVELS" block at the end of landing.css (also .wintro gradient into Level One, .worlds::before top fade, .end top fade from Amethyst bg).
 - Worlds: new section .wintro "Four classes of words." (no eyebrow). Panels: giant heading = WORLDS[].lvl ("Level One".."Level Four"), one sentence WORLDS[].line, then the 4 root->word pairs + root card. wmeta/wnote/wcat no longer rendered (step/levels/lang/note fields kept in data, unused). Amethyst line keeps "Living things & the body".
 - Tests: work/landing/shoot12.py (screens + 4-frame bg strip -> work/screens/v12-*), check12.py (fallback/RM/draw cost).
+
+## v14 (2026-10-25): crayon cards + card backs
+- Landing cards use the same crayon card as the game (landing.css "root card (v14...)" block, landing.js CRAYON map + bindFlip in makeCard). Tap flips (parade drag never does), back = Rootcraft wordmark on solid crayon with riso shape. .rcard.wfoil removed (worlds cards now crayon too). ROW_A reordered so neighbour colours differ. Textures: dist/img/card/ (copied from app/src/card by build.py). See work/v14/NOTES.md.

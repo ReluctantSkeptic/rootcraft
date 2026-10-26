@@ -1,0 +1,39 @@
+{
+ "w2_dynam": {
+  "noedge": [
+   "top"
+  ],
+  "rim": 12,
+  "keepell": [
+   [
+    525,
+    195,
+    215,
+    165
+   ]
+  ]
+ },
+ "w1_tract": {
+  "rim": 14
+ },
+ "w3_mono": {
+  "rim": 14
+ },
+ "w3_mill": {
+  "keepell": [
+   [
+    512,
+    1010,
+    640,
+    420
+   ]
+  ]
+ },
+ "w1_port": {
+  "keep_frac": 1.01,
+  "rescue": false
+ },
+ "w1_super": {
+  "rim": 16
+ }
+}

@@ -159,38 +159,50 @@ h1:focus { outline: none; }
 .bar-stars { display: flex; justify-content: flex-end; gap: 1px; }
 .bar-stars .star { width: 14px; height: 14px; }
 
-/* ---------- root card ---------- */
+/* ---------- root card (v14 crayon card) ----------
+   .tilt (perspective) > .rcard (spring tilt; preserve-3d once it has a back) > .rface (front) + .rback (back, added on first flip)
+   Front: thick solid crayon border (--cb, per world + level, see CRAYON in app.js) with riso grain, cream panel cut by
+   card/panel.webp (rough crayon edge), art sits straight on the cream (transparent cut-outs). Holo is masked to the art. */
 .tilt { perspective: 1000px; width: var(--cw); margin: 0 auto; touch-action: pan-y; }
 .tilt-main { --cw: clamp(200px, 18.5vw, 236px); margin-top: 4px; }
 @media (min-height: 900px) and (min-width: 700px) { .tilt-main { --cw: 264px; } }
 .tilt-mini { --cw: clamp(140px, 17vw, 180px); }
 .rcard {
-  --r: calc(var(--cw) * .07);
-  position: relative; width: var(--cw); aspect-ratio: 63 / 88; border-radius: var(--r); padding: calc(var(--cw) * .03);
-  container-type: inline-size; isolation: isolate; overflow: hidden;
-  background: var(--foil);
-  box-shadow: var(--sh-3), inset 0 0 0 1px rgba(255, 255, 255, .35);
-  transform-style: flat; will-change: transform; backface-visibility: hidden;
+  --r: calc(var(--cw) * .075);
+  position: relative; width: var(--cw); aspect-ratio: 63 / 88; border-radius: var(--r);
+  transform-style: flat; will-change: transform; cursor: pointer; -webkit-tap-highlight-color: transparent;
 }
-.rcard { transition: box-shadow .4s var(--ease); }
-.rcard.is-live { box-shadow: 0 2px 4px rgba(0, 0, 0, .3), 0 26px 50px -10px rgba(0, 0, 0, .6), 0 0 40px -6px color-mix(in srgb, var(--glitter) 40%, transparent); }
+.rcard.has-back { transform-style: preserve-3d; }
+.rface, .rback {
+  position: absolute; inset: 0; border-radius: var(--r); overflow: hidden; isolation: isolate; container-type: inline-size;
+  background: url(card/grain.webp) 0 0 / 96px 96px, var(--cb, #E0412F);
+  box-shadow: var(--sh-3), inset 0 0 0 1px rgba(0, 0, 0, .12);
+  backface-visibility: hidden; -webkit-backface-visibility: hidden;
+  transition: transform .52s cubic-bezier(.3, .9, .25, 1.06), opacity .3s var(--ease), box-shadow .4s var(--ease);
+}
+.rface::before {           /* cream panel with a rough crayon edge */
+  content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background: #F8F1E2;
+  -webkit-mask: url(card/panel.webp) 0 0 / 100% 100% no-repeat; mask: url(card/panel.webp) 0 0 / 100% 100% no-repeat;
+}
+.rcard.is-live .rface { box-shadow: 0 2px 4px rgba(0, 0, 0, .3), 0 26px 50px -10px rgba(0, 0, 0, .6), 0 0 40px -6px color-mix(in srgb, var(--cb) 45%, transparent); }
 .rcard-in {
-  position: relative; height: 100%; border-radius: calc(var(--r) - var(--cw) * .03); background: var(--paper); color: var(--ink);
-  padding: 4.6cqw 4.6cqw 4cqw; display: flex; flex-direction: column; gap: 2.8cqw; overflow: hidden;
-  box-shadow: inset 0 0 0 1px rgba(22, 20, 18, .14);
-  background-image: radial-gradient(120% 80% at 50% 0%, #F7F4EE, var(--paper) 60%, #E9E3D7);
+  position: relative; z-index: 1; height: 100%; color: var(--ink);
+  padding: 10.4cqw 10.4cqw 8.8cqw; display: flex; flex-direction: column; gap: 2.4cqw;
 }
-.rcard-top { display: block; min-width: 0; padding: 0 1cqw; }
-.rcard-name { display: block; white-space: nowrap; font-family: var(--serif); font-weight: 800; font-size: 17cqw; line-height: .92; letter-spacing: -.02em; color: var(--ink); }
+.rcard-top { display: block; min-width: 0; padding: 0; }
+.rcard-name { display: block; white-space: nowrap; font-family: var(--serif); font-weight: 800; font-size: 16cqw; line-height: .92; letter-spacing: -.02em; color: var(--ink); }
 .rcard-dot { font-weight: 500; letter-spacing: -.02em; opacity: .9; }
-.rcard-art {
-  position: relative; flex: 1 1 0; min-height: 60cqw; border-radius: 3.2cqw; overflow: hidden;
-  box-shadow: 0 0 0 1px rgba(22, 20, 18, .5), 0 0 0 1.2cqw var(--paper), 0 0 0 calc(1.2cqw + 1px) rgba(22, 20, 18, .16);
-  margin: .6cqw 1.2cqw; isolation: isolate; transform: translateZ(0);
+.rcard-art { position: relative; flex: 1 1 0; min-height: 52cqw; margin: 0 -1cqw; overflow: visible; }
+/* the cut-outs keep the old square framing (character ~85% of it): scale up a little, the overflow is transparent */
+.rcard-art img, .rcard-art .holo { transform: scale(1.08); transform-origin: 50% 52%; }
+.rcard-art img { width: 100%; height: 100%; object-fit: contain; display: block; }
+/* holo: rainbow bands x glitter, colour-dodged onto the character only (masked by the art's own alpha) */
+.holo {
+  position: absolute; inset: 0; mix-blend-mode: color-dodge; opacity: .16; pointer-events: none; overflow: hidden;
+  filter: brightness(.62) contrast(1.6) saturate(1.5); will-change: opacity;
+  -webkit-mask: var(--art) center / contain no-repeat; mask: var(--art) center / contain no-repeat;
 }
-.rcard-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
-/* holo: rainbow bands x glitter, colour-dodged onto the art */
-.holo { position: absolute; inset: 0; mix-blend-mode: color-dodge; opacity: .16; pointer-events: none; overflow: hidden; filter: brightness(.62) contrast(1.6) saturate(1.5); will-change: opacity; }
 .holo i { position: absolute; display: block; pointer-events: none; }
 .holo-rb, .sheen-rb {
   left: -100%; top: -100%; width: 300%; height: 300%; will-change: transform;
@@ -202,17 +214,35 @@ h1:focus { outline: none; }
 .holo-gl2 { background-size: 52cqw 52cqw; mix-blend-mode: screen; opacity: .7; }
 .holo-tint { inset: 0; background: var(--glitter); mix-blend-mode: color; opacity: .35; }
 /* faint foil sheen over the whole card face */
-.sheen { position: absolute; inset: 0; border-radius: inherit; overflow: hidden; pointer-events: none; mix-blend-mode: overlay; opacity: .07; will-change: opacity; }
+.sheen { position: absolute; inset: 0; z-index: 2; border-radius: inherit; overflow: hidden; pointer-events: none; mix-blend-mode: overlay; opacity: .07; will-change: opacity; }
 .sheen i { position: absolute; display: block; }
 /* moving glare */
-.glare { position: absolute; inset: 0; border-radius: inherit; overflow: hidden; pointer-events: none; mix-blend-mode: overlay; opacity: 0; will-change: opacity; }
+.glare { position: absolute; inset: 0; z-index: 3; border-radius: inherit; overflow: hidden; pointer-events: none; mix-blend-mode: overlay; opacity: 0; will-change: opacity; }
 .glare-dot { position: absolute; display: block; left: -50%; top: -50%; width: 200%; height: 200%; will-change: transform;
   background: radial-gradient(closest-side, rgba(255, 255, 255, .95), rgba(255, 255, 255, .45) 30%, rgba(0, 0, 0, .25) 75%, rgba(0, 0, 0, .35)); }
 
 /* v11 press sparkle (canvas drawn by holoSparkle, clipped by the card's rounded rect) */
 .spark { position: absolute; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none; z-index: 4; border-radius: inherit; }
-.rcard-mean { font-family: var(--italic); font-style: italic; font-weight: 500; font-size: 8cqw; line-height: 1.08; letter-spacing: -.01em; text-align: center; margin-top: .6cqw; text-wrap: balance; }
-.rcard-foot { display: flex; justify-content: space-between; gap: 3cqw; font-size: max(8px, 3.9cqw); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); opacity: .75; border-top: 1px solid rgba(22, 20, 18, .12); padding-top: 2.2cqw; }
+.rcard-mean { font-family: var(--italic); font-style: italic; font-weight: 500; font-size: 7.6cqw; line-height: 1.08; letter-spacing: -.01em; text-align: center; margin-top: .4cqw; text-wrap: balance; }
+.rcard-foot { display: flex; justify-content: space-between; gap: 3cqw; font-size: max(8px, 3.7cqw); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); opacity: .8; border-top: 1px solid rgba(22, 20, 18, .12); padding-top: 2cqw; }
+/* card back: solid crayon colour, big grainy riso shape, the Rootcraft wordmark */
+.rback { transform: rotateY(180deg); display: grid; place-items: center; align-content: center; gap: 5cqw; text-align: center; pointer-events: none; }
+.rback::before {
+  content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background: color-mix(in oklab, var(--cb), #fff 22%);
+  -webkit-mask: url(card/back-dots.webp) 0 0 / 100% 100% no-repeat; mask: url(card/back-dots.webp) 0 0 / 100% 100% no-repeat;
+}
+.tilt[data-shape="star"] .rback::before { background: color-mix(in oklab, var(--cb), #8A1A00 34%); -webkit-mask-image: url(card/back-star.webp); mask-image: url(card/back-star.webp); }
+.rb-mark { position: relative; z-index: 1; display: block; font-family: var(--serif); font-weight: 800; font-size: 23cqw; line-height: .84; letter-spacing: -.045em; color: var(--cb-ink, #FFF6E6); text-shadow: 0 .6cqw 0 rgba(0, 0, 0, .12); }
+.rb-tag { position: relative; z-index: 1; font-family: var(--sans); font-weight: 700; font-size: max(7px, 3.6cqw); letter-spacing: .16em; text-transform: uppercase; color: var(--cb-ink, #FFF6E6); opacity: .85; }
+.rcard.is-flipped .rface { transform: rotateY(-180deg); }
+.rcard.is-flipped .rback { transform: rotateY(0deg); }
+@media (prefers-reduced-motion: reduce) {
+  .rface, .rback { transition: opacity .3s var(--ease); }
+  .rback, .rcard.is-flipped .rback { transform: none; opacity: 0; }
+  .rcard.is-flipped .rback { opacity: 1; }
+  .rcard.is-flipped .rface { transform: none; opacity: 0; }
+}
 
 /* ---------- level ---------- */
 .stage { display: flex; flex-direction: column; align-items: center; }
@@ -725,4 +755,10 @@ html.smoke-off .smk { animation-play-state: paused; }
 @media (prefers-reduced-motion: reduce) {
   .smk { animation: none; transform: rotate(-2deg); }
   .smk-b { transform: rotate(4deg) scale(1.05); }
+}
+
+/* v14: card art is now a transparent cut-out. Outside the card (orbs, map nodes, Words index) paint the old
+   cream + world-accent disc back behind it (disc ~72% of the frame), so those spots look as before. */
+.orb-face img, .node-disc img, .morb-face img, .wx-rrow img {
+  background: radial-gradient(circle closest-side at 50% 49%, var(--o-acc, var(--c, var(--accent))) 0 71.5%, #F5F0E6 72.2%);
 }
