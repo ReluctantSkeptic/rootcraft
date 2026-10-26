@@ -67,12 +67,12 @@ const TICK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-
 
 const holoLayers = `<i class="holo" aria-hidden="true"><i class="holo-rb"></i><i class="holo-gl"></i><i class="holo-gl holo-gl2"></i></i>`;
 const overLayers = `<i class="sheen" aria-hidden="true"><i class="sheen-rb"></i></i><i class="glare" aria-hidden="true"><i class="glare-dot"></i></i>`;
-/* v14 crayon border per root: [border, back ink, back shape d=dots s=star]. Generated from the game's CRAYON table
+/* v14 crayon border per root: [border, back ink, back shape d=dots s=star, text colour (root highlights)]. Generated from the game's CRAYON table
    (app.js: world palette, colour rotates by level index) so a card is the same colour here and in the game. */
-const CRAYON = {"aqua":"#7449C2|#FFF4FF|d","astro":"#E5602A|#FFF4E2|d","aud":"#E0412F|#FFF6E6|d","auto":"#E5602A|#FFF4E2|s","cent":"#2858C2|#FFF6E6|d","chron":"#F0A01C|#A82A16|d","dent":"#7449C2|#FFF4FF|s","dict":"#F2A61F|#B8291A|s","form":"#E0412F|#FFF6E6|s","graph":"#2453B8|#FFF6E6|d","manu":"#3E9B50|#FFF8E8|d","mot":"#E0412F|#FFF6E6|d","ped":"#D0407E|#FFF4F6|s","phon":"#F2A61F|#B8291A|d","photo":"#E5602A|#FFF4E2|d","poly":"#2858C2|#FFF6E6|s","port":"#E0412F|#FFF6E6|d","pre":"#F2A61F|#B8291A|s","re":"#E0412F|#FFF6E6|d","rupt":"#F2A61F|#B8291A|s","scope":"#F0A01C|#A82A16|d","spect":"#2453B8|#FFF6E6|d","struct":"#2453B8|#FFF6E6|s","tele":"#F0A01C|#A82A16|d","therm":"#F0A01C|#A82A16|s","tract":"#2453B8|#FFF6E6|d","trans":"#2453B8|#FFF6E6|s","tri":"#1E8CD0|#FFF6E6|d","uni":"#2858C2|#FFF6E6|d","vis":"#F2A61F|#B8291A|d"};
+const CRAYON = {"aqua":"#7449C2|#FFF4FF|d|#6640B4","astro":"#E5602A|#FFF4E2|d|#B4431A","aud":"#E0412F|#FFF6E6|d|#B92A1B","auto":"#E5602A|#FFF4E2|s|#B4431A","cent":"#2858C2|#FFF6E6|d|#2350B0","chron":"#F0A01C|#A82A16|d|#9E5E08","dent":"#7449C2|#FFF4FF|s|#6640B4","dict":"#F2A61F|#B8291A|s|#9A5C08","form":"#E0412F|#FFF6E6|s|#B92A1B","graph":"#2453B8|#FFF6E6|d|#2049A6","manu":"#3E9B50|#FFF8E8|d|#2D7A3C","mot":"#E0412F|#FFF6E6|d|#B92A1B","ped":"#D0407E|#FFF4F6|s|#AD2C62","phon":"#F2A61F|#B8291A|d|#9A5C08","photo":"#E5602A|#FFF4E2|d|#B4431A","poly":"#2858C2|#FFF6E6|s|#2350B0","port":"#E0412F|#FFF6E6|d|#B92A1B","pre":"#F2A61F|#B8291A|s|#9A5C08","re":"#E0412F|#FFF6E6|d|#B92A1B","rupt":"#F2A61F|#B8291A|s|#9A5C08","scope":"#F0A01C|#A82A16|d|#9E5E08","spect":"#2453B8|#FFF6E6|d|#2049A6","struct":"#2453B8|#FFF6E6|s|#2049A6","tele":"#F0A01C|#A82A16|d|#9E5E08","therm":"#F0A01C|#A82A16|s|#9E5E08","tract":"#2453B8|#FFF6E6|d|#2049A6","trans":"#2453B8|#FFF6E6|s|#2049A6","tri":"#1E8CD0|#FFF6E6|d|#15679C","uni":"#2858C2|#FFF6E6|d|#2350B0","vis":"#F2A61F|#B8291A|d|#9A5C08"};
 const rootCard = ([n, m, o, t, words], cls = '') => {
-  const [cb, ci, sh] = (CRAYON[n] || '#E0412F|#FFF6E6|d').split('|');
-  return `<div class="tilt" style="--cb:${cb};--cb-ink:${ci}" data-shape="${sh === 's' ? 'star' : 'dots'}"><article class="rcard ${cls}" aria-label="${n}: ${m}${words ? '. ' + words.map(w => w.replace(/[\[\]]/g, '')).join(', ') : ''}">
+  const [cb, ci, sh, ct] = (CRAYON[n] || '#E0412F|#FFF6E6|d|#B92A1B').split('|');
+  return `<div class="tilt" style="--cb:${cb};--cb-ink:${ci};--cbt:${ct}" data-shape="${sh === 's' ? 'star' : 'dots'}"><article class="rcard ${cls}" aria-label="${n}: ${m}${words ? '. ' + words.map(w => w.replace(/[\[\]]/g, '')).join(', ') : ''}">
   <div class="rface"><div class="rcard-in"><h3 class="rcard-name">${n}</h3>
   <div class="rcard-art" style="--art:url('img/${n}.webp')"><img src="img/${n}.webp" alt="" width="440" height="440" loading="lazy" decoding="async" draggable="false">${holoLayers}</div>
   <p class="rcard-mean">${m}</p>${words ? `<ul class="rcard-words">${words.map(w => `<li>${mark(w)}</li>`).join('')}</ul>` : `<footer class="rcard-foot"><span>${o}</span><span>${t}</span></footer>`}</div>${overLayers}</div></article></div>`;
@@ -721,21 +721,28 @@ function makeCrumpler(pin, fakes, hand) {
     const s = 2, cw = Math.round(r.width * s), ch = Math.round(r.height * s);
     const k = document.createElement('canvas'); k.width = cw; k.height = ch; const x = k.getContext('2d');
     const rad = parseFloat(getComputedStyle(c.el).borderRadius) * s || 36;
-    x.beginPath(); x.roundRect(0, 0, cw, ch, rad); x.fillStyle = '#1B1917'; x.fill();
-    // printed ink is never perfectly flat: faint mottling
-    for (let i = 0; i < 900; i++) { x.fillStyle = `rgba(255,255,255,${Math.random() * .025})`; x.fillRect(Math.random() * cw, Math.random() * ch, 1 + Math.random() * 3, 1 + Math.random() * 3); }
-    x.save(); x.beginPath(); x.roundRect(1.5 * s / 2, 1.5 * s / 2, cw - 1.5 * s, ch - 1.5 * s, rad - 1); x.lineWidth = 1.5 * s; x.strokeStyle = 'rgba(229,85,58,.55)'; x.stroke(); x.restore();
+    // v14: a revealed fake is a muted grey crayon card: grainy grey border, greyed cream panel with a chalky edge
+    x.beginPath(); x.roundRect(0, 0, cw, ch, rad); x.fillStyle = '#9A9389'; x.fill();
+    x.save(); x.clip();
+    for (let i = 0; i < 1400; i++) { x.fillStyle = Math.random() < .5 ? `rgba(255,255,255,${Math.random() * .22})` : `rgba(0,0,0,${Math.random() * .14})`; x.fillRect(Math.random() * cw, Math.random() * ch, s, s); }
+    const bw = 7 * s; x.beginPath(); x.roundRect(bw, bw, cw - 2 * bw, ch - 2 * bw, Math.max(4, rad - bw)); x.fillStyle = '#E4DED2'; x.fill();
+    for (let i = 0; i < 2 * (cw + ch); i++) {           // chalky speckle along the panel edge
+      const t = Math.random(), side = Math.random() * 4 | 0, d = bw - 3 * s + Math.random() * 3 * s;
+      const px = side < 2 ? bw + t * (cw - 2 * bw) : side === 2 ? d : cw - d, py = side >= 2 ? bw + t * (ch - 2 * bw) : side === 0 ? d : ch - d;
+      x.fillStyle = Math.random() < .6 ? '#E4DED2' : '#9A9389'; x.fillRect(px, py, 1.5 * s, 1.5 * s);
+    }
+    x.restore();
     const wd = $('.pc-word', c.el), df = $('.pc-def', c.el);
     const wcs = getComputedStyle(wd), dcs = getComputedStyle(df);
     const fs = parseFloat(wcs.fontSize) * s, ds = parseFloat(dcs.fontSize) * s;
     const txt = wd.textContent.trim();
     x.textAlign = 'center'; x.textBaseline = 'alphabetic';
-    x.font = `700 ${fs}px "Bricolage Grotesque"`; x.fillStyle = 'rgba(241,237,228,.75)';
+    x.font = `700 ${fs}px "Bricolage Grotesque"`; x.fillStyle = '#5F5952';
     const gapY = 4 * s, total = fs * 1.05 + gapY + ds * 1.15, y0 = ch / 2 - total / 2 + fs * .85;
     x.fillText(txt, cw / 2, y0);
     const tw = x.measureText(txt).width;
-    x.fillStyle = '#E5553A'; x.fillRect(cw / 2 - tw / 2 - s, y0 - fs * .3, tw + 2 * s, 3 * s);
-    x.font = `italic 500 ${ds}px "Newsreader"`; x.fillStyle = '#E5553A';
+    x.fillStyle = '#D23B2A'; x.fillRect(cw / 2 - tw / 2 - s, y0 - fs * .3, tw + 2 * s, 3 * s);
+    x.font = `italic 500 ${ds}px "Newsreader"`; x.fillStyle = '#B92A1B';
     x.fillText(df.textContent.trim(), cw / 2, y0 + fs * .2 + gapY + ds);
     gl.bindTexture(gl.TEXTURE_2D, c.tex);
     gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, true);
@@ -862,6 +869,7 @@ function how() {
   const sec = $('.how'), pin = $('.how-pin'), h = $('.how-h'), hand = $('.hand'), stars = $('.stars');
   $('.slot-root').innerHTML = rootCard(PORT);
   makeCard($('.slot-root .tilt'), null);
+  hand.style.cssText = '--cb:#E0412F;--cb-ink:#FFF6E6;--cbt:#B92A1B';  // v14: pick cards wear the port card's crayon
   hand.innerHTML = HAND.map(([part, mean, real, def], k) => {
     const face = `<div class="pc-face"><div class="pc-a"><span class="pc-part"><span class="hy">-</span>${part}</span><span class="pc-mean">${mean}</span></div>
       <div class="pc-b"><span class="pc-word">${real ? `<b>port</b>${part}` : `<s><b>port</b>${part}</s>`}</span><span class="pc-def">${def}</span></div></div>`;

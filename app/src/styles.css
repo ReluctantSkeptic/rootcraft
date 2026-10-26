@@ -762,3 +762,112 @@ html.smoke-off .smk { animation-play-state: paused; }
 .orb-face img, .node-disc img, .morb-face img, .wx-rrow img {
   background: radial-gradient(circle closest-side at 50% 49%, var(--o-acc, var(--c, var(--accent))) 0 71.5%, #F5F0E6 72.2%);
 }
+
+/* =================== v14 CONTAINERS: everything a kid touches is a little crayon card ===================
+   Recipe: the element itself is the crayon border (var(--ckb) or the level's --cb, + riso grain); a ::before cream panel
+   sits inside it with a rough chalky edge: mask = solid content-box + card/speck.webp in a --rough wide padding band.
+   --bw border width, --r0 outer radius, --ckp panel colour. --cb/--cbt/--cb-ink come from the level (cbVars in app.js). */
+.pcard, .wcard, .fchip, .btn-ghost, .mode, .tally div, .wpage .tw::after {
+  --bw: 6px; --rough: 3px; --r0: 18px;
+  background-color: var(--ckb, var(--cb, #E0412F)); background-image: url(card/grain.webp); background-size: 96px 96px; background-blend-mode: normal;
+}
+.pcard, .wcard, .fchip, .btn-ghost, .mode, .tally div { isolation: isolate; }
+.pcard::before, .wcard::before, .fchip::before, .btn-ghost::before, .mode::before, .tally div::before {
+  content: ''; position: absolute; z-index: -1; pointer-events: none;
+  inset: calc(var(--bw) - var(--rough)); padding: var(--rough); border-radius: max(4px, calc(var(--r0) - var(--bw) + 2px));
+  background: var(--ckp, #F8F1E2);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, url(card/speck.webp) 0 0 / 48px 48px padding-box;
+  mask: linear-gradient(#000 0 0) content-box, url(card/speck.webp) 0 0 / 48px 48px padding-box;
+  transition: background-color .25s var(--ease);
+}
+/* root highlights: the card's own crayon, darkened for contrast, with a grain fill so it reads like crayon */
+.rcard-name .rn, .w-word b, .wpage .tw-w b, .mtree .tw-w b, .mt-root {
+  color: var(--cbt, #B92A1B);
+  background: url(card/grain.webp) 0 0 / 64px 64px, linear-gradient(var(--cbt, #B92A1B), var(--cbt, #B92A1B));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.rcard-name .rcard-dot { -webkit-text-fill-color: transparent; opacity: 1; }
+.prompt b { color: var(--cb, var(--accent)); background: url(card/grain.webp) 0 0 / 64px 64px, linear-gradient(var(--cb, var(--accent)), var(--cb, var(--accent)));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; filter: brightness(1.12) saturate(1.1); }
+
+/* ---- level: the six pick cards ---- */
+.pcard { --bw: 7px; --r0: 20px; border-radius: 20px; box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .16), var(--sh-2); }
+.pcard.is-sel {
+  --bw: 9px; --ckp: color-mix(in oklab, var(--cb) 13%, #FBF6EA);
+  background-image: url(card/grain.webp);
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .2), 0 0 0 3px color-mix(in srgb, var(--cb) 30%, transparent), 0 14px 28px -8px color-mix(in srgb, var(--cb) 60%, transparent), var(--sh-2);
+}
+.pc-tick, .w-mark {          /* crayon check badge */
+  background: url(card/grain.webp) 0 0 / 48px 48px, var(--cb, #E0412F); color: var(--cb-ink, #FFF6E6);
+  box-shadow: 0 0 0 3px #F8F1E2, 0 0 0 4.5px rgba(22, 20, 18, .35), var(--sh-1);
+}
+.pc-tick { top: -9px; right: -9px; width: 30px; height: 30px; padding: 6px; }
+@media (max-width: 699px) { .pcard { --bw: 6px; } .pcard.is-sel { --bw: 8px; } }
+
+/* ---- result: found / missed words, fakes, tally, buttons ---- */
+.wcard { --bw: 6px; --rough: 2px; --r0: 16px; background-color: var(--cb); background-image: url(card/grain.webp); box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .14), var(--sh-2); }
+.w-word { padding-right: 30px; }
+.w-mark { top: 9px; right: 9px; width: 24px; height: 24px; }
+.wcard.is-missed { --ckb: #9A9389; --ckp: #E4DED2; background-color: var(--ckb); background-image: url(card/grain.webp); color: var(--ink); box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .12), var(--sh-1); }
+.wcard.is-missed.in { opacity: .9; }
+.wcard.is-missed .w-word { color: #4A4540; }
+.wcard.is-missed .w-def { color: #625C55; }
+.wcard.is-missed .w-tag { color: #5F5952; background: none; box-shadow: none; border: 1.5px dashed rgba(22, 20, 18, .45); border-radius: 10px; padding: 2px 8px; }
+.fchip { --bw: 4px; --rough: 2px; --r0: 18px; position: relative; --ckb: #9A9389; --ckp: #E4DED2; color: #5F5952; box-shadow: var(--sh-1); }
+.fchip s { text-decoration-thickness: 2px; text-decoration-color: rgba(22, 20, 18, .5); }
+.fchip.is-picked { --ckb: #D23B2A; --ckp: #FBE4DC; color: #8E2216; background-color: var(--ckb); box-shadow: var(--sh-1); }
+.fchip.is-picked s { text-decoration-color: #D23B2A; text-decoration-thickness: 2.5px; }
+.fchip.is-picked .f-x { color: #FFF6E6; background: #D23B2A; }
+.tally div { --bw: 4px; --rough: 2px; --r0: 16px; position: relative; --ckb: var(--cb); box-shadow: var(--sh-1); }
+.tally div:nth-child(n+2) { --ckb: #9A9389; }
+.tally dt { color: var(--ink-2); }
+.tally dd, .tally div:nth-child(2) dd:not(.pts) { color: var(--ink); }
+.tally .pts.up { color: var(--cbt); }
+.tally .pts.dn { color: #7A736A; }
+.best { color: var(--cb); }
+
+/* buttons: solid crayon pills with a rough edge (primary) and cream crayon cards (secondary) */
+.btn-acc { position: relative; isolation: isolate; background: none; color: var(--cb-ink, #FFF6E6); box-shadow: none; text-shadow: 0 1px 0 rgba(0, 0, 0, .12); }
+.btn-acc::before {
+  content: ''; position: absolute; inset: 0; z-index: -1; border-radius: inherit; padding: 2px;
+  background: url(card/grain.webp) 0 0 / 96px 96px, var(--cb, #E0412F);
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .2), inset 0 2px 0 rgba(255, 255, 255, .18), 0 8px 20px -6px color-mix(in srgb, var(--cb, #E0412F) 70%, transparent);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, url(card/speck.webp) 0 0 / 48px 48px padding-box;
+  mask: linear-gradient(#000 0 0) content-box, url(card/speck.webp) 0 0 / 48px 48px padding-box;
+}
+.btn-acc:disabled { background: none; color: rgba(241, 237, 228, .5); box-shadow: none; text-shadow: none; }
+.btn-acc:disabled::before { background: url(card/grain.webp) 0 0 / 96px 96px, #4A4540; box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .2); }
+@media (hover: hover) and (pointer: fine) { .btn-acc:not(:disabled):hover { box-shadow: none; filter: brightness(1.06); } .btn-ghost:hover { background-color: var(--ckb, var(--cb, #E0412F)); filter: brightness(1.04); } }
+.btn-ghost { --bw: 4px; --rough: 2px; --r0: 28px; position: relative; color: var(--ink); box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .14), var(--sh-1); }
+
+/* ---- home menu tiles ---- */
+.mode { --bw: 10px; --rough: 3px; --r0: 34px; color: var(--ink); box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .16), var(--sh-2); }
+.mode-play { --cb: #E0412F; --cbt: #B92A1B; --cb-ink: #FFF6E6; }
+.mode-words { --cb: #2453B8; --cbt: #2049A6; --cb-ink: #FFF6E6; }
+.mode::after { box-shadow: none; }
+.mode-sub { color: var(--ink-2); }
+.mode-go { background: url(card/grain.webp) 0 0 / 64px 64px, var(--cb); color: var(--cb-ink); box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .2), var(--sh-1); }
+.mtree .tw-w { color: var(--ink); }
+.mt-root { text-shadow: none; }
+@media (hover: hover) and (pointer: fine) { .mode:hover { box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .16), 0 30px 60px -24px rgba(0, 0, 0, .8), var(--sh-2); } }
+
+/* ---- world map nodes: each level's disc wears its crayon ---- */
+.node-disc { box-shadow: 0 0 0 4px var(--cb, #F1EDE4), 0 0 0 6px rgba(0, 0, 0, .25), var(--sh-2); }
+.node.is-current .node-disc { box-shadow: 0 0 0 5px var(--cb), 0 0 0 10px color-mix(in srgb, var(--cb) 30%, transparent), 0 0 34px color-mix(in srgb, var(--cb) 55%, transparent), var(--sh-2); }
+.node.is-current .node-disc::after { box-shadow: 0 0 0 3px var(--cb); }
+.node.is-locked .node-disc { box-shadow: inset 0 0 0 1px var(--line), var(--sh-1); }
+
+/* ---- Words mode: each word is a small cream chip with the root's crayon edge (chip is a ::after, layout unchanged) ---- */
+.wpage .tw { isolation: isolate; }
+.wpage .tw::after {
+  content: ''; position: absolute; inset: -8px -10px -9px; z-index: -1; pointer-events: none; border-radius: 14px; padding: 4px;
+  --ckb: var(--cb);
+  background: linear-gradient(#F8F1E2, #F8F1E2) content-box, url(card/grain.webp) 0 0 / 64px 64px, var(--cb);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .14), 0 6px 16px -6px rgba(0, 0, 0, .55);
+}
+.wpage .tw.hl::before { display: none; }
+.wpage .tw.hl::after { inset: -10px -12px -11px; padding: 6px; background: linear-gradient(color-mix(in oklab, var(--cb) 14%, #FBF6EA), color-mix(in oklab, var(--cb) 14%, #FBF6EA)) content-box, url(card/grain.webp) 0 0 / 64px 64px, var(--cb);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .16), 0 0 0 3px color-mix(in srgb, var(--cb) 35%, transparent), 0 10px 24px -8px rgba(0, 0, 0, .6); }
+.wpage .tw-w { color: var(--ink); }
+.wpage .tw-m, .wpage .tw.hl .tw-m { color: var(--ink-2); }
+.wpage .tw.hl .tw-w { text-shadow: none; }

@@ -43,3 +43,17 @@ work/v14/shoot14.py [tag] [level,flip,words,result,map,landing] -> work/screens/
 work/v14/func14.py: landing drag no flip / tap flips / tap again unflips, Words swipe navigates without flip, tap flips,
 reduced-motion crossfade. Playwright 1.49.1 needs LD_LIBRARY_PATH to a dir with libatk/libatspi/libXcomposite/libXdamage.
 Pre-v14 copies: work/v14/bak/ (app.js, styles.css, landing.js, landing.css).
+
+## Round 2 (Oct 25, 2026): crayon containers + crayon root highlights (branch card-containers, PR #2)
+Everything that holds content now uses the root card's crayon language: crayon border (var(--cb)) + card/grain.webp grain
+around a cream #F8F1E2 panel.
+- Game pick cards (.pcard) wear the current root's crayon (--cb/--cbt set on the hand); selected = thicker border + tinted panel.
+  Result cards, buttons (.done / .btn-ghost), home tiles (.mode), map node rings, Words chips (.wpage .tw::after) follow.
+- Root highlights in words (rcard-name .rn, .w-word b, Words chips, home tree) use the card's darkened crayon (--cbt) with a grain
+  fill (card/speck.webp, generated in work/art/v14/textures.py).
+- Landing: pick cards wear port's red crayon; revealed fakes become a muted grey crayon card ("not a word", struck through)
+  before the WebGL crumple takes them.
+- Multi-spelling titles keep the '·' separator (e.g. "spect · spec").
+- Words chips on phones: trunk layout margin M = 24 inside .wpage (was 14) because the chip ::after bleeds 10px past the text box.
+Tests: shoot14.py modes words,map,level,fake (fake = landing .how at p=.505, grey fakes before crumple), flip,result
+(prints pcard pick state); func14.py flip checks all pass (drag no flip, tap flips, swipe navigates, reduced-motion crossfade).
