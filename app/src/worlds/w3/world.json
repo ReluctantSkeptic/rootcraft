@@ -1,0 +1,965 @@
+{
+  "id": "w3",
+  "order": 3,
+  "name": "Silver",
+  "theme": {
+    "name": "silver",
+    "bg": "#0e1013",
+    "bg2": "#171a20",
+    "accent": "#c8d2dd",
+    "foil": [
+      "#8d97a3",
+      "#f3f6f9",
+      "#a9b3be"
+    ],
+    "glitter": "#dde5ee",
+    "particle": "stars"
+  },
+  "levels": [
+    {
+      "id": "uni",
+      "root": "uni",
+      "variants": [],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "one",
+      "art": "art/uni.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-corn",
+              "meaning": "horn",
+              "real": true,
+              "word": "unicorn",
+              "def": "a horse with one horn"
+            },
+            {
+              "part": "-cycle",
+              "meaning": "wheel",
+              "real": true,
+              "word": "unicycle",
+              "def": "a bike with one wheel"
+            },
+            {
+              "part": "-form",
+              "meaning": "shape",
+              "real": true,
+              "word": "uniform",
+              "def": "clothes that all look the same"
+            },
+            {
+              "part": "-son",
+              "meaning": "sound",
+              "real": true,
+              "word": "unison",
+              "def": "all together as one sound"
+            },
+            {
+              "part": "-pede",
+              "meaning": "foot",
+              "real": false,
+              "word": "unipede"
+            },
+            {
+              "part": "-gon",
+              "meaning": "angle",
+              "real": false,
+              "word": "unigon"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bi",
+      "root": "bi",
+      "variants": [
+        "bin"
+      ],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "two",
+      "art": "art/bi.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-cycle",
+              "meaning": "wheels",
+              "real": true,
+              "word": "bicycle",
+              "def": "a bike with two wheels"
+            },
+            {
+              "part": "-oculars",
+              "meaning": "eyes",
+              "real": true,
+              "word": "binoculars",
+              "def": "a seeing tool for two eyes"
+            },
+            {
+              "part": "-lingual",
+              "meaning": "languages",
+              "real": true,
+              "word": "bilingual",
+              "def": "able to speak two languages"
+            },
+            {
+              "part": "-weekly",
+              "meaning": "every week",
+              "real": true,
+              "word": "biweekly",
+              "def": "once every two weeks"
+            },
+            {
+              "part": "-pede",
+              "meaning": "feet",
+              "real": false,
+              "word": "bipede"
+            },
+            {
+              "part": "-angle",
+              "meaning": "corners",
+              "real": false,
+              "word": "biangle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tri",
+      "root": "tri",
+      "variants": [],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "three",
+      "art": "art/tri.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-angle",
+              "meaning": "corners",
+              "real": true,
+              "word": "triangle",
+              "def": "a shape with three corners"
+            },
+            {
+              "part": "-cycle",
+              "meaning": "wheels",
+              "real": true,
+              "word": "tricycle",
+              "def": "a bike with three wheels"
+            },
+            {
+              "part": "-ceratops",
+              "meaning": "horned face",
+              "real": true,
+              "word": "triceratops",
+              "def": "a dinosaur with three horns"
+            },
+            {
+              "part": "-pod",
+              "meaning": "feet",
+              "real": true,
+              "word": "tripod",
+              "def": "a stand with three legs"
+            },
+            {
+              "part": "-pede",
+              "meaning": "feet",
+              "real": false,
+              "word": "tripede"
+            },
+            {
+              "part": "-month",
+              "meaning": "months",
+              "real": false,
+              "word": "trimonth"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "quad",
+      "root": "quad",
+      "variants": [
+        "quadr"
+      ],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "four",
+      "art": "art/quad.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-uple",
+              "meaning": "times over",
+              "real": true,
+              "word": "quadruple",
+              "def": "four times as much"
+            },
+            {
+              "part": "-ant",
+              "meaning": "a part",
+              "real": true,
+              "word": "quadrant",
+              "def": "one of four equal parts"
+            },
+            {
+              "part": "-copter",
+              "meaning": "flying machine",
+              "real": true,
+              "word": "quadcopter",
+              "def": "a drone with four rotors"
+            },
+            {
+              "part": "-wheel",
+              "meaning": "wheels",
+              "real": false,
+              "word": "quadwheel"
+            },
+            {
+              "part": "-month",
+              "meaning": "months",
+              "real": false,
+              "word": "quadmonth"
+            },
+            {
+              "part": "-corn",
+              "meaning": "horns",
+              "real": false,
+              "word": "quadcorn"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "oct",
+      "root": "oct",
+      "variants": [
+        "octo"
+      ],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "eight",
+      "art": "art/oct.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-pus",
+              "meaning": "foot",
+              "real": true,
+              "word": "octopus",
+              "def": "a sea animal with eight arms"
+            },
+            {
+              "part": "-ave",
+              "meaning": "eighth note",
+              "real": true,
+              "word": "octave",
+              "def": "eight notes up the scale"
+            },
+            {
+              "part": "-ober",
+              "meaning": "eighth month",
+              "real": true,
+              "word": "October",
+              "def": "once the eighth month"
+            },
+            {
+              "part": "-et",
+              "meaning": "group",
+              "real": true,
+              "word": "octet",
+              "def": "a group of eight"
+            },
+            {
+              "part": "-corn",
+              "meaning": "horns",
+              "real": false,
+              "word": "octocorn"
+            },
+            {
+              "part": "-week",
+              "meaning": "weeks",
+              "real": false,
+              "word": "octoweek"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dec",
+      "root": "dec",
+      "variants": [
+        "deca"
+      ],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "ten",
+      "art": "art/dec.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-ade",
+              "meaning": "group",
+              "real": true,
+              "word": "decade",
+              "def": "ten years"
+            },
+            {
+              "part": "-imal",
+              "meaning": "tenths",
+              "real": true,
+              "word": "decimal",
+              "def": "numbers counted in tens"
+            },
+            {
+              "part": "-athlon",
+              "meaning": "contests",
+              "real": true,
+              "word": "decathlon",
+              "def": "a contest of ten sports"
+            },
+            {
+              "part": "-ember",
+              "meaning": "tenth month",
+              "real": true,
+              "word": "December",
+              "def": "once the tenth month"
+            },
+            {
+              "part": "-pede",
+              "meaning": "feet",
+              "real": false,
+              "word": "decapede"
+            },
+            {
+              "part": "-cycle",
+              "meaning": "wheels",
+              "real": false,
+              "word": "decacycle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cent",
+      "root": "cent",
+      "variants": [
+        "centi"
+      ],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "hundred",
+      "art": "art/cent.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-ury",
+              "meaning": "group of years",
+              "real": true,
+              "word": "century",
+              "def": "one hundred years"
+            },
+            {
+              "part": "-ipede",
+              "meaning": "feet",
+              "real": true,
+              "word": "centipede",
+              "def": "a bug with a hundred feet"
+            },
+            {
+              "part": "-imeter",
+              "meaning": "measure",
+              "real": true,
+              "word": "centimeter",
+              "def": "one hundredth of a meter"
+            },
+            {
+              "part": "-ennial",
+              "meaning": "years",
+              "real": true,
+              "word": "centennial",
+              "def": "a hundredth birthday"
+            },
+            {
+              "part": "-corn",
+              "meaning": "horns",
+              "real": false,
+              "word": "centicorn"
+            },
+            {
+              "part": "-week",
+              "meaning": "weeks",
+              "real": false,
+              "word": "centiweek"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mill",
+      "root": "mill",
+      "variants": [
+        "milli"
+      ],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "thousand",
+      "art": "art/mill.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-ion",
+              "meaning": "big number",
+              "real": true,
+              "word": "million",
+              "def": "a thousand thousands"
+            },
+            {
+              "part": "-ennium",
+              "meaning": "years",
+              "real": true,
+              "word": "millennium",
+              "def": "a thousand years"
+            },
+            {
+              "part": "-imeter",
+              "meaning": "measure",
+              "real": true,
+              "word": "millimeter",
+              "def": "one thousandth of a meter"
+            },
+            {
+              "part": "-igram",
+              "meaning": "weight",
+              "real": true,
+              "word": "milligram",
+              "def": "one thousandth of a gram"
+            },
+            {
+              "part": "-cycle",
+              "meaning": "wheels",
+              "real": false,
+              "word": "millicycle"
+            },
+            {
+              "part": "-angle",
+              "meaning": "corners",
+              "real": false,
+              "word": "millangle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "semi",
+      "root": "semi",
+      "variants": [],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "half",
+      "art": "art/semi.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-circle",
+              "meaning": "ring",
+              "real": true,
+              "word": "semicircle",
+              "def": "half of a circle"
+            },
+            {
+              "part": "-final",
+              "meaning": "last game",
+              "real": true,
+              "word": "semifinal",
+              "def": "the game before the final"
+            },
+            {
+              "part": "-colon",
+              "meaning": "pause mark",
+              "real": true,
+              "word": "semicolon",
+              "def": "a half-stop mark ( ; )"
+            },
+            {
+              "part": "-corn",
+              "meaning": "horn",
+              "real": false,
+              "word": "semicorn"
+            },
+            {
+              "part": "-week",
+              "meaning": "week",
+              "real": false,
+              "word": "semiweek"
+            },
+            {
+              "part": "-quartet",
+              "meaning": "group of four",
+              "real": false,
+              "word": "semiquartet"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "multi",
+      "root": "multi",
+      "variants": [],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "many",
+      "art": "art/multi.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-ply",
+              "meaning": "fold",
+              "real": true,
+              "word": "multiply",
+              "def": "to make many times more"
+            },
+            {
+              "part": "-colored",
+              "meaning": "colors",
+              "real": true,
+              "word": "multicolored",
+              "def": "with many colors"
+            },
+            {
+              "part": "-tude",
+              "meaning": "state of",
+              "real": true,
+              "word": "multitude",
+              "def": "a huge crowd"
+            },
+            {
+              "part": "-player",
+              "meaning": "players",
+              "real": true,
+              "word": "multiplayer",
+              "def": "a game for many players"
+            },
+            {
+              "part": "-corn",
+              "meaning": "horns",
+              "real": false,
+              "word": "multicorn"
+            },
+            {
+              "part": "-week",
+              "meaning": "weeks",
+              "real": false,
+              "word": "multiweek"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mono",
+      "root": "mono",
+      "variants": [
+        "mon"
+      ],
+      "origin": "Greek",
+      "type": "Prefix",
+      "meaning": "one, alone",
+      "art": "art/mono.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-rail",
+              "meaning": "track",
+              "real": true,
+              "word": "monorail",
+              "def": "a train on one rail"
+            },
+            {
+              "part": "-tone",
+              "meaning": "sound",
+              "real": true,
+              "word": "monotone",
+              "def": "one flat, boring sound"
+            },
+            {
+              "part": "-logue",
+              "meaning": "speech",
+              "real": true,
+              "word": "monologue",
+              "def": "a long speech by one person"
+            },
+            {
+              "part": "-ocle",
+              "meaning": "eye",
+              "real": true,
+              "word": "monocle",
+              "def": "one glass lens for one eye"
+            },
+            {
+              "part": "-pede",
+              "meaning": "foot",
+              "real": false,
+              "word": "monopede"
+            },
+            {
+              "part": "-week",
+              "meaning": "week",
+              "real": false,
+              "word": "monoweek"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "du",
+      "root": "du",
+      "variants": [],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "two",
+      "art": "art/du.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-et",
+              "meaning": "little group",
+              "real": true,
+              "word": "duet",
+              "def": "a song for two"
+            },
+            {
+              "part": "-al",
+              "meaning": "having",
+              "real": true,
+              "word": "dual",
+              "def": "having two parts"
+            },
+            {
+              "part": "-plicate",
+              "meaning": "folded",
+              "real": true,
+              "word": "duplicate",
+              "def": "an exact copy"
+            },
+            {
+              "part": "-tone",
+              "meaning": "sound",
+              "real": false,
+              "word": "dutone"
+            },
+            {
+              "part": "-lateral",
+              "meaning": "sides",
+              "real": false,
+              "word": "dulateral"
+            },
+            {
+              "part": "-cycle",
+              "meaning": "wheels",
+              "real": false,
+              "word": "ducycle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kilo",
+      "root": "kilo",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Prefix",
+      "meaning": "thousand",
+      "art": "art/kilo.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-gram",
+              "meaning": "weight",
+              "real": true,
+              "word": "kilogram",
+              "def": "a thousand grams"
+            },
+            {
+              "part": "-meter",
+              "meaning": "measure",
+              "real": true,
+              "word": "kilometer",
+              "def": "a thousand meters"
+            },
+            {
+              "part": "-watt",
+              "meaning": "power unit",
+              "real": true,
+              "word": "kilowatt",
+              "def": "a thousand watts of power"
+            },
+            {
+              "part": "-corn",
+              "meaning": "horns",
+              "real": false,
+              "word": "kilocorn"
+            },
+            {
+              "part": "-week",
+              "meaning": "weeks",
+              "real": false,
+              "word": "kiloweek"
+            },
+            {
+              "part": "-tone",
+              "meaning": "sounds",
+              "real": false,
+              "word": "kilotone"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "equi",
+      "root": "equi",
+      "variants": [
+        "equ"
+      ],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "equal, even",
+      "art": "art/equi.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-al",
+              "meaning": "being",
+              "real": true,
+              "word": "equal",
+              "def": "the same amount"
+            },
+            {
+              "part": "-ator",
+              "meaning": "evener",
+              "real": true,
+              "word": "equator",
+              "def": "the line around Earth’s middle"
+            },
+            {
+              "part": "-nox",
+              "meaning": "night",
+              "real": true,
+              "word": "equinox",
+              "def": "when day and night are equal"
+            },
+            {
+              "part": "-lateral",
+              "meaning": "sides",
+              "real": true,
+              "word": "equilateral",
+              "def": "with all sides the same"
+            },
+            {
+              "part": "-corn",
+              "meaning": "horn",
+              "real": false,
+              "word": "equicorn"
+            },
+            {
+              "part": "-month",
+              "meaning": "month",
+              "real": false,
+              "word": "equimonth"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "omni",
+      "root": "omni",
+      "variants": [],
+      "origin": "Latin",
+      "type": "Prefix",
+      "meaning": "all",
+      "art": "art/omni.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-vore",
+              "meaning": "eater",
+              "real": true,
+              "word": "omnivore",
+              "def": "eats plants and meat"
+            },
+            {
+              "part": "-potent",
+              "meaning": "powerful",
+              "real": true,
+              "word": "omnipotent",
+              "def": "all-powerful"
+            },
+            {
+              "part": "-present",
+              "meaning": "here",
+              "real": true,
+              "word": "omnipresent",
+              "def": "everywhere at once"
+            },
+            {
+              "part": "-scient",
+              "meaning": "knowing",
+              "real": true,
+              "word": "omniscient",
+              "def": "knowing everything"
+            },
+            {
+              "part": "-cycle",
+              "meaning": "wheels",
+              "real": false,
+              "word": "omnicycle"
+            },
+            {
+              "part": "-tone",
+              "meaning": "sounds",
+              "real": false,
+              "word": "omnitone"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "poly",
+      "root": "poly",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Prefix",
+      "meaning": "many",
+      "art": "art/poly.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-gon",
+              "meaning": "angles",
+              "real": true,
+              "word": "polygon",
+              "def": "a shape with many sides"
+            },
+            {
+              "part": "-hedron",
+              "meaning": "faces",
+              "real": true,
+              "word": "polyhedron",
+              "def": "a solid with many flat faces"
+            },
+            {
+              "part": "-mer",
+              "meaning": "parts",
+              "real": true,
+              "word": "polymer",
+              "def": "a chain of many tiny parts"
+            },
+            {
+              "part": "-corn",
+              "meaning": "horns",
+              "real": false,
+              "word": "polycorn"
+            },
+            {
+              "part": "-week",
+              "meaning": "weeks",
+              "real": false,
+              "word": "polyweek"
+            },
+            {
+              "part": "-pede",
+              "meaning": "feet",
+              "real": false,
+              "word": "polypede"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gon",
+      "root": "gon",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Suffix",
+      "meaning": "angle, corner",
+      "art": "art/gon.webp",
+      "halves": {
+        "end": {
+          "cards": [
+            {
+              "part": "penta-",
+              "meaning": "five",
+              "real": true,
+              "word": "pentagon",
+              "def": "a shape with five sides"
+            },
+            {
+              "part": "hexa-",
+              "meaning": "six",
+              "real": true,
+              "word": "hexagon",
+              "def": "a shape with six sides"
+            },
+            {
+              "part": "octa-",
+              "meaning": "eight",
+              "real": true,
+              "word": "octagon",
+              "def": "a shape with eight sides"
+            },
+            {
+              "part": "uni-",
+              "meaning": "one",
+              "real": false,
+              "word": "unigon"
+            },
+            {
+              "part": "centi-",
+              "meaning": "hundred",
+              "real": false,
+              "word": "centigon"
+            },
+            {
+              "part": "multi-",
+              "meaning": "many",
+              "real": false,
+              "word": "multigon"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

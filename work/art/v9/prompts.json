@@ -1,0 +1,802 @@
+[
+ {
+  "world": "w1",
+  "id": "re",
+  "root": "re",
+  "meaning": "again, or back",
+  "animal": "fox",
+  "gi": 0,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-fox.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Fenn the Fox, a skinny, springy young orange fox with a cream muzzle, cream chest and cream tail tip, black socks on paws, tall pointy ears, wearing only a short teal scarf knotted at the neck. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the fox is throwing a boomerang that is curving back around and returning to its paw, with a looping dotted motion trail showing it coming BACK again. Composition: one single character (only one fox), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "in",
+  "root": "in",
+  "meaning": "not",
+  "animal": "owl",
+  "gi": 1,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-owl.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Hoot the Owl, a round, egg-shaped little brown owl with a tan belly with a few V feather marks, small ear tufts, huge round eyes inside big round black-rimmed spectacles, short yellow beak and yellow feet, wearing a mustard-yellow knit beanie. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the owl is firmly refusing: wings crossed in a big X in front of its chest, head turned away with eyes shut, saying NO to a plate of broccoli held out toward it. Composition: one single character (only one owl), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "dis",
+  "root": "dis",
+  "meaning": "not, or apart",
+  "animal": "turtle",
+  "gi": 2,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-turtle.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Tango the Turtle, a small chubby green turtle standing upright on two legs, with a dome shell in warm amber-orange with a darker hexagon pattern, cream belly plate, a big friendly grin, wearing red sneakers with white soles. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the turtle is pulling two halves of a big jigsaw puzzle piece APART, one half in each hand, with little separation motion lines between them. Composition: one single character (only one turtle), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "de",
+  "root": "de",
+  "meaning": "down, or away",
+  "animal": "rabbit",
+  "gi": 3,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-rabbit.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Pip the Rabbit, a small round chubby caramel-tan bunny kid with cream tummy and muzzle, pink nose, one ear up and one ear flopped over, wearing sunflower-yellow overalls. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the rabbit is zooming DOWN a tall playground slide head first, ears flying, with strong downward speed lines. Composition: one single character (only one rabbit), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "sub",
+  "root": "sub",
+  "meaning": "under, below",
+  "animal": "bear",
+  "gi": 4,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-bear.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Bo the Bear, a big, round, chunky chocolate-brown bear with a tan muzzle and round tan belly patch, small round ears, wearing a red baseball cap turned backwards. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the bear is piloting a little round golden submarine deep UNDER the water, waving out of the porthole; a wavy water surface line high above, bubbles and a small fish. Composition: one single character (only one bear), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "pre",
+  "root": "pre",
+  "meaning": "before",
+  "animal": "frog",
+  "gi": 5,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-frog.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ribbit the Frog, a bouncy bright lime-green frog with a pale yellow-green belly, huge bulging eyes on top of the head, wide mouth, long skinny legs with big feet, wearing a purple-and-white horizontally striped t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the frog is peeking excitedly through a gap in a red stage curtain BEFORE the show starts, one eye and a big grin showing. Composition: one single character (only one frog), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "inter",
+  "root": "inter",
+  "meaning": "between",
+  "animal": "raccoon",
+  "gi": 6,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-raccoon.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Rizzo the Raccoon, a grey raccoon with a black bandit eye mask, white face markings, big bushy black-and-grey ringed tail, wearing an orange hoodie, blue jeans and light-blue sneakers. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the raccoon is lounging in a hammock strung BETWEEN two trees, one tree on each side of the picture. Composition: one single character (only one raccoon), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "trans",
+  "root": "trans",
+  "meaning": "across, to the other side",
+  "animal": "otter",
+  "gi": 7,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-otter.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ollie the Otter, a sleek, stretchy brown otter with a cream face and cream belly, small round ears, long thick tail, whiskers, wearing blue swim goggles pushed up on the forehead. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the otter is balancing while walking ACROSS a river on a log from one bank to the other bank, arms out. Composition: one single character (only one otter), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "super",
+  "root": "super",
+  "meaning": "above, or beyond",
+  "animal": "elephant",
+  "gi": 8,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-elephant.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ellie the Elephant, a chubby baby elephant in soft blue-grey with big floppy ears with pink insides, a long expressive trunk, no tusks, wearing a bright pink t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the elephant is flying high ABOVE the clouds like a superhero with a golden cape flapping, trunk pointing up and forward. Composition: one single character (only one elephant), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "con",
+  "root": "con",
+  "meaning": "together, with",
+  "animal": "penguin",
+  "gi": 9,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-penguin.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Percy the Penguin, a short plump penguin, black back and head, white belly and white face patch, orange beak and orange feet, wearing a red knit beanie with a white pom-pom and a matching red mitten on each flipper. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the penguin is snapping two big puzzle pieces TOGETHER with a satisfying click, little star sparkle where they join. Composition: one single character (only one penguin), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "graph",
+  "root": "graph",
+  "meaning": "to write or draw",
+  "animal": "fox",
+  "gi": 10,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-fox.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Fenn the Fox, a skinny, springy young orange fox with a cream muzzle, cream chest and cream tail tip, black socks on paws, tall pointy ears, wearing only a short teal scarf knotted at the neck. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the fox is painting a cheerful picture of a sun and a little house on an easel canvas, brush in hand, paint palette in the other. Composition: one single character (only one fox), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "dict",
+  "root": "dict",
+  "meaning": "to say",
+  "animal": "owl",
+  "gi": 11,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-owl.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Hoot the Owl, a round, egg-shaped little brown owl with a tan belly with a few V feather marks, small ear tufts, huge round eyes inside big round black-rimmed spectacles, short yellow beak and yellow feet, wearing a mustard-yellow knit beanie. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the owl is standing on a small wooden crate giving a big passionate speech, one wing raised, beak wide open, bold sound lines coming from its mouth (no speech bubble, no words). Composition: one single character (only one owl), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "duc",
+  "root": "duc",
+  "meaning": "to lead",
+  "animal": "turtle",
+  "gi": 12,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-turtle.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Tango the Turtle, a small chubby green turtle standing upright on two legs, with a dome shell in warm amber-orange with a darker hexagon pattern, cream belly plate, a big friendly grin, wearing red sneakers with white soles. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the turtle is LEADING a neat line of three fluffy yellow ducklings who march behind it, the turtle proudly in front holding a small blank pennant flag. Composition: one single character (only one turtle), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "fac",
+  "root": "fac",
+  "meaning": "to make or do",
+  "animal": "rabbit",
+  "gi": 13,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-rabbit.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Pip the Rabbit, a small round chubby caramel-tan bunny kid with cream tummy and muzzle, pink nose, one ear up and one ear flopped over, wearing sunflower-yellow overalls. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the rabbit is MAKING a wooden toy car at a workbench, hammer raised mid-swing, wood shavings flying. Composition: one single character (only one rabbit), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "vis",
+  "root": "vis",
+  "meaning": "to see",
+  "animal": "bear",
+  "gi": 14,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-bear.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Bo the Bear, a big, round, chunky chocolate-brown bear with a tan muzzle and round tan belly patch, small round ears, wearing a red baseball cap turned backwards. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the bear is shading its eyes with one paw, eyes huge with wonder, SEEING a bright butterfly fluttering just in front of it. Composition: one single character (only one bear), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "ex",
+  "root": "ex",
+  "meaning": "out, out of",
+  "animal": "frog",
+  "gi": 15,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-frog.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ribbit the Frog, a bouncy bright lime-green frog with a pale yellow-green belly, huge bulging eyes on top of the head, wide mouth, long skinny legs with big feet, wearing a purple-and-white horizontally striped t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the frog is bursting OUT of an open cardboard box with arms flung wide, the box flaps blown open. Composition: one single character (only one frog), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "vert",
+  "root": "vert",
+  "meaning": "to turn",
+  "animal": "raccoon",
+  "gi": 16,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-raccoon.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Rizzo the Raccoon, a grey raccoon with a black bandit eye mask, white face markings, big bushy black-and-grey ringed tail, wearing an orange hoodie, blue jeans and light-blue sneakers. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the raccoon is TURNING a big wooden ship steering wheel with both hands, curved motion arcs showing the wheel spinning round. Composition: one single character (only one raccoon), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "pro",
+  "root": "pro",
+  "meaning": "forward",
+  "animal": "otter",
+  "gi": 17,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-otter.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ollie the Otter, a sleek, stretchy brown otter with a cream face and cream belly, small round ears, long thick tail, whiskers, wearing blue swim goggles pushed up on the forehead. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the otter is sprinting FORWARD toward the viewer leaning way forward, one arm pointing ahead, speed lines behind. Composition: one single character (only one otter), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "port",
+  "root": "port",
+  "meaning": "to carry",
+  "animal": "elephant",
+  "gi": 18,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-elephant.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ellie the Elephant, a chubby baby elephant in soft blue-grey with big floppy ears with pink insides, a long expressive trunk, no tusks, wearing a bright pink t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the elephant is CARRYING a huge wobbling tower of suitcases and boxes stacked on its back, holding the top one steady with its trunk. Composition: one single character (only one elephant), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "struct",
+  "root": "struct",
+  "meaning": "to build",
+  "animal": "penguin",
+  "gi": 19,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-penguin.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Percy the Penguin, a short plump penguin, black back and head, white belly and white face patch, orange beak and orange feet, wearing a red knit beanie with a white pom-pom and a matching red mitten on each flipper. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the penguin is BUILDING a little brick wall with a trowel, laying a brick on top, a stack of bricks beside it. Composition: one single character (only one penguin), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "ject",
+  "root": "ject",
+  "meaning": "to throw",
+  "animal": "fox",
+  "gi": 20,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-fox.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Fenn the Fox, a skinny, springy young orange fox with a cream muzzle, cream chest and cream tail tip, black socks on paws, tall pointy ears, wearing only a short teal scarf knotted at the neck. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the fox is THROWING a ball with a big wind-up pitching pose, the ball flying off with a motion trail. Composition: one single character (only one fox), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "form",
+  "root": "form",
+  "meaning": "shape",
+  "animal": "owl",
+  "gi": 21,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-owl.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Hoot the Owl, a round, egg-shaped little brown owl with a tan belly with a few V feather marks, small ear tufts, huge round eyes inside big round black-rimmed spectacles, short yellow beak and yellow feet, wearing a mustard-yellow knit beanie. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the owl is SHAPING a lump of clay into a star shape on a potter's table, a clay circle and triangle beside it. Composition: one single character (only one owl), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "spect",
+  "root": "spect",
+  "meaning": "to look at",
+  "animal": "turtle",
+  "gi": 22,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-turtle.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Tango the Turtle, a small chubby green turtle standing upright on two legs, with a dome shell in warm amber-orange with a darker hexagon pattern, cream belly plate, a big friendly grin, wearing red sneakers with white soles. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the turtle is LOOKING through a long brass spyglass, one eye squinting, leaning forward curiously. Composition: one single character (only one turtle), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "mit",
+  "root": "mit",
+  "meaning": "to send",
+  "animal": "rabbit",
+  "gi": 23,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-rabbit.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Pip the Rabbit, a small round chubby caramel-tan bunny kid with cream tummy and muzzle, pink nose, one ear up and one ear flopped over, wearing sunflower-yellow overalls. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the rabbit is SENDING a letter: popping an envelope into a round-topped mailbox, on tiptoe. Composition: one single character (only one rabbit), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "mot",
+  "root": "mot",
+  "meaning": "to move",
+  "animal": "bear",
+  "gi": 24,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-bear.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Bo the Bear, a big, round, chunky chocolate-brown bear with a tan muzzle and round tan belly patch, small round ears, wearing a red baseball cap turned backwards. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the bear is MOVING fast on roller skates, zooming across with big motion lines and a dust puff behind. Composition: one single character (only one bear), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "fer",
+  "root": "fer",
+  "meaning": "to carry or bring",
+  "animal": "frog",
+  "gi": 25,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-frog.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ribbit the Frog, a bouncy bright lime-green frog with a pale yellow-green belly, huge bulging eyes on top of the head, wide mouth, long skinny legs with big feet, wearing a purple-and-white horizontally striped t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the frog is BRINGING a big birthday cake on a tray, walking carefully toward the viewer with a proud smile. Composition: one single character (only one frog), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "phon",
+  "root": "phon",
+  "meaning": "sound",
+  "animal": "raccoon",
+  "gi": 26,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-raccoon.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Rizzo the Raccoon, a grey raccoon with a black bandit eye mask, white face markings, big bushy black-and-grey ringed tail, wearing an orange hoodie, blue jeans and light-blue sneakers. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the raccoon is blasting a shiny golden trumpet, cheeks puffed, big curved SOUND waves and a few music notes bursting out. Composition: one single character (only one raccoon), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "scrib",
+  "root": "scrib",
+  "meaning": "to write",
+  "animal": "otter",
+  "gi": 27,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-otter.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ollie the Otter, a sleek, stretchy brown otter with a cream face and cream belly, small round ears, long thick tail, whiskers, wearing blue swim goggles pushed up on the forehead. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the otter is WRITING with a feather quill on a long unrolled paper scroll, the writing shown only as wavy scribble lines (no real letters). Composition: one single character (only one otter), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "tract",
+  "root": "tract",
+  "meaning": "to pull",
+  "animal": "elephant",
+  "gi": 28,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-elephant.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ellie the Elephant, a chubby baby elephant in soft blue-grey with big floppy ears with pink insides, a long expressive trunk, no tusks, wearing a bright pink t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the elephant is PULLING a heavy red wagon full of watermelons by a rope gripped in its trunk, leaning back with effort. Composition: one single character (only one elephant), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "rupt",
+  "root": "rupt",
+  "meaning": "to break or burst",
+  "animal": "penguin",
+  "gi": 29,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-penguin.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Percy the Penguin, a short plump penguin, black back and head, white belly and white face patch, orange beak and orange feet, wearing a red knit beanie with a white pom-pom and a matching red mitten on each flipper. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the penguin is POPPING a big balloon with a pin, the balloon BURSTING with a star-shaped burst and flying bits, penguin flinching with surprise. Composition: one single character (only one penguin), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w1",
+  "id": "aud",
+  "root": "aud",
+  "meaning": "to hear",
+  "animal": "fox",
+  "gi": 30,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-fox.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Fenn the Fox, a skinny, springy young orange fox with a cream muzzle, cream chest and cream tail tip, black socks on paws, tall pointy ears, wearing only a short teal scarf knotted at the neck. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the fox is cupping one big ear with a paw, eyes closed blissfully, HEARING a little bird singing on a branch nearby (music notes). Composition: one single character (only one fox), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm cream paper and ink-black linework with honey-gold #E9B949 as the main accent colour (props, highlights, the background disc), plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "tele",
+  "root": "tele",
+  "meaning": "far, far away",
+  "animal": "owl",
+  "gi": 31,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-owl.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Hoot the Owl, a round, egg-shaped little brown owl with a tan belly with a few V feather marks, small ear tufts, huge round eyes inside big round black-rimmed spectacles, short yellow beak and yellow feet, wearing a mustard-yellow knit beanie. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the owl is waving both wings excitedly at a tiny hot-air balloon FAR, FAR AWAY on the distant horizon, a long rolling landscape stretching out. Composition: one single character (only one owl), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "auto",
+  "root": "auto",
+  "meaning": "self",
+  "animal": "turtle",
+  "gi": 32,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-turtle.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Tango the Turtle, a small chubby green turtle standing upright on two legs, with a dome shell in warm amber-orange with a darker hexagon pattern, cream belly plate, a big friendly grin, wearing red sneakers with white soles. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the turtle is taking a selfie of ITSELF: holding a camera at arm's length pointed back at its own grinning face. Composition: one single character (only one turtle), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "bio",
+  "root": "bio",
+  "meaning": "life",
+  "animal": "rabbit",
+  "gi": 33,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-rabbit.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Pip the Rabbit, a small round chubby caramel-tan bunny kid with cream tummy and muzzle, pink nose, one ear up and one ear flopped over, wearing sunflower-yellow overalls. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the rabbit is gently watering a tiny green sprout with a watering can, a small butterfly and a ladybug nearby: new LIFE. Composition: one single character (only one rabbit), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "geo",
+  "root": "geo",
+  "meaning": "earth",
+  "animal": "bear",
+  "gi": 34,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-bear.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Bo the Bear, a big, round, chunky chocolate-brown bear with a tan muzzle and round tan belly patch, small round ears, wearing a red baseball cap turned backwards. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the bear is giving a big hug to a large globe of planet EARTH (blue oceans, green land) that is as big as its belly. Composition: one single character (only one bear), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "photo",
+  "root": "photo",
+  "meaning": "light",
+  "animal": "frog",
+  "gi": 35,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-frog.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ribbit the Frog, a bouncy bright lime-green frog with a pale yellow-green belly, huge bulging eyes on top of the head, wide mouth, long skinny legs with big feet, wearing a purple-and-white horizontally striped t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the frog is holding up a big glowing light bulb with bright rays of LIGHT bursting out, eyes squinting happily in the glow. Composition: one single character (only one frog), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "logy",
+  "root": "logy",
+  "meaning": "the study of",
+  "animal": "raccoon",
+  "gi": 36,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-raccoon.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Rizzo the Raccoon, a grey raccoon with a black bandit eye mask, white face markings, big bushy black-and-grey ringed tail, wearing an orange hoodie, blue jeans and light-blue sneakers. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the raccoon is STUDYING a huge open book at a desk with a reading lamp, magnifying glass in hand, more books stacked (pages show only squiggles, no letters). Composition: one single character (only one raccoon), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "scope",
+  "root": "scope",
+  "meaning": "look at",
+  "animal": "otter",
+  "gi": 37,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-otter.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ollie the Otter, a sleek, stretchy brown otter with a cream face and cream belly, small round ears, long thick tail, whiskers, wearing blue swim goggles pushed up on the forehead. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the otter is peering into a microscope on a table, one eye pressed to the eyepiece. Composition: one single character (only one otter), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "meter",
+  "root": "meter",
+  "meaning": "measure",
+  "animal": "elephant",
+  "gi": 38,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-elephant.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ellie the Elephant, a chubby baby elephant in soft blue-grey with big floppy ears with pink insides, a long expressive trunk, no tusks, wearing a bright pink t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the elephant is MEASURING its own long trunk with a stretched-out tape measure (tick marks only, no numbers). Composition: one single character (only one elephant), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "cycl",
+  "root": "cycl",
+  "meaning": "circle, wheel",
+  "animal": "penguin",
+  "gi": 39,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-penguin.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Percy the Penguin, a short plump penguin, black back and head, white belly and white face patch, orange beak and orange feet, wearing a red knit beanie with a white pom-pom and a matching red mitten on each flipper. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the penguin is rolling a big round wooden wagon WHEEL along, running beside it, circular motion lines. Composition: one single character (only one penguin), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "therm",
+  "root": "therm",
+  "meaning": "heat",
+  "animal": "fox",
+  "gi": 40,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-fox.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Fenn the Fox, a skinny, springy young orange fox with a cream muzzle, cream chest and cream tail tip, black socks on paws, tall pointy ears, wearing only a short teal scarf knotted at the neck. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the fox is warming its paws by a crackling campfire, toasting a marshmallow on a stick, wavy HEAT lines rising. Composition: one single character (only one fox), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "astro",
+  "root": "astro",
+  "meaning": "star",
+  "animal": "owl",
+  "gi": 41,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-owl.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Hoot the Owl, a round, egg-shaped little brown owl with a tan belly with a few V feather marks, small ear tufts, huge round eyes inside big round black-rimmed spectacles, short yellow beak and yellow feet, wearing a mustard-yellow knit beanie. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the owl is reaching up on tiptoe to catch a falling golden STAR from a deep navy night-sky circle full of little stars. Composition: one single character (only one owl), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "hydr",
+  "root": "hydr",
+  "meaning": "water",
+  "animal": "turtle",
+  "gi": 42,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-turtle.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Tango the Turtle, a small chubby green turtle standing upright on two legs, with a dome shell in warm amber-orange with a darker hexagon pattern, cream belly plate, a big friendly grin, wearing red sneakers with white soles. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the turtle is spraying a big arc of blue WATER from a garden hose, splashes and droplets everywhere. Composition: one single character (only one turtle), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "chron",
+  "root": "chron",
+  "meaning": "time",
+  "animal": "rabbit",
+  "gi": 43,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-rabbit.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Pip the Rabbit, a small round chubby caramel-tan bunny kid with cream tummy and muzzle, pink nose, one ear up and one ear flopped over, wearing sunflower-yellow overalls. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the rabbit is holding a giant ticking alarm clock (tick marks only, no numbers), eyes wide, in a panicked hurry about the TIME. Composition: one single character (only one rabbit), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "dynam",
+  "root": "dynam",
+  "meaning": "power",
+  "animal": "bear",
+  "gi": 44,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-bear.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Bo the Bear, a big, round, chunky chocolate-brown bear with a tan muzzle and round tan belly patch, small round ears, wearing a red baseball cap turned backwards. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the bear is lifting a gigantic barbell high over its head with POWER, muscles bulging, the bar bending, power sparks. Composition: one single character (only one bear), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "aero",
+  "root": "aero",
+  "meaning": "air",
+  "animal": "frog",
+  "gi": 45,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-frog.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ribbit the Frog, a bouncy bright lime-green frog with a pale yellow-green belly, huge bulging eyes on top of the head, wide mouth, long skinny legs with big feet, wearing a purple-and-white horizontally striped t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the frog is hanging from a big kite that lifts it up into the AIR, feet dangling, swirly wind lines. Composition: one single character (only one frog), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w2",
+  "id": "saur",
+  "root": "saur",
+  "meaning": "lizard",
+  "animal": "raccoon",
+  "gi": 46,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-raccoon.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Rizzo the Raccoon, a grey raccoon with a black bandit eye mask, white face markings, big bushy black-and-grey ringed tail, wearing an orange hoodie, blue jeans and light-blue sneakers. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the raccoon is riding happily on the back of a friendly green cartoon dinosaur LIZARD, holding on to its neck. Composition: one single character (only one raccoon), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: warm golden world: rich amber-gold #C48A22 and pale gold #F6D57E dominate props, sky shapes and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "uni",
+  "root": "uni",
+  "meaning": "one",
+  "animal": "otter",
+  "gi": 47,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-otter.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ollie the Otter, a sleek, stretchy brown otter with a cream face and cream belly, small round ears, long thick tail, whiskers, wearing blue swim goggles pushed up on the forehead. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the otter is riding a UNICYCLE with exactly ONE wheel, arms out for balance. Composition: one single character (only one otter), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "bi",
+  "root": "bi",
+  "meaning": "two",
+  "animal": "elephant",
+  "gi": 48,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-elephant.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ellie the Elephant, a chubby baby elephant in soft blue-grey with big floppy ears with pink insides, a long expressive trunk, no tusks, wearing a bright pink t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the elephant is riding a BICYCLE with exactly TWO wheels, trunk waving. Composition: one single character (only one elephant), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "tri",
+  "root": "tri",
+  "meaning": "three",
+  "animal": "penguin",
+  "gi": 49,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-penguin.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Percy the Penguin, a short plump penguin, black back and head, white belly and white face patch, orange beak and orange feet, wearing a red knit beanie with a white pom-pom and a matching red mitten on each flipper. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the penguin is juggling exactly THREE balls in the air (one, two, three \u2014 no more). Composition: one single character (only one penguin), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "quad",
+  "root": "quad",
+  "meaning": "four",
+  "animal": "fox",
+  "gi": 50,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-fox.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Fenn the Fox, a skinny, springy young orange fox with a cream muzzle, cream chest and cream tail tip, black socks on paws, tall pointy ears, wearing only a short teal scarf knotted at the neck. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the fox is holding exactly FOUR colourful balloons on strings, one, two, three, four, clearly separated. Composition: one single character (only one fox), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "oct",
+  "root": "oct",
+  "meaning": "eight",
+  "animal": "owl",
+  "gi": 51,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-owl.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Hoot the Owl, a round, egg-shaped little brown owl with a tan belly with a few V feather marks, small ear tufts, huge round eyes inside big round black-rimmed spectacles, short yellow beak and yellow feet, wearing a mustard-yellow knit beanie. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the owl is giving a high-five to a friendly purple-grey OCTOPUS with exactly EIGHT curly tentacles. Composition: one single character (only one owl), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "dec",
+  "root": "dec",
+  "meaning": "ten",
+  "animal": "turtle",
+  "gi": 52,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-turtle.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Tango the Turtle, a small chubby green turtle standing upright on two legs, with a dome shell in warm amber-orange with a darker hexagon pattern, cream belly plate, a big friendly grin, wearing red sneakers with white soles. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the turtle is bowling: rolling a ball toward exactly TEN white bowling pins set up in a neat triangle (4-3-2-1). Composition: one single character (only one turtle), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "cent",
+  "root": "cent",
+  "meaning": "hundred",
+  "animal": "rabbit",
+  "gi": 53,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-rabbit.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Pip the Rabbit, a small round chubby caramel-tan bunny kid with cream tummy and muzzle, pink nose, one ear up and one ear flopped over, wearing sunflower-yellow overalls. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the rabbit is laughing as a very long, friendly CENTIPEDE with a HUNDRED tiny legs walks past in a long wavy line. Composition: one single character (only one rabbit), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "mill",
+  "root": "mill",
+  "meaning": "thousand",
+  "animal": "bear",
+  "gi": 54,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-bear.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Bo the Bear, a big, round, chunky chocolate-brown bear with a tan muzzle and round tan belly patch, small round ears, wearing a red baseball cap turned backwards. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the bear is diving joyfully into a giant mountain of THOUSANDS of tiny shiny silver marbles. Composition: one single character (only one bear), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "semi",
+  "root": "semi",
+  "meaning": "half",
+  "animal": "frog",
+  "gi": 55,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-frog.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ribbit the Frog, a bouncy bright lime-green frog with a pale yellow-green belly, huge bulging eyes on top of the head, wide mouth, long skinny legs with big feet, wearing a purple-and-white horizontally striped t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the frog is cutting a big round cake exactly in HALF with a big knife, the two halves sliding apart. Composition: one single character (only one frog), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "multi",
+  "root": "multi",
+  "meaning": "many",
+  "animal": "raccoon",
+  "gi": 56,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-raccoon.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Rizzo the Raccoon, a grey raccoon with a black bandit eye mask, white face markings, big bushy black-and-grey ringed tail, wearing an orange hoodie, blue jeans and light-blue sneakers. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the raccoon is balancing an ice-cream cone with MANY scoops stacked impossibly high, wobbling. Composition: one single character (only one raccoon), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "mono",
+  "root": "mono",
+  "meaning": "one, alone",
+  "animal": "otter",
+  "gi": 57,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-otter.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ollie the Otter, a sleek, stretchy brown otter with a cream face and cream belly, small round ears, long thick tail, whiskers, wearing blue swim goggles pushed up on the forehead. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the otter is sitting ALONE on a tiny round desert island with ONE single palm tree, in the middle of the sea. Composition: one single character (only one otter), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "du",
+  "root": "du",
+  "meaning": "two",
+  "animal": "elephant",
+  "gi": 58,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-elephant.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ellie the Elephant, a chubby baby elephant in soft blue-grey with big floppy ears with pink insides, a long expressive trunk, no tusks, wearing a bright pink t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the elephant is drumming on exactly TWO identical drums, one drumstick in its trunk and one in its hand. Composition: one single character (only one elephant), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "kilo",
+  "root": "kilo",
+  "meaning": "thousand",
+  "animal": "penguin",
+  "gi": 59,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-penguin.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Percy the Penguin, a short plump penguin, black back and head, white belly and white face patch, orange beak and orange feet, wearing a red knit beanie with a white pom-pom and a matching red mitten on each flipper. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the penguin is straining to lift a gigantic heavy iron weight onto a big old-fashioned balance scale, sweat drops (no numbers). Composition: one single character (only one penguin), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "equi",
+  "root": "equi",
+  "meaning": "equal, even",
+  "animal": "fox",
+  "gi": 60,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-fox.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Fenn the Fox, a skinny, springy young orange fox with a cream muzzle, cream chest and cream tail tip, black socks on paws, tall pointy ears, wearing only a short teal scarf knotted at the neck. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the fox is standing in the exact middle of a perfectly level seesaw, arms out, with two EQUAL identical boxes on each end, perfectly balanced. Composition: one single character (only one fox), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "omni",
+  "root": "omni",
+  "meaning": "all",
+  "animal": "owl",
+  "gi": 61,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-owl.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Hoot the Owl, a round, egg-shaped little brown owl with a tan belly with a few V feather marks, small ear tufts, huge round eyes inside big round black-rimmed spectacles, short yellow beak and yellow feet, wearing a mustard-yellow knit beanie. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the owl is happily hugging a huge plate piled with ALL kinds of food: fruit, vegetables, fish, bread and cheese. Composition: one single character (only one owl), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "poly",
+  "root": "poly",
+  "meaning": "many",
+  "animal": "turtle",
+  "gi": 62,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-turtle.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Tango the Turtle, a small chubby green turtle standing upright on two legs, with a dome shell in warm amber-orange with a darker hexagon pattern, cream belly plate, a big friendly grin, wearing red sneakers with white soles. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the turtle is rolling a big shiny faceted silver gem shape with MANY flat sides and corners. Composition: one single character (only one turtle), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w3",
+  "id": "gon",
+  "root": "gon",
+  "meaning": "angle, corner",
+  "animal": "rabbit",
+  "gi": 63,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-rabbit.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Pip the Rabbit, a small round chubby caramel-tan bunny kid with cream tummy and muzzle, pink nose, one ear up and one ear flopped over, wearing sunflower-yellow overalls. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the rabbit is standing inside a big silver HEXAGON outline frame, pointing up at one of its sharp CORNERS. Composition: one single character (only one rabbit), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: cool silver world: soft silver-blue-grey #A9B3BE and #C8D2DD dominate props and the background disc, with crisp white highlights, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "aqua",
+  "root": "aqua",
+  "meaning": "water",
+  "animal": "bear",
+  "gi": 64,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-bear.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Bo the Bear, a big, round, chunky chocolate-brown bear with a tan muzzle and round tan belly patch, small round ears, wearing a red baseball cap turned backwards. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the bear is swimming happily in clear blue WATER with a snorkel mask, bubbles rising, a little fish nearby. Composition: one single character (only one bear), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "ped",
+  "root": "ped",
+  "meaning": "foot",
+  "animal": "frog",
+  "gi": 65,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-frog.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ribbit the Frog, a bouncy bright lime-green frog with a pale yellow-green belly, huge bulging eyes on top of the head, wide mouth, long skinny legs with big feet, wearing a purple-and-white horizontally striped t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the frog is proudly lifting one big FOOT and wiggling its toes, a trail of funny footprints behind it. Composition: one single character (only one frog), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "manu",
+  "root": "manu",
+  "meaning": "hand",
+  "animal": "raccoon",
+  "gi": 66,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-raccoon.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Rizzo the Raccoon, a grey raccoon with a black bandit eye mask, white face markings, big bushy black-and-grey ringed tail, wearing an orange hoodie, blue jeans and light-blue sneakers. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the raccoon is pressing both paint-covered HANDS onto a big sheet of paper, colourful handprints all over it, hands up and grinning. Composition: one single character (only one raccoon), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "dent",
+  "root": "dent",
+  "meaning": "tooth",
+  "animal": "otter",
+  "gi": 67,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-otter.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ollie the Otter, a sleek, stretchy brown otter with a cream face and cream belly, small round ears, long thick tail, whiskers, wearing blue swim goggles pushed up on the forehead. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the otter is brushing its big shiny TEETH with a giant toothbrush, foamy bubbles, a huge toothy grin. Composition: one single character (only one otter), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "terr",
+  "root": "terr",
+  "meaning": "earth, land",
+  "animal": "elephant",
+  "gi": 68,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-elephant.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ellie the Elephant, a chubby baby elephant in soft blue-grey with big floppy ears with pink insides, a long expressive trunk, no tusks, wearing a bright pink t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the elephant is digging in rich brown EARTH with a shovel, a mound of soil and a little patch of LAND with a sprout. Composition: one single character (only one elephant), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "anim",
+  "root": "anim",
+  "meaning": "life, spirit, mind",
+  "animal": "penguin",
+  "gi": 69,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-penguin.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Percy the Penguin, a short plump penguin, black back and head, white belly and white face patch, orange beak and orange feet, wearing a red knit beanie with a white pom-pom and a matching red mitten on each flipper. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the penguin is jumping back amazed as a little wind-up toy robot springs to LIFE and starts dancing in front of it. Composition: one single character (only one penguin), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "viv",
+  "root": "viv",
+  "meaning": "live, alive",
+  "animal": "fox",
+  "gi": 70,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-fox.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Fenn the Fox, a skinny, springy young orange fox with a cream muzzle, cream chest and cream tail tip, black socks on paws, tall pointy ears, wearing only a short teal scarf knotted at the neck. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the fox is leaping high with joy, full of LIFE and energy, in a meadow of vivid flowers under a big sun. Composition: one single character (only one fox), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "vor",
+  "root": "vor",
+  "meaning": "eat, swallow",
+  "animal": "owl",
+  "gi": 71,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-owl.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Hoot the Owl, a round, egg-shaped little brown owl with a tan belly with a few V feather marks, small ear tufts, huge round eyes inside big round black-rimmed spectacles, short yellow beak and yellow feet, wearing a mustard-yellow knit beanie. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the owl is EATING a gigantic sandwich, mouth chomping wide, cheeks stuffed, crumbs flying. Composition: one single character (only one owl), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "spir",
+  "root": "spir",
+  "meaning": "breathe",
+  "animal": "turtle",
+  "gi": 72,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-turtle.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Tango the Turtle, a small chubby green turtle standing upright on two legs, with a dome shell in warm amber-orange with a darker hexagon pattern, cream belly plate, a big friendly grin, wearing red sneakers with white soles. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the turtle is taking a big deep BREATH and blowing on a dandelion, the seeds floating away on the breeze. Composition: one single character (only one turtle), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "flor",
+  "root": "flor",
+  "meaning": "flower",
+  "animal": "rabbit",
+  "gi": 73,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-rabbit.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Pip the Rabbit, a small round chubby caramel-tan bunny kid with cream tummy and muzzle, pink nose, one ear up and one ear flopped over, wearing sunflower-yellow overalls. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the rabbit is holding a big bouquet of colourful FLOWERS, eyes closed, sniffing them happily. Composition: one single character (only one rabbit), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "avi",
+  "root": "avi",
+  "meaning": "bird",
+  "animal": "bear",
+  "gi": 74,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-bear.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Bo the Bear, a big, round, chunky chocolate-brown bear with a tan muzzle and round tan belly patch, small round ears, wearing a red baseball cap turned backwards. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the bear is standing still with a gentle smile while three little BIRDS perch on its outstretched arm and head. Composition: one single character (only one bear), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "opt",
+  "root": "opt",
+  "meaning": "eye, sight",
+  "animal": "frog",
+  "gi": 75,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-frog.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ribbit the Frog, a bouncy bright lime-green frog with a pale yellow-green belly, huge bulging eyes on top of the head, wide mouth, long skinny legs with big feet, wearing a purple-and-white horizontally striped t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the frog is trying on a pair of giant round magnifying glasses that make its EYES look enormous. Composition: one single character (only one frog), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "cardi",
+  "root": "cardi",
+  "meaning": "heart",
+  "animal": "raccoon",
+  "gi": 76,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-raccoon.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Rizzo the Raccoon, a grey raccoon with a black bandit eye mask, white face markings, big bushy black-and-grey ringed tail, wearing an orange hoodie, blue jeans and light-blue sneakers. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the raccoon is listening to its own HEART with a doctor's stethoscope, a big red heart shape glowing on its chest, little hearts floating. Composition: one single character (only one raccoon), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "arbor",
+  "root": "arbor",
+  "meaning": "tree",
+  "animal": "otter",
+  "gi": 77,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-otter.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ollie the Otter, a sleek, stretchy brown otter with a cream face and cream belly, small round ears, long thick tail, whiskers, wearing blue swim goggles pushed up on the forehead. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the otter is hugging and climbing the trunk of a big leafy TREE, tail curled around it. Composition: one single character (only one otter), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "lingu",
+  "root": "lingu",
+  "meaning": "tongue, language",
+  "animal": "elephant",
+  "gi": 78,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-elephant.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Ellie the Elephant, a chubby baby elephant in soft blue-grey with big floppy ears with pink insides, a long expressive trunk, no tusks, wearing a bright pink t-shirt. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the elephant is sticking out its TONGUE to lick a giant swirly lollipop. Composition: one single character (only one elephant), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ },
+ {
+  "world": "w4",
+  "id": "derm",
+  "root": "derm",
+  "meaning": "skin",
+  "animal": "penguin",
+  "gi": 79,
+  "ref": "/workspace/projects/549d1ed2-e5ae-4f68-9d72-5badfdfe2ad5/work/art/v9/cast/cast-penguin.png",
+  "prompt": "Square 1:1 illustration for a children's word-game card. The character MUST be exactly the character in the attached model sheet: Percy the Penguin, a short plump penguin, black back and head, white belly and white face patch, orange beak and orange feet, wearing a red knit beanie with a white pom-pom and a matching red mitten on each flipper. Keep the same body shape, colours, markings and outfit as the model sheet. ACTION: the penguin is rubbing sunscreen lotion onto its arm (SKIN) on a sunny beach, a lotion bottle (no label text) beside it. Composition: one single character (only one penguin), full body, centred, large and instantly readable even when the card is small, comfortable margin all around so nothing important touches the edges; only a few simple props. Style: modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colours with at most one flat shadow tone, squash-and-stretch, rubbery dynamic pose, big expressive eyes. Background: flat cream paper (#F5F0E6) with one large simple flat round disc of the world accent colour behind the character. Palette: amethyst world: lavender #C9A8F2 and violet #A775E6 with touches of rose pink #F0B6D6 dominate props and the background disc, plus natural colours where needed. Must NOT contain: any text, letters, numbers, words, signature, watermark, border, frame, extra characters of the same species, extra limbs or fingers."
+ }
+]

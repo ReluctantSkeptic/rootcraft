@@ -1,0 +1,28 @@
+# build output, caches
+app/dist/
+app/legacy/dist/
+**/__pycache__/
+*.pyc
+node_modules/
+.cache/
+# system / user uploads
+.hark/
+files/
+# work: keep notes + scripts, not generated media
+work/screens/
+work/**/*.png
+work/**/*.jpg
+work/**/*.jpeg
+work/**/*.webp
+work/**/*.mp4
+work/**/*.gif
+work/**/*.bak
+work/**/frames/
+work/fontcand/
+# secrets
+.env
+*.env
+*secret*
+*token*
+*.pem
+work/**/*.npy

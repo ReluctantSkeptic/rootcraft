@@ -1,0 +1,238 @@
+# key ~ type ~ origin ~ meaning ~ variants ~ regex(roots only) ~ exclude ~ examples ~ kid sentence ~ grade ~ notes ~ sources
+un ~ prefix ~ Old English ~ not; opposite of ~ un ~ ~ ~ unhappy|unlock|unfair|undo|unusual|unkind|unsafe ~ When I unlock the door, I do the opposite of locking it. ~ 2 ~ #1 prefix: 26% of prefixed words (White et al. 1989). Anglo-Saxon, not Latin/Greek, but too important to skip. ~ W|RR
+re ~ prefix ~ Latin ~ again; back ~ re ~ ~ ~ redo|replay|return|rewrite|reread|refill|recycle ~ If I reread a book, I read it again. ~ 2 ~ #2 prefix: 14% of prefixed words. ~ W|RR|L
+in-not ~ prefix ~ Latin ~ not ~ in|im|il|ir ~ ~ ~ incorrect|impossible|invisible|impatient|illegal|irregular|incomplete ~ Something impossible is not possible. ~ 3 ~ #3 prefix (11%). Spelling changes before the next letter: im- before b/m/p, il- before l, ir- before r. ~ W|RR|L
+dis ~ prefix ~ Latin ~ not; opposite of; apart ~ dis|dif|di ~ ~ ~ disagree|dislike|disappear|disconnect|dishonest|discover|disobey ~ When the magician's rabbit disappears, it does the opposite of appear. ~ 3 ~ #4 prefix (7%). With un-, re-, in-, covers about 58% of prefixed words. ~ W|RR|L
+en ~ prefix ~ Latin (via French) ~ put into; cause to be ~ en|em ~ ~ ~ enjoy|enable|encourage|enclose|endanger|empower|enlarge ~ To enlarge a photo is to cause it to be large. ~ 3 ~ #5 prefix (4.5%). em- before b/p. ~ W|RR
+non ~ prefix ~ Latin ~ not ~ non ~ ~ ~ nonfiction|nonstop|nonsense|nonstick|nonliving|nonprofit ~ A nonstop flight does not stop until it lands. ~ 3 ~ #6 prefix (4.3%). ~ W|RR
+in-into ~ prefix ~ Latin ~ in; into ~ in|im ~ ~ ~ inside|indoor|include|inject|import|income|insert ~ When you import toys, you carry them into the country. ~ 3 ~ #7 prefix (3.5%). Same spelling as in- 'not'; context tells which. ~ W|RR|L
+over ~ prefix ~ Old English ~ too much; above ~ over ~ ~ ~ overeat|overflow|overlook|overnight|overcome|overdue|overheat ~ If you overeat at a party, you eat too much. ~ 2 ~ #8 prefix (3.3%). Anglo-Saxon. ~ W|RR|L
+mis ~ prefix ~ Old English ~ wrongly; badly ~ mis ~ ~ ~ mistake|misspell|misbehave|misplace|misunderstand|misuse ~ If you misspell a word, you spell it wrongly. ~ 3 ~ #9 prefix (2.8%). Anglo-Saxon (mis- 'wrong'). ~ W|RR
+sub ~ prefix ~ Latin ~ under; below ~ sub|sup|suf|sug|sus ~ ~ ~ submarine|subway|subtract|subject|suburb|subtitle|submerge ~ A submarine travels under the water. ~ 3 ~ #10 prefix (2.7%). ~ W|RR|L
+pre ~ prefix ~ Latin ~ before ~ pre ~ ~ ~ preview|prepare|predict|preschool|prevent|pretest|preheat ~ We preheat the oven before we bake cookies. ~ 3 ~ #11 prefix (2.7%). ~ W|RR|L
+inter ~ prefix ~ Latin ~ between; among ~ inter ~ ~ ~ internet|interrupt|interview|international|interact|intersection ~ An intersection is where two roads meet between corners. ~ 4 ~ #12 prefix (2.6%). ~ W|RR|L
+fore ~ prefix ~ Old English ~ before; front ~ fore ~ ~ ~ forecast|forehead|foresee|forearm|foreground|forever ~ A weather forecast tells you the weather before it happens. ~ 4 ~ #13 prefix (2.5%). Anglo-Saxon. ~ W|RR
+de ~ prefix ~ Latin ~ down; away; undo ~ de ~ ~ ~ defrost|decrease|depart|detach|decode|descend|defend ~ We defrost frozen peas to undo the freezing. ~ 4 ~ #14 prefix (2.4%). ~ W|RR|L
+trans ~ prefix ~ Latin ~ across; change ~ trans|tra ~ ~ ~ transport|transform|translate|transfer|transparent|transplant ~ Robots that transform change across from car to robot. ~ 4 ~ #15 prefix (1.6%). ~ W|RR|L
+super ~ prefix ~ Latin ~ above; beyond ~ super|sur ~ ~ ~ superhero|supermarket|superstar|supersonic|superior|surface ~ A superhero has powers above a normal person's. ~ 3 ~ #16 prefix (1.5%). sur- is its French form (surface, survive). ~ W|RR
+semi ~ prefix ~ Latin ~ half; partly ~ semi ~ ~ ~ semicircle|semifinal|semicolon|semisweet|semiannual ~ A semicircle is half of a circle. ~ 4 ~ #17 prefix (1.3%). ~ W|RR|L
+anti ~ prefix ~ Greek ~ against ~ anti|ant ~ ~ ~ antibiotic|antifreeze|antivirus|antisocial|antibody|antonym ~ Antifreeze works against freezing in a car. ~ 4 ~ #18 prefix (1.1%). ~ W|RR|L
+mid ~ prefix ~ Old English ~ middle ~ mid ~ ~ ~ midnight|midday|midway|midweek|midair|midfield ~ Midnight is the middle of the night. ~ 2 ~ #19 prefix (1.1%). Anglo-Saxon. ~ W|RR
+under ~ prefix ~ Old English ~ below; too little ~ under ~ ~ ~ underwater|underground|underline|underweight|underestimate|underpaid ~ Fish live underwater, below the surface. ~ 2 ~ #20 prefix (0.8%). Anglo-Saxon. ~ W|RR|L
+con ~ prefix ~ Latin ~ with; together ~ con|com|col|cor|co ~ ~ ~ connect|combine|compare|collect|cooperate|contest|community ~ When you connect blocks, you join them together. ~ 4 ~ Top prefix in academic words (Lane et al. 2019), though not in White's list because it usually attaches to bound roots. ~ L
+ex ~ prefix ~ Latin ~ out; former ~ ex|e|ef ~ ~ ~ exit|export|explode|exhale|expand|extract|erupt ~ When you exhale, you breathe air out. ~ 4 ~ High-frequency in academic words (Lane et al. 2019). ~ L
+pro ~ prefix ~ Latin ~ forward; for ~ pro ~ ~ ~ project|produce|protect|progress|propel|promote|pronoun ~ A propeller pushes a boat forward. ~ 4 ~ High-frequency in academic words (Lane et al. 2019). ~ L
+ad ~ prefix ~ Latin ~ to; toward ~ ad|ac|af|ag|al|an|ap|ar|as|at ~ ~ ~ adventure|advance|attract|accept|approach|attend|address ~ A magnet attracts metal, pulling it toward itself. ~ 5 ~ Top-4 prefix in academic words (Lane et al. 2019). Usually 'hides' by changing its last letter to match the root (ad+tract = attract). ~ L
+per ~ prefix ~ Latin ~ through; completely ~ per ~ ~ ~ perfect|permit|perform|persuade|perfume|percent ~ A perfect score is complete all the way through. ~ 5 ~ In Lane et al. 2019 academic list. ~ L
+ab ~ prefix ~ Latin ~ away from ~ ab|abs ~ ~ ~ absent|abnormal|abduct|absorb|abstract ~ If you are absent, you are away from school. ~ 5 ~ In Lane et al. 2019 academic list. ~ L
+ob ~ prefix ~ Latin ~ against; toward; in the way ~ ob|oc|of|op ~ ~ ~ object|obstacle|obtain|oppose|occur|obvious ~ An obstacle is something in the way. ~ 6 ~ In Lane et al. 2019 academic list. ~ L
+post ~ prefix ~ Latin ~ after; behind ~ post ~ ~ ~ postpone|postscript|postwar|postgame ~ If the game is postponed, it happens after the planned time. ~ 4 ~ Pairs naturally with pre-. ~ 
+auto ~ prefix ~ Greek ~ self ~ auto ~ ~ ~ automobile|autograph|automatic|autobiography|autopilot ~ An autograph is a name a star writes by herself. ~ 4 ~ ~ RR|L
+tele ~ prefix ~ Greek ~ far away ~ tele ~ ~ ~ telephone|television|telescope|teleport|telegram ~ A telescope lets you see stars far away. ~ 4 ~ ~ H|RR
+micro ~ prefix ~ Greek ~ very small ~ micro ~ ~ ~ microscope|microwave|microphone|microchip|microbe ~ A microscope helps you see very small things. ~ 4 ~ ~ RR
+multi ~ prefix ~ Latin ~ many ~ multi ~ ~ ~ multiply|multiple|multicolor|multimedia|multitask ~ A multicolor rainbow has many colors. ~ 3 ~ ~ RR|L
+uni ~ prefix ~ Latin ~ one ~ uni ~ ~ ~ unicorn|uniform|unicycle|unit|unite|universe ~ A unicorn has one horn. ~ 3 ~ Number prefix. ~ 
+bi ~ prefix ~ Latin ~ two ~ bi ~ ~ ~ bicycle|binoculars|biweekly|bilingual|biceps ~ A bicycle has two wheels. ~ 3 ~ Number prefix. ~ 
+tri ~ prefix ~ Latin/Greek ~ three ~ tri ~ ~ ~ triangle|tricycle|trio|triple|tripod ~ A triangle has three sides. ~ 3 ~ Number prefix. ~ 
+mono ~ prefix ~ Greek ~ one; alone ~ mono|mon ~ ~ ~ monorail|monopoly|monologue|monotone|monster? ~ A monorail train runs on one rail. ~ 5 ~ Number prefix. ~ RR
+poly ~ prefix ~ Greek ~ many ~ poly ~ ~ ~ polygon|polyester|polygraph|polyhedron ~ A polygon is a shape with many sides. ~ 5 ~ Math vocabulary. ~ 
+circum ~ prefix ~ Latin ~ around ~ circum|circu ~ ~ ~ circumference|circus|circle|circulate|circumstance ~ The circumference is the distance around a circle. ~ 5 ~ circle/circus share the Latin circus 'ring'. ~ RR
+contra ~ prefix ~ Latin ~ against ~ contra|contro|counter ~ ~ ~ contrast|contradict|counter|controversy|encounter ~ To contradict someone is to speak against what they said. ~ 6 ~ counter- is its French form. ~ RR
+extra ~ prefix ~ Latin ~ outside; beyond ~ extra ~ ~ ~ extraordinary|extraterrestrial|extracurricular|extreme ~ An extraterrestrial comes from beyond Earth. ~ 5 ~ ~ 
+intra ~ prefix ~ Latin ~ inside; within ~ intra|intro ~ ~ ~ introduce|intramural|introvert|intravenous ~ When you introduce a friend, you bring them inside the group. ~ 6 ~ intro- in Lane et al. 2019. ~ L
+mal ~ prefix ~ Latin ~ bad ~ mal|male ~ ~ ~ malfunction|malware|malnourished|malice ~ A malfunction is when a machine works badly. ~ 6 ~ ~ RR
+bene ~ prefix ~ Latin ~ good; well ~ bene|beni|bon ~ ~ ~ benefit|benefactor|bonus|benign ~ A benefit is something good you get. ~ 6 ~ ~ RR
+syn ~ prefix ~ Greek ~ together; same ~ syn|sym|syl ~ ~ ~ synonym|symphony|sympathy|symbol|system|synchronize ~ A symphony is many instruments sounding together. ~ 6 ~ High-frequency Greek element in ELA (Lane et al. 2019). ~ L
+dia ~ prefix ~ Greek ~ through; across ~ dia|di ~ ~ ~ diameter|diagonal|diagram|dialogue|dialect ~ A diagonal line goes across a square from corner to corner. ~ 6 ~ ~ L
+para ~ prefix ~ Greek ~ beside ~ para|par ~ ~ ~ paragraph|parallel|parachute|paraphrase|paramedic ~ Parallel lines run beside each other and never meet. ~ 6 ~ ~ L
+peri ~ prefix ~ Greek ~ around ~ peri ~ ~ ~ perimeter|period|periscope|peripheral ~ The perimeter is the distance around a shape. ~ 5 ~ ~ L
+epi ~ prefix ~ Greek ~ upon; in addition ~ epi|ep ~ ~ ~ episode|epilogue|epidemic|epicenter ~ An epilogue is an extra part added on at the end of a story. ~ 7 ~ ~ L
+hyper ~ prefix ~ Greek ~ over; too much ~ hyper ~ ~ ~ hyperactive|hyperlink|hyperbole|hyperspace ~ A hyperactive puppy has too much energy. ~ 6 ~ ~ L
+hypo ~ prefix ~ Greek ~ under; below ~ hypo ~ ~ ~ hypothesis|hypothermia|hypodermic ~ Hypothermia means your body heat drops below normal. ~ 7 ~ ~ RR
+a-not ~ prefix ~ Greek ~ not; without ~ a|an ~ ~ ~ atypical|asymmetry|anonymous|atom|apathy ~ Anonymous means without a name. ~ 7 ~ Greek 'alpha privative'; hard to spot, best taught late. ~ L
+pan ~ prefix ~ Greek ~ all ~ pan|panto ~ ~ ~ panorama|pandemic|pantomime|Pangaea ~ A panorama picture shows all the view at once. ~ 7 ~ ~ 
+omni ~ prefix ~ Latin ~ all ~ omni ~ ~ ~ omnivore|omnipotent|omniscient|omnibus ~ An omnivore eats all kinds of food, plants and meat. ~ 6 ~ ~ L
+equi ~ prefix ~ Latin ~ equal ~ equi|equa|equ ~ ~ ~ equal|equator|equation|equivalent|equilateral ~ The equator splits Earth into two equal halves. ~ 5 ~ ~ 
+kilo ~ prefix ~ Greek ~ thousand ~ kilo ~ ~ ~ kilogram|kilometer|kilowatt|kilobyte ~ A kilometer is one thousand meters. ~ 4 ~ Metric prefix. ~ 
+milli ~ prefix ~ Latin ~ thousand; thousandth ~ milli|mill ~ ~ ~ millimeter|million|millipede|millennium|milligram ~ A millipede looks like it has a thousand legs. ~ 4 ~ Metric prefix. ~ 
+cent ~ prefix ~ Latin ~ hundred ~ cent|centi ~ ~ ~ cent|century|percent|centimeter|centipede ~ A century is one hundred years. ~ 4 ~ ~ RR
+tion ~ suffix ~ Latin ~ act or result of (makes a noun) ~ tion|sion|ion|ation|ition ~ ~ ~ action|vacation|invention|direction|celebration|decision|education ~ An invention is the result of inventing something new. ~ 4 ~ Top derivational suffix (-tion/-ation/-ition = 4% of all suffixed words; White et al. 1989). ~ W|RR|L
+able ~ suffix ~ Latin ~ can be done; worth ~ able|ible|ble ~ ~ ~ washable|comfortable|readable|visible|possible|lovable|edible ~ A washable shirt can be washed. ~ 3 ~ 2% of suffixed words (White et al. 1989). ~ W|RR
+al ~ suffix ~ Latin ~ relating to ~ al|ial ~ ~ ~ natural|musical|personal|national|magical|seasonal ~ A musical show is related to music. ~ 4 ~ #1 suffix in academic words (Lane et al. 2019). ~ W|RR|L
+y ~ suffix ~ Old English ~ full of; having ~ y ~ ~ ~ sunny|rainy|funny|messy|salty|windy|cloudy ~ A rainy day is full of rain. ~ 2 ~ Anglo-Saxon. ~ W|RR|L
+ness ~ suffix ~ Old English ~ state of being ~ ness ~ ~ ~ kindness|darkness|happiness|sadness|fitness|weakness ~ Kindness is the state of being kind. ~ 3 ~ Anglo-Saxon. ~ W|RR
+ly ~ suffix ~ Old English ~ in a way that is ~ ly|ily ~ ~ ~ quickly|slowly|safely|quietly|happily|friendly ~ If you walk quietly, you walk in a quiet way. ~ 2 ~ 7% of suffixed words (White). Anglo-Saxon. ~ W|RR|L
+er-agent ~ suffix ~ Old English/Latin ~ person or thing that does ~ er|or|ar ~ ~ ~ teacher|player|actor|inventor|sailor|visitor|computer ~ A sailor is a person who sails. ~ 2 ~ -er is Anglo-Saxon; -or is Latin (actor, inventor). 4% of suffixed words. ~ W|RR|L
+ity ~ suffix ~ Latin ~ state or quality of ~ ity|ty ~ ~ ~ activity|electricity|community|safety|ability|reality|security ~ Electricity is the quality of being electric. ~ 5 ~ ~ W|RR|L
+ment ~ suffix ~ Latin ~ act or result of ~ ment ~ ~ ~ movement|payment|agreement|excitement|treatment|equipment ~ Excitement is the feeling that comes from being excited. ~ 4 ~ ~ W|RR|L
+ic ~ suffix ~ Greek/Latin ~ relating to; like ~ ic|ical|tic ~ ~ ~ magic|athletic|historic|electric|scientific|comic|heroic ~ A heroic act is like something a hero would do. ~ 5 ~ ~ W|RR|L
+ous ~ suffix ~ Latin ~ full of ~ ous|ious|eous ~ ~ ~ dangerous|famous|curious|nervous|joyous|delicious|enormous ~ A dangerous road is full of danger. ~ 4 ~ ~ W|RR|L
+en ~ suffix ~ Old English ~ make; made of ~ en ~ ~ ~ golden|wooden|sharpen|brighten|soften|frighten ~ When you sharpen a pencil, you make it sharp. ~ 3 ~ Anglo-Saxon. ~ W|RR
+ive ~ suffix ~ Latin ~ tending to; having the quality of ~ ive|ative|itive ~ ~ ~ creative|active|attractive|expensive|positive|massive ~ A creative kid tends to create new things. ~ 5 ~ ~ W|RR|L
+ful ~ suffix ~ Old English ~ full of ~ ful ~ ~ ~ helpful|careful|beautiful|colorful|playful|thankful ~ A helpful friend is full of help. ~ 2 ~ Anglo-Saxon. ~ W|RR
+less ~ suffix ~ Old English ~ without ~ less ~ ~ ~ hopeless|careless|homeless|endless|fearless|wireless ~ A fearless kid is without fear. ~ 2 ~ Anglo-Saxon. ~ W|RR
+est ~ suffix ~ Old English ~ the most ~ est|er ~ ~ ~ tallest|fastest|biggest|smallest|taller|faster ~ The tallest giraffe is the most tall. ~ 2 ~ Comparative -er and superlative -est together (White ranks both in top 20). Anglo-Saxon. ~ W|RR
+ist ~ suffix ~ Greek ~ person who does or believes ~ ist ~ ~ ~ artist|scientist|dentist|cyclist|tourist|pianist ~ A pianist is a person who plays the piano. ~ 4 ~ ~ L
+ism ~ suffix ~ Greek ~ belief; practice ~ ism ~ ~ ~ heroism|tourism|patriotism|optimism|journalism ~ Heroism is the act of being a hero. ~ 7 ~ ~ 
+ize ~ suffix ~ Greek ~ to make ~ ize|ise ~ ~ ~ organize|memorize|realize|apologize|recognize|summarize ~ To memorize is to make something stay in your memory. ~ 5 ~ ~ L
+logy ~ suffix ~ Greek ~ study of ~ logy|ology ~ ~ ~ biology|geology|technology|zoology|ecology|mythology ~ Zoology is the study of animals. ~ 5 ~ See also root log. ~ RR|L
+ance ~ suffix ~ Latin ~ state or action of ~ ance|ence|ancy|ency ~ ~ ~ performance|difference|silence|distance|patience|emergency ~ Silence is the state of being silent. ~ 5 ~ ~ L
+ant ~ suffix ~ Latin ~ one who; being ~ ant|ent ~ ~ ~ assistant|servant|student|president|important|different ~ A servant is one who serves. ~ 5 ~ ~ L
+ary ~ suffix ~ Latin ~ relating to; place for ~ ary|ory|arium|orium ~ ~ ~ library|dictionary|imaginary|history|laboratory|aquarium ~ A library is a place for books. ~ 5 ~ ~ L
+ate ~ suffix ~ Latin ~ to make; having ~ ate ~ ~ ~ activate|create|celebrate|decorate|educate|separate ~ To activate a toy is to make it active. ~ 5 ~ ~ L
+ure ~ suffix ~ Latin ~ act or result of ~ ure ~ ~ ~ picture|adventure|creature|future|furniture|mixture ~ A mixture is the result of mixing things. ~ 5 ~ ~ L
+ify ~ suffix ~ Latin ~ to make ~ ify|fy ~ ~ ~ simplify|classify|identify|terrify|beautify|magnify ~ A magnifying glass makes things look bigger. ~ 5 ~ From Latin facere 'make'. ~ 
+an ~ suffix ~ Latin ~ person from; related to ~ an|ian|ean ~ ~ ~ musician|librarian|American|magician|vegetarian|historian ~ A magician is a person who does magic. ~ 4 ~ ~ 
+age ~ suffix ~ Latin (via French) ~ act of; collection of ~ age ~ ~ ~ package|storage|baggage|voyage|courage|passage ~ Storage is a place to store things. ~ 5 ~ ~ 
+ish ~ suffix ~ Old English ~ somewhat; like ~ ish ~ ~ ~ childish|foolish|selfish|greenish|reddish|stylish ~ Greenish paint is somewhat green. ~ 3 ~ Anglo-Saxon. ~ 
+ship ~ suffix ~ Old English ~ state of; skill ~ ship ~ ~ ~ friendship|leadership|championship|membership|citizenship ~ Friendship is the state of being friends. ~ 4 ~ Anglo-Saxon. ~ 
+hood ~ suffix ~ Old English ~ state or time of ~ hood ~ ~ ~ childhood|neighborhood|adulthood|brotherhood|likelihood ~ Childhood is the time of being a child. ~ 4 ~ Anglo-Saxon. ~ 
+ar ~ suffix ~ Latin ~ relating to ~ ar ~ ~ ~ circular|popular|solar|lunar|muscular|regular ~ A solar panel is related to the sun. ~ 6 ~ ~ L
+cracy ~ suffix ~ Greek ~ rule; government ~ cracy|crat ~ ~ ~ democracy|democrat|aristocrat|bureaucracy ~ In a democracy, the people rule by voting. ~ 7 ~ ~ 
+phobia ~ suffix ~ Greek ~ fear of ~ phob|phobia ~ ~ ~ phobia|arachnophobia|claustrophobia|phobic ~ Arachnophobia is a fear of spiders. ~ 6 ~ Low frequency but highly memorable for kids. ~ RR
+port ~ root ~ Latin ~ carry ~ port ~ port ~ portion|portrait|portray|proport|portug ~ transport|import|export|report|support|portable|airport ~ A portable speaker is easy to carry. ~ 4 ~ porta/portus 'gate/harbor' (airport, opportunity) is a close relative. ~ H|RR|CDL
+spect ~ root ~ Latin ~ look; see ~ spec|spect|spic ~ spec|spic ~ special|speci|speech|speed|spice|spicy|despic ~ inspect|respect|spectator|expect|suspect|spectacles|prospect ~ A spectator looks at the game from the stands. ~ 4 ~ Note: special/species/spice share the root (specere) but meaning drifted; excluded from counts. ~ H|RR|CDL
+dict ~ root ~ Latin ~ say; tell ~ dict|dic ~ dict|dicat ~ ~ dictionary|predict|contradict|dictate|verdict|indicate|addict ~ To predict is to say what will happen before it happens. ~ 4 ~ ~ H|RR|L|CDL
+graph ~ root ~ Greek ~ write; draw ~ graph|gram ~ graph|gram ~ ~ photograph|paragraph|autograph|graph|graphic|diagram|program ~ An autograph is a name someone writes by hand. ~ 4 ~ -gram (diagram, telegram) is the 'thing written' form. ~ H|RR|L|CDL
+struct ~ root ~ Latin ~ build ~ struct|stru|stroy ~ struct|instrum|destroy ~ ~ construct|structure|instruct|destruction|instrument|destroy ~ Builders construct a house by putting it together. ~ 4 ~ ~ H|RR|L
+ject ~ root ~ Latin ~ throw ~ ject|jet ~ ject ~ ~ project|reject|inject|object|subject|eject|projector ~ A projector throws a picture onto the wall. ~ 5 ~ ~ H|RR|L|CDL
+scrib ~ root ~ Latin ~ write ~ scrib|script ~ scrib|script ~ ~ describe|scribble|script|subscribe|prescription|manuscript|scripture ~ When you scribble, you write in a messy way. ~ 4 ~ ~ H|RR
+duc ~ root ~ Latin ~ lead ~ duc|duct ~ duc|duct ~ ~ produce|conduct|introduce|educate|reduce|product|aqueduct ~ A train conductor leads the train. ~ 5 ~ ~ H|RR|L
+fac ~ root ~ Latin ~ make; do ~ fac|fact|fec|fic ~ fac(t|ul|il|tor)|fect|fic(e|i|ul)|feat ~ face|facial|surface|fiction|fico|traffic|deficit ~ factory|manufacture|effect|perfect|difficult|office|artificial ~ A factory is a place where things are made. ~ 5 ~ Very productive: -fect, -fic, -fy all come from facere. ~ RR|L
+cap ~ root ~ Latin ~ take; seize; hold ~ cap|capt|cept|ceive|cip|ceit ~ capt|cept|ceiv|cip|ceit|capab|capac ~ capital|captain|cipher ~ capture|accept|receive|participate|except|concept|capable ~ When you capture a bug, you take it and hold it. ~ 5 ~ Includes the -ceive family (receive, deceive, perceive). ~ H|L
+mit ~ root ~ Latin ~ send; let go ~ mit|mis|miss ~ mit|miss|mise|missil ~ mitten|smith|summit|limit|vomit|kismet|misery|mist|mistak|miser|misc|missing ~ mission|missile|transmit|submit|permit|admit|promise ~ A missile is something sent flying through the air. ~ 5 ~ ~ H|RR
+pos ~ root ~ Latin ~ put; place ~ pos|pon|pound ~ pos(e|i|t|ure)|pon(e|ent)|pound ~ possib|possess|poss$|posse|posh|post$|poster|posy|ponder|pony|ponytail|pound$|pounds$|pounding ~ position|deposit|compose|opposite|postpone|component|expose ~ To deposit money is to put it in the bank. ~ 5 ~ Top Latin root in academic words (Lane et al. 2019). ~ L
+sta ~ root ~ Latin ~ stand; stay ~ sta|stat|stit|sist|stan ~ stat|stit|sist|stab|stance|stant|stanc ~ starch|starv ~ station|statue|stable|distance|instant|assist|constant ~ A statue stands still in the park. ~ 5 ~ #2 Latin root in academic words (Lane et al. 2019). ~ L
+vid ~ root ~ Latin ~ see ~ vid|vis|vis ~ vid|vis(i|u|o)|vise|view ~ divid|individ|vivid|avid|provid ~ video|visible|vision|visit|evidence|television|review ~ A video is something you can see. ~ 4 ~ ~ RR|L
+tract ~ root ~ Latin ~ pull; drag ~ tract|tra ~ tract ~ ~ tractor|attract|subtract|distract|extract|contract ~ A tractor pulls heavy things on a farm. ~ 4 ~ ~ H
+rupt ~ root ~ Latin ~ break ~ rupt ~ rupt ~ ~ erupt|interrupt|disrupt|abrupt|bankrupt|corrupt ~ When a volcano erupts, it breaks open. ~ 5 ~ ~ H|RR|CDL
+form ~ root ~ Latin ~ shape ~ form ~ form ~ formula? ~ form|transform|uniform|formula|perform|inform|reform ~ A uniform gives everyone the same shape and look. ~ 4 ~ ~ RR|L
+aud ~ root ~ Latin ~ hear ~ aud|audi ~ aud ~ fraud ~ audio|audience|audition|auditorium|audible ~ An audience is the people who hear the show. ~ 4 ~ ~ H|RR
+ven ~ root ~ Latin ~ come ~ ven|vent ~ vent|vene|venu ~ ventilat ~ adventure|event|invent|prevent|convenient|avenue ~ An event is something that comes and happens. ~ 5 ~ ~ 
+vert ~ root ~ Latin ~ turn ~ vert|vers ~ vert|vers ~ ~ reverse|convert|universe|anniversary|vertical|advertise|version ~ To reverse is to turn back the other way. ~ 5 ~ ~ H|L
+mov ~ root ~ Latin ~ move ~ mov|mot|mob ~ mov|mot(i|o|e|ive)|mobil ~ mother|moth|motto ~ move|motion|motor|remote|emotion|promote|automobile ~ A motor makes a car move. ~ 4 ~ ~ L
+fer ~ root ~ Latin ~ carry; bring ~ fer ~ fer ~ fern|ferret|ferry|ferment|ferocious|fertil|ferris ~ transfer|ferry|offer|prefer|suffer|refer|conference ~ A ferry carries cars across the water. ~ 5 ~ ~ L
+press ~ root ~ Latin ~ push; squeeze ~ press ~ press ~ ~ press|pressure|express|impress|depress|compress ~ When you press a button, you push it. ~ 4 ~ ~ 
+pel ~ root ~ Latin ~ push; drive ~ pel|puls ~ pel(l|$)|puls ~ ~ propel|expel|repel|pulse|impulse|compulsory ~ A magnet can repel another magnet, pushing it away. ~ 6 ~ ~ 
+tend ~ root ~ Latin ~ stretch; reach ~ tend|tens|tent ~ tend|tens|tent(i|ion) ~ tendon? ~ extend|attend|pretend|tension|intense|attention ~ To extend your arm is to stretch it out. ~ 5 ~ ~ 
+ten ~ root ~ Latin ~ hold; keep ~ ten|tain|tin ~ tain|tinu|tenan|tinent|tenac ~ ~ contain|maintain|obtain|continue|retain|entertain|continent ~ A container holds things inside it. ~ 6 ~ ~ 
+cur ~ root ~ Latin ~ run; flow ~ cur|curs|cour ~ curr|curs|cour(se|ier)|cur(e|r|s)$|occur|incur|recur ~ curious|curl|cure|secur|accura ~ current|cursor|course|occur|recur|excursion|courier ~ A river current is water that runs fast. ~ 6 ~ ~ L
+grad ~ root ~ Latin ~ step; go ~ grad|gress|gree ~ grad|gress|degree ~ ~ grade|graduate|gradual|progress|aggressive|degree ~ When you graduate, you step up to the next level. ~ 5 ~ ~ 
+sequ ~ root ~ Latin ~ follow ~ sequ|sec|sue|secu ~ sequ|secut|second|pursu|ensue ~ ~ sequence|sequel|consequence|second|consecutive|pursue ~ A sequel is a movie that follows the first one. ~ 6 ~ ~ L
+leg ~ root ~ Latin ~ read; choose; law ~ leg|lect|lig ~ lect|legi|legal|legis|elig|intellig ~ ~ collect|select|elect|lecture|legal|legend|intelligent ~ To select a snack is to choose one. ~ 6 ~ Two related roots (legere 'read/choose', lex 'law'). ~ L
+log ~ root ~ Greek ~ word; reason; study ~ log|logue|logy ~ logy|logic|logue|logist|logo ~ ~ biology|logic|dialogue|apology|catalog|technology|logo ~ Dialogue is words spoken between characters. ~ 5 ~ #1 Greek root in academic words (Lane et al. 2019). ~ RR|L
+bio ~ root ~ Greek ~ life ~ bio ~ bio ~ ~ biology|biography|biome|antibiotic|biodegradable ~ Biology is the study of life. ~ 5 ~ ~ H|RR|L
+geo ~ root ~ Greek ~ earth ~ geo ~ geo ~ george ~ geography|geology|geometry|geode|geothermal ~ Geography is about places on Earth. ~ 5 ~ ~ H|CDL
+photo ~ root ~ Greek ~ light ~ photo|phos ~ photo|phos ~ ~ photo|photograph|photosynthesis|photon|telephoto ~ A photograph is a picture made with light. ~ 4 ~ ~ RR|L
+phon ~ root ~ Greek ~ sound ~ phon|phone ~ phon ~ ~ phone|telephone|microphone|headphones|symphony|phonics|saxophone ~ Headphones bring sound to your ears. ~ 4 ~ ~ H|RR|L
+therm ~ root ~ Greek ~ heat ~ therm ~ therm ~ ~ thermometer|thermos|thermostat|thermal|geothermal ~ A thermometer measures how hot something is. ~ 5 ~ ~ RR
+meter ~ root ~ Greek ~ measure ~ meter|metr|meas ~ meter|metr|meas|dimens ~ ~ thermometer|speedometer|diameter|perimeter|metric|symmetry|measure ~ A speedometer measures how fast a car goes. ~ 5 ~ measure/dimension come from the related Latin metiri. ~ H|RR
+scope ~ root ~ Greek ~ look at; see ~ scope|scop ~ scop ~ ~ microscope|telescope|periscope|kaleidoscope|horoscope ~ A periscope lets a submarine look above the water. ~ 5 ~ ~ RR
+hydro ~ root ~ Greek ~ water ~ hydr|hydro ~ hydr ~ ~ hydrant|hydrate|dehydrated|hydrogen|hydroplane ~ A fire hydrant gives firefighters water. ~ 5 ~ ~ RR
+astro ~ root ~ Greek ~ star ~ astr|aster ~ astr|aster|disast ~ ~ astronaut|astronomy|asteroid|asterisk|disaster ~ An astronaut travels toward the stars. ~ 4 ~ disaster literally = 'bad star'. ~ H
+chron ~ root ~ Greek ~ time ~ chron ~ chron ~ ~ chronological|chronic|synchronize|chronicle ~ Chronological order puts events in time order. ~ 6 ~ ~ RR|L
+cycl ~ root ~ Greek ~ circle; wheel ~ cycl|cycle ~ cycl ~ ~ bicycle|recycle|cycle|cyclone|encyclopedia|tricycle ~ A bicycle has two wheels. ~ 4 ~ ~ 
+path ~ root ~ Greek ~ feeling; suffering ~ path ~ (?<!foot)path(y|e|o|i) ~ ~ sympathy|empathy|pathetic|apathy ~ Empathy means feeling what someone else feels. ~ 7 ~ Not 'path' as in trail (that's Old English). ~ 
+phil ~ root ~ Greek ~ love ~ phil ~ phil ~ ~ philosophy|Philadelphia|philanthropy|bibliophile ~ Philadelphia's name means 'city of brotherly love.' ~ 6 ~ ~ RR
+techn ~ root ~ Greek ~ skill; art ~ techn|tech ~ techn|tech$ ~ ~ technology|technique|technical|tech ~ Technology uses skill and science to build tools. ~ 5 ~ ~ RR|L
+psych ~ root ~ Greek ~ mind; soul ~ psych ~ psych ~ ~ psychology|psychic|psychologist ~ A psychologist helps people understand their minds. ~ 7 ~ ~ RR|CDL
+gen ~ root ~ Latin/Greek ~ birth; kind; produce ~ gen|gener ~ gener|genet|genus|genre|gene$|genes|genius|genuin|oxygen|hydrogen|indigen ~ ~ generate|generation|gene|genius|oxygen|general|genre ~ A generator produces electricity. ~ 6 ~ ~ L
+nat ~ root ~ Latin ~ born ~ nat|nasc ~ nat(ur|ion|iv|al)|innate|prenatal ~ ~ nature|native|nation|natural|international ~ A native plant was born and grew in that place. ~ 5 ~ ~ 
+viv ~ root ~ Latin ~ live; life ~ viv|vit|vic ~ viv|vita|vital ~ ~ survive|vivid|revive|vitamin|vital ~ Vitamins help your body stay alive and healthy. ~ 5 ~ ~ 
+mort ~ root ~ Latin ~ death ~ mort ~ mort ~ ~ mortal|immortal|mortgage|mortician ~ An immortal hero in a myth never dies. ~ 6 ~ ~ RR
+man ~ root ~ Latin ~ hand ~ man|manu ~ manu|manag|manip|maneuv|manic|manner ~ manuel ~ manual|manufacture|manage|manicure|manipulate|manuscript ~ A manual can opener works by hand. ~ 5 ~ ~ 
+ped ~ root ~ Latin ~ foot ~ ped|pod ~ pedal|pedes|pedi(c|g)|centipede|millipede|expedi|imped|tripod|podium ~ ~ pedal|pedestrian|centipede|tripod|podium|expedition ~ You push a bike pedal with your foot. ~ 4 ~ Greek pod 'foot' (tripod, podium) is a cousin. ~ H
+cred ~ root ~ Latin ~ believe ~ cred ~ cred ~ ~ incredible|credit|credible|creed|discredit ~ An incredible story is hard to believe. ~ 5 ~ ~ 
+jus ~ root ~ Latin ~ law; right; judge ~ jus|jud|jur ~ just|jud|jur(y|i|or)|injur ~ ~ justice|judge|jury|injury|adjust|prejudice ~ A judge decides what is right in court. ~ 5 ~ ~ RR
+loc ~ root ~ Latin ~ place ~ loc ~ loca|local ~ ~ local|location|locate|relocate|allocate ~ The location is the place where something is. ~ 4 ~ ~ 
+mar ~ root ~ Latin ~ sea ~ mar|mari ~ marin|maritim|submar|aquamar|mariner ~ ~ marine|submarine|maritime|mariner|aquamarine ~ Marine animals live in the sea. ~ 4 ~ ~ 
+terr ~ root ~ Latin ~ land; earth ~ terr ~ terr(a|i|e)|territ ~ terrible|terribl|terror|terrif|terrier ~ territory|terrain|terrace|extraterrestrial|Mediterranean ~ A terrarium is a little container of earth and plants. ~ 5 ~ terrible/terrify come from a different root (terrere 'frighten'). ~ 
+aqua ~ root ~ Latin ~ water ~ aqua|aque ~ aqua|aque ~ ~ aquarium|aquatic|aqueduct|aquamarine ~ An aquarium is a water tank for fish. ~ 4 ~ ~ RR
+sol ~ root ~ Latin ~ sun; alone ~ sol ~ solar|solstice|solo|solit|parasol ~ ~ solar|solo|solitary|solstice|parasol ~ Solar panels use energy from the sun. ~ 4 ~ Two roots share this spelling: sol 'sun' and solus 'alone'. ~ 
+sign ~ root ~ Latin ~ mark; sign ~ sign ~ sign ~ ~ sign|signal|signature|design|assign|significant ~ Your signature is the special mark of your name. ~ 4 ~ ~ 
+nom ~ root ~ Greek/Latin ~ name ~ nom|nym|nomen|noun ~ nym|nomin|noun|nomen ~ ~ synonym|antonym|nominate|pronoun|noun|anonymous ~ A pronoun stands for a person's name. ~ 4 ~ ~ RR|L
+voc ~ root ~ Latin ~ voice; call ~ voc|vok|voic ~ voc|vok|voice ~ ~ voice|vocal|vocabulary|advocate|provoke|vocation ~ A vocal song uses your voice. ~ 5 ~ ~ RR
+ver ~ root ~ Latin ~ true ~ ver|veri ~ verif|verit|verdict|very$ ~ ~ verify|verdict|very|veritable ~ To verify a fact is to check that it is true. ~ 6 ~ 'very' originally meant 'truly'. ~ 
+labor ~ root ~ Latin ~ work ~ labor|labour ~ labor|labour|elabor|collabor ~ ~ labor|laboratory|elaborate|collaborate ~ A laboratory is a place where scientists work. ~ 6 ~ ~ 
+liber ~ root ~ Latin ~ free ~ liber|liver ~ liber|deliver ~ ~ liberty|liberate|liberal|deliver ~ The Statue of Liberty stands for being free. ~ 5 ~ ~ 
+mem ~ root ~ Latin ~ remember; mind ~ mem|ment ~ memo|remem|mental|mention|comment ~ ~ memory|remember|memorial|memo|mental|comment ~ A memory is something your mind keeps. ~ 4 ~ ~ 
+sens ~ root ~ Latin ~ feel; sense ~ sens|sent ~ sens|sentim|consent|resent|assent ~ ~ sense|sensitive|sensor|sentence? |consent|nonsense ~ A sensor feels changes like heat or light. ~ 5 ~ ~ RR
+sci ~ root ~ Latin ~ know ~ sci ~ scien|consci|omnisc ~ ~ science|scientist|conscious|conscience ~ A scientist works to know how the world works. ~ 5 ~ ~ 
+pend ~ root ~ Latin ~ hang; weigh; pay ~ pend|pens ~ pend|pens ~ ~ depend|pendant|suspend|pendulum|expensive|spend ~ A pendulum hangs and swings back and forth. ~ 6 ~ ~ L
+plic ~ root ~ Latin ~ fold ~ plic|ply|plex ~ plic|plex|ply$|plies|ploy ~ ~ complicated|multiply|reply|apply|explicit|complex|employ ~ To multiply is to fold a number over many times. ~ 6 ~ ~ L
+fin ~ root ~ Latin ~ end; limit ~ fin ~ fin(al|ish|ite|e$|al)|defin|infin|confin ~ ~ final|finish|infinite|define|confine|finale ~ The final round is the end of the game. ~ 4 ~ ~ 
+flect ~ root ~ Latin ~ bend ~ flect|flex ~ flect|flex ~ ~ reflect|flexible|reflection|reflex|deflect ~ A mirror reflects light, bending it back. ~ 6 ~ ~ 
+flu ~ root ~ Latin ~ flow ~ flu|flux ~ fluid|fluen|flux|influ ~ ~ fluid|fluent|influence|flush? |influenza ~ A fluid is something that flows, like water. ~ 6 ~ ~ 
+fract ~ root ~ Latin ~ break ~ fract|frag ~ fract|frag ~ fragran ~ fraction|fracture|fragment|fragile ~ A fragile vase can break easily. ~ 5 ~ ~ RR
+junct ~ root ~ Latin ~ join ~ junct|join|jug ~ junct|join ~ ~ junction|conjunction|join|adjoin ~ A junction is where two roads join. ~ 5 ~ ~ 
+clud ~ root ~ Latin ~ close; shut ~ clud|clus|clos|clois ~ clud|clus|clos ~ ~ include|exclude|conclusion|close|closet|enclose ~ To include a friend is to close them into the group. ~ 5 ~ ~ 
+cid ~ root ~ Latin ~ cut; kill ~ cid|cis ~ decid|decis|precis|incis|scissor|pestici|insectici ~ ~ decide|decision|precise|scissors|incisor|pesticide ~ Scissors cut paper. ~ 6 ~ decide = 'cut off' other choices. ~ 
+ced ~ root ~ Latin ~ go; yield ~ ced|cess|ceed ~ ced(e|ur|ent)|cess|ceed ~ ~ proceed|exceed|success|process|access|procedure|necessary ~ A procession is a line of people going forward. ~ 6 ~ ~ 
+sed ~ root ~ Latin ~ sit; settle ~ sid|sed|sess ~ resid|presid|subsid|sediment|session|possess ~ ~ president|resident|session|sediment|preside ~ A president sits at the head of a country's government. ~ 6 ~ ~ 
+ord ~ root ~ Latin ~ order ~ ord ~ order|ordin|coordin ~ ~ order|ordinary|extraordinary|coordinate|ordinal ~ Ordinal numbers tell the order: first, second, third. ~ 5 ~ ~ 
+oper ~ root ~ Latin ~ work ~ oper ~ oper ~ opera$ ~ operate|operation|cooperate|operator ~ When we cooperate, we work together. ~ 5 ~ ~ 
+mand ~ root ~ Latin ~ order; entrust ~ mand|mend ~ mand|recommend|commend ~ ~ command|demand|mandatory|recommend|commander ~ A commander gives orders. ~ 6 ~ ~ 
+migr ~ root ~ Latin ~ move; wander ~ migr ~ migr ~ ~ migrate|immigrant|migration|emigrate ~ Birds migrate, moving south for the winter. ~ 5 ~ ~ 
+nov ~ root ~ Latin ~ new ~ nov ~ novel|novic|innov|renov|nova ~ ~ novel|novice|innovation|renovate|supernova ~ A novice is someone new at something. ~ 6 ~ ~ 
+numer ~ root ~ Latin ~ number ~ numer|numb ~ numer|number ~ ~ number|numeral|numerous|enumerate|numerator ~ A numeral is a symbol for a number. ~ 4 ~ ~ 
+popul ~ root ~ Latin ~ people ~ popul|publ|pub ~ popul|publi|pub$ ~ ~ population|popular|public|publish|republic ~ The population is all the people in a place. ~ 5 ~ ~ 
+prim ~ root ~ Latin ~ first ~ prim|prin|prem ~ prim|princ|premier ~ primp ~ primary|prime|primitive|prince|principal ~ Primary colors are the first colors you mix others from. ~ 5 ~ ~ 
+quest ~ root ~ Latin ~ ask; seek ~ quer|quest|quir|quis ~ quest|quer(y|i)|quir|quisit ~ ~ question|request|quest|inquire|require|conquer ~ A question is how you ask for something you want to know. ~ 5 ~ ~ 
+rect ~ root ~ Latin ~ straight; rule ~ rect|reg|rig ~ rect|regul|regim|region|reign|royal ~ ~ correct|direct|rectangle|erect|regular|region ~ A rectangle has four straight sides and right angles. ~ 5 ~ ~ L
+rot ~ root ~ Latin ~ turn; wheel ~ rot ~ rotat|rotar|rotor ~ ~ rotate|rotation|rotary|rotor ~ Earth rotates, turning once every day. ~ 5 ~ ~ 
+serv ~ root ~ Latin ~ save; keep; serve ~ serv ~ serv ~ ~ serve|conserve|reserve|observe|preserve|servant|deserve ~ To conserve water is to save it. ~ 5 ~ ~ 
+simil ~ root ~ Latin ~ like; same ~ simil|sim|sembl ~ simil|simul|resembl|assembl ~ ~ similar|simile|simulate|resemble|assemble ~ Similar shapes look alike. ~ 5 ~ ~ 
+son ~ root ~ Latin ~ sound ~ son|sound ~ sonic|sonar|sonnet|consonan|reson|unison ~ ~ sonic|sonar|consonant|unison|supersonic ~ A supersonic jet is faster than sound. ~ 5 ~ ~ L
+spir ~ root ~ Latin ~ breathe ~ spir ~ spir ~ ~ inspire|spirit|expire|respiration|perspire ~ When you perspire, your skin 'breathes' out sweat. ~ 6 ~ ~ 
+tact ~ root ~ Latin ~ touch ~ tact|tang|tag ~ tact|tangi|contag ~ ~ contact|tactile|intact|tangible|contagious ~ Contact means to touch or reach someone. ~ 6 ~ ~ 
+temp ~ root ~ Latin ~ time ~ temp|tempor ~ tempor|tempo$|contempor ~ ~ temporary|contemporary|tempo ~ A temporary tattoo lasts only a short time. ~ 6 ~ ~ 
+urb ~ root ~ Latin ~ city ~ urb ~ urban|suburb ~ ~ urban|suburb|suburban ~ A suburb is the area just outside a city. ~ 6 ~ ~ 
+vac ~ root ~ Latin ~ empty ~ vac|van|void ~ vac(a|u|c)|vanish|avoid|void ~ ~ vacation|vacuum|vacant|evacuate|vanish|avoid ~ A vacuum sucks the air out until a space is empty. ~ 5 ~ ~ 
+val ~ root ~ Latin ~ strong; worth ~ val|vail ~ valu|valid|valor|valiant|evalu|equival|avail|prevail ~ ~ value|valuable|valid|evaluate|available|equivalent ~ A valuable coin is worth a lot of money. ~ 5 ~ ~ 
+volv ~ root ~ Latin ~ roll; turn ~ volv|volu|volt ~ volv|revolu|evolu|volum ~ ~ revolve|evolve|revolution|involve|volume ~ The Earth revolves, rolling around the Sun. ~ 6 ~ ~ 
+via ~ root ~ Latin ~ way; road ~ via|voy|vey|vi ~ via|voyag|convey|previous|obvious|trivia|deviat ~ ~ via|voyage|convey|previous|obvious|trivia ~ A voyage is a trip along a long way. ~ 6 ~ ~ 
+vict ~ root ~ Latin ~ conquer ~ vict|vinc ~ vict|vinc ~ evict ~ victory|victor|convince|invincible|province ~ A victory is when you conquer and win. ~ 5 ~ ~ 
+zoo ~ root ~ Greek ~ animal ~ zo|zoo ~ zoo|zodiac ~ ~ zoo|zoology|zookeeper|zodiac ~ A zoo is a place to see animals. ~ 3 ~ ~ 
+ann ~ root ~ Latin ~ year ~ ann|enn ~ annu|anniv|ennial|ennium ~ ~ annual|anniversary|centennial|millennium|biannual ~ An anniversary comes once every year. ~ 5 ~ ~ 
+min ~ root ~ Latin ~ small; less ~ min ~ mini|minu|minor|minim|dimin ~ minist|mining|minimal? ~ mini|minute|minor|minimum|diminish|minus ~ A minibus is a small bus. ~ 4 ~ ~ H
+magn ~ root ~ Latin ~ great; large ~ magn|max|maj ~ magni|maxim|major ~ magnet ~ magnify|magnificent|maximum|major|majority ~ A magnifying glass makes things look large. ~ 5 ~ ~ 
+mega ~ root ~ Greek ~ huge; million ~ mega|megal ~ mega ~ ~ megaphone|megabyte|megastore|megalodon ~ A megaphone makes your voice huge. ~ 4 ~ ~ 
+pater ~ root ~ Latin/Greek ~ father ~ pater|patr|pat ~ patern|patri|patron|pattern ~ patrol|patrick ~ paternal|patriot|patron|pattern ~ A patriot loves their fatherland, their country. ~ 6 ~ ~ RR
+mater ~ root ~ Latin ~ mother ~ mater|matr|metro ~ matern|matri|matron|metropol ~ ~ maternal|maternity|matrix|metropolitan ~ Maternity clothes are for moms-to-be. ~ 6 ~ ~ RR
+fort ~ root ~ Latin ~ strong ~ fort|forc ~ fort(r|i|e|$)|forc|effort|comfort ~ fortun|fortn|forty|forth ~ fort|fortress|force|effort|comfort|enforce ~ A fortress is a strong building that protects people. ~ 5 ~ ~ RR
+capit ~ root ~ Latin ~ head ~ capit|cap|chief ~ capit|captain|chief|cape$|decapit ~ ~ capital|captain|chief|decapitate|cap ~ The captain is the head of the team. ~ 5 ~ Different from cap/capt 'take'. ~ 
+corp ~ root ~ Latin ~ body ~ corp|corpor ~ corp|incorpor ~ ~ corps|corporation|corpse|incorporate ~ A corporation is a group that acts as one body. ~ 7 ~ ~ 
+dent ~ root ~ Latin ~ tooth ~ dent ~ dentis|dental|denture|dentin|trident ~ ~ dentist|dental|denture|trident ~ A dentist takes care of your teeth. ~ 3 ~ ~ 
+dorm ~ root ~ Latin ~ sleep ~ dorm ~ dorm ~ ~ dormitory|dorm|dormant|dormouse ~ A dormant volcano is 'sleeping' and not erupting. ~ 5 ~ ~ CDL
+hab ~ root ~ Latin ~ live; have; hold ~ hab|hib ~ habit|inhabit|exhibit|prohibit ~ ~ habit|habitat|inhabit|exhibit|prohibit ~ A habitat is where an animal lives. ~ 5 ~ ~ 
+lum ~ root ~ Latin ~ light ~ lum|luc|lus ~ lumin|illumin|lucid|translucen ~ ~ illuminate|luminous|translucent|lucid ~ A luminous watch glows with light. ~ 6 ~ ~ 
+medi ~ root ~ Latin ~ middle ~ medi|mid ~ medi(a|u|e)|mediterr|intermedi|immedia ~ medic|medit ~ medium|median|media|intermediate|Mediterranean|immediate ~ The median strip is in the middle of the road. ~ 5 ~ ~ 
+mir ~ root ~ Latin ~ wonder; look ~ mir ~ mirac|mirror|admir|mirag ~ ~ miracle|mirror|admire|mirage ~ When you admire a painting, you look at it with wonder. ~ 5 ~ ~ 
+mon ~ root ~ Latin ~ warn; show ~ mon|monstr ~ monitor|demonstr|monument|summon|premoni ~ ~ monitor|demonstrate|monument|summon ~ A monument shows us someone to remember. ~ 6 ~ ~ 
+nav ~ root ~ Latin ~ ship; sail ~ nav|naut ~ naviga|naval|navy|nautic|astronaut|cosmonaut|argonaut ~ ~ navy|navigate|naval|astronaut|nautical ~ To navigate is to steer a ship or find your way. ~ 5 ~ naut is the Greek cousin (astronaut = star sailor). ~ 
+pac ~ root ~ Latin ~ peace ~ pac|peas|peac ~ pacif|peace|appeas ~ ~ peace|pacify|Pacific|pacifier|appease ~ The Pacific Ocean was named for its peaceful waters. ~ 5 ~ ~ 
+part ~ root ~ Latin ~ part; divide ~ part|port ~ part|portion|particle ~ partner? ~ part|particle|partial|depart|apartment|portion ~ A portion is a part of the whole meal. ~ 3 ~ ~ 
+pict ~ root ~ Latin ~ paint; picture ~ pict|pig|pint ~ pict|pigment|depict ~ ~ picture|depict|pigment|picturesque ~ A picture is a painting or photo of something. ~ 4 ~ ~ 
+poss ~ root ~ Latin ~ able; power ~ poss|pot|pow ~ possib|potent|potential|power|empower ~ ~ possible|impossible|potential|potent|power ~ If something is possible, you are able to do it. ~ 4 ~ ~ 
+scend ~ root ~ Latin ~ climb ~ scend|scent|scal ~ scend|ascent|descent|escalat ~ ~ ascend|descend|descent|escalator|transcend ~ An escalator helps you climb stairs without walking. ~ 6 ~ ~ 
+sect ~ root ~ Latin ~ cut ~ sect|seg ~ sect|segment ~ ~ section|insect|bisect|intersection|dissect|segment ~ An insect's body is 'cut' into sections. ~ 5 ~ ~ RR
+soc ~ root ~ Latin ~ companion; group ~ soc ~ socia|societ|associat|socie ~ ~ social|society|associate|soccer? ~ A social person likes being with a group. ~ 5 ~ ~ 
+solv ~ root ~ Latin ~ loosen; free ~ solv|solu ~ solv|solut|solub ~ ~ solve|solution|dissolve|absolute|resolve ~ Sugar dissolves in water, loosening into tiny bits. ~ 5 ~ ~ 
+trib ~ root ~ Latin ~ give; pay ~ trib ~ trib ~ tribe|tribal|tribun ~ contribute|distribute|tribute|attribute ~ To contribute is to give your share. ~ 6 ~ ~ 
+us ~ root ~ Latin ~ use ~ us|ut ~ (^|[^a-z])us(e|ed|es|ing|ag|able|eful|eless|ual|ur)|util|abus|misus|reus|excus ~ ~ use|useful|usual|utensil|utility|reuse ~ A useful tool is easy to use. ~ 3 ~ ~ 
+dem ~ root ~ Greek ~ people ~ dem ~ democr|epidem|pandem|demog ~ ~ democracy|epidemic|pandemic|demographic ~ A democracy is ruled by the people. ~ 7 ~ ~ 
+dynam ~ root ~ Greek ~ power ~ dynam|dyna ~ dynam ~ ~ dynamite|dynamic|dynamo|dynasty ~ Dynamite has powerful explosive force. ~ 6 ~ ~ RR
+eco ~ root ~ Greek ~ house; environment ~ eco ~ ^eco|econom ~ ~ ecology|economy|ecosystem|eco-friendly ~ An ecosystem is the 'home' where plants and animals live together. ~ 6 ~ ~ 
+electr ~ root ~ Greek ~ amber; electric ~ electr|elect ~ electr ~ ~ electric|electricity|electronic|electron|electrician ~ An electrician fixes things that use electricity. ~ 4 ~ ~ 
+kine ~ root ~ Greek ~ move; motion ~ kine|cine ~ kinet|cinema ~ ~ kinetic|cinema|kinesthetic ~ Cinema means moving pictures. ~ 7 ~ ~ 
+mech ~ root ~ Greek ~ machine ~ mech|machin ~ mechan|machin ~ ~ mechanic|machine|mechanical|mechanism ~ A mechanic fixes machines like cars. ~ 4 ~ ~ 
+morph ~ root ~ Greek ~ form; shape ~ morph ~ morph ~ ~ morph|metamorphosis|amorphous ~ A caterpillar's metamorphosis changes its whole shape. ~ 6 ~ ~ RR
+phys ~ root ~ Greek ~ nature; body ~ phys ~ phys ~ ~ physical|physics|physician|physique ~ Physical exercise is good for your body. ~ 5 ~ ~ 
+poli ~ root ~ Greek ~ city; state ~ poli|polis|polit ~ polic|polit|metropol|polis ~ polish ~ police|politics|policy|metropolis|political ~ Police keep a city safe. ~ 5 ~ ~ L
+sphere ~ root ~ Greek ~ ball ~ sphere|spher ~ spher ~ ~ sphere|atmosphere|hemisphere|spherical ~ A sphere is shaped like a ball. ~ 5 ~ ~ 
+chrom ~ root ~ Greek ~ color ~ chrom ~ chrom ~ ~ chrome|chromosome|monochrome ~ A monochrome picture uses only one color. ~ 7 ~ ~ 
+homo ~ root ~ Greek ~ same ~ homo ~ homog|homon|homoph ~ ~ homonym|homophone|homogeneous ~ Homophones sound the same but are spelled differently. ~ 5 ~ ~ RR
+dino ~ root ~ Greek ~ terrible ~ dino|deino ~ dino ~ ~ dinosaur|dino ~ Dinosaur means 'terrible lizard.' ~ 2 ~ Very low word count but a strong hook for young kids. ~ 
+anthrop ~ root ~ Greek ~ human ~ anthrop ~ anthrop ~ ~ anthropology|philanthropy|anthropomorphic ~ Anthropology is the study of humans. ~ 8 ~ ~ RR
+bibli ~ root ~ Greek ~ book ~ bibli|bible ~ bibli|bible ~ ~ bibliography|Bible|bibliophile ~ A bibliography is a list of books you used. ~ 7 ~ ~ 
+opt ~ root ~ Greek ~ eye; sight ~ opt|op ~ optic|optom|optical|synop ~ ~ optical|optician|optometrist|synopsis ~ An optician makes glasses for your eyes. ~ 6 ~ ~ 

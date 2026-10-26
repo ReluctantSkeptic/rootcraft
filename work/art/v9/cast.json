@@ -1,0 +1,15 @@
+{
+ "style": "Modern 2010s TV cartoon-shorts animation style: bold, confident brush-weight black ink outlines with lively thick-thin line variation, flat cel colors with at most one flat shadow tone, squash-and-stretch construction, rubbery noodle limbs, big expressive eyes, very dynamic exaggerated pose, simple shapes, highly readable silhouette. Original character design, not based on any existing cartoon character. Clean flat cream paper background (#F5F0E6). Absolutely no text, no letters, no numbers written anywhere, no watermark, no signature, no border.",
+ "cast": [
+  {"id":"fox","name":"Fenn the Fox","desc":"a skinny, springy young orange fox with a cream muzzle, cream chest and cream tail tip, black socks on paws, tall pointy ears, wearing only a short teal scarf knotted at the neck"},
+  {"id":"owl","name":"Hoot the Owl","desc":"a round, egg-shaped little brown owl with a tan belly with a few V feather marks, small ear tufts, huge round eyes inside big round black-rimmed spectacles, short yellow beak and yellow feet, wearing a mustard-yellow knit beanie"},
+  {"id":"turtle","name":"Tango the Turtle","desc":"a small chubby green turtle standing upright on two legs, with a dome shell in warm amber-orange with a darker hexagon pattern, cream belly plate, a big friendly grin, wearing red sneakers with white soles"},
+  {"id":"rabbit","name":"Pip the Rabbit","desc":"a lanky, long-eared soft lavender-grey rabbit with a white tummy, white muzzle, pink inner ears, big buck teeth, wearing sunflower-yellow overalls"},
+  {"id":"bear","name":"Bo the Bear","desc":"a big, round, chunky chocolate-brown bear with a tan muzzle and round tan belly patch, small round ears, wearing a red baseball cap turned backwards"},
+  {"id":"frog","name":"Ribbit the Frog","desc":"a bouncy bright lime-green frog with a pale yellow-green belly, huge bulging eyes on top of the head, wide mouth, long skinny legs with big feet, wearing a purple-and-white horizontally striped t-shirt"},
+  {"id":"raccoon","name":"Rizzo the Raccoon","desc":"a mischievous grey raccoon with a black bandit eye mask, white face markings, a big bushy black-and-grey ringed tail, wearing an orange hoodie"},
+  {"id":"otter","name":"Ollie the Otter","desc":"a sleek, stretchy brown otter with a cream face and cream belly, small round ears, long thick tail, whiskers, wearing blue swim goggles pushed up on the forehead"},
+  {"id":"elephant","name":"Ellie the Elephant","desc":"a chubby baby elephant in soft blue-grey with big floppy ears with pink insides, a long expressive trunk, no tusks, wearing a bright pink t-shirt"},
+  {"id":"penguin","name":"Percy the Penguin","desc":"a short plump penguin, black back and head, white belly and white face patch, orange beak and orange feet, wearing a red knit beanie with a white pom-pom and a matching red mitten on each flipper"}
+ ]
+}

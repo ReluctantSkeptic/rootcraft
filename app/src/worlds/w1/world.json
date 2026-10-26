@@ -1,0 +1,2080 @@
+{
+ "id": "w1",
+ "order": 1,
+ "name": "Ink",
+ "theme": {
+  "name": "ink",
+  "bg": "#121110",
+  "bg2": "#1B1917",
+  "accent": "#E9B949",
+  "foil": [
+   "#F7DE92",
+   "#C99A3A",
+   "#F3E3B0",
+   "#A9D3C8",
+   "#CBB1E6",
+   "#F0C866",
+   "#B8862C"
+  ],
+  "glitter": "#E9D9B4",
+  "particle": "dust"
+ },
+ "levels": [
+  {
+   "id": "re",
+   "root": "re",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "again, or back",
+   "art": "art/re.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-play",
+       "meaning": "to have fun",
+       "real": true,
+       "word": "replay",
+       "def": "to play again"
+      },
+      {
+       "part": "-turn",
+       "meaning": "to go around",
+       "real": true,
+       "word": "return",
+       "def": "to come back"
+      },
+      {
+       "part": "-cycle",
+       "meaning": "a circle",
+       "real": true,
+       "word": "recycle",
+       "def": "to use again"
+      },
+      {
+       "part": "-build",
+       "meaning": "to make",
+       "real": true,
+       "word": "rebuild",
+       "def": "to build again"
+      },
+      {
+       "part": "-happy",
+       "meaning": "glad",
+       "real": false,
+       "word": "rehappy"
+      },
+      {
+       "part": "-lunch",
+       "meaning": "a midday meal",
+       "real": false,
+       "word": "relunch"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "in",
+   "root": "in",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "not",
+   "art": "art/in.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-correct",
+       "meaning": "right",
+       "real": true,
+       "word": "incorrect",
+       "def": "not right"
+      },
+      {
+       "part": "-visible",
+       "meaning": "can be seen",
+       "real": true,
+       "word": "invisible",
+       "def": "not able to be seen"
+      },
+      {
+       "part": "-credible",
+       "meaning": "believable",
+       "real": true,
+       "word": "incredible",
+       "def": "so amazing it's hard to believe"
+      },
+      {
+       "part": "-fair",
+       "meaning": "just",
+       "real": false,
+       "word": "infair"
+      },
+      {
+       "part": "-lucky",
+       "meaning": "having luck",
+       "real": false,
+       "word": "inlucky"
+      },
+      {
+       "part": "-safe",
+       "meaning": "not in danger",
+       "real": false,
+       "word": "insafe"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "dis",
+   "root": "dis",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "not, or apart",
+   "art": "art/dis.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-agree",
+       "meaning": "to think the same",
+       "real": true,
+       "word": "disagree",
+       "def": "to not agree"
+      },
+      {
+       "part": "-appear",
+       "meaning": "to come into view",
+       "real": true,
+       "word": "disappear",
+       "def": "to go out of sight"
+      },
+      {
+       "part": "-honest",
+       "meaning": "truthful",
+       "real": true,
+       "word": "dishonest",
+       "def": "not telling the truth"
+      },
+      {
+       "part": "-connect",
+       "meaning": "to join",
+       "real": true,
+       "word": "disconnect",
+       "def": "to pull apart"
+      },
+      {
+       "part": "-run",
+       "meaning": "to go fast",
+       "real": false,
+       "word": "disrun"
+      },
+      {
+       "part": "-big",
+       "meaning": "large",
+       "real": false,
+       "word": "disbig"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "de",
+   "root": "de",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "down, or away",
+   "art": "art/de.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-frost",
+       "meaning": "ice",
+       "real": true,
+       "word": "defrost",
+       "def": "to melt the ice away"
+      },
+      {
+       "part": "-code",
+       "meaning": "a secret message",
+       "real": true,
+       "word": "decode",
+       "def": "to figure out a secret message"
+      },
+      {
+       "part": "-rail",
+       "meaning": "a track",
+       "real": true,
+       "word": "derail",
+       "def": "to run off the track"
+      },
+      {
+       "part": "-throne",
+       "meaning": "a king's seat",
+       "real": true,
+       "word": "dethrone",
+       "def": "to push a king off the throne"
+      },
+      {
+       "part": "-cake",
+       "meaning": "a sweet treat",
+       "real": false,
+       "word": "decake"
+      },
+      {
+       "part": "-sock",
+       "meaning": "a foot cover",
+       "real": false,
+       "word": "desock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "sub",
+   "root": "sub",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "under, below",
+   "art": "art/sub.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-marine",
+       "meaning": "of the sea",
+       "real": true,
+       "word": "submarine",
+       "def": "a ship that goes under the sea"
+      },
+      {
+       "part": "-way",
+       "meaning": "a path",
+       "real": true,
+       "word": "subway",
+       "def": "a train that runs under the city"
+      },
+      {
+       "part": "-merge",
+       "meaning": "to dip",
+       "real": true,
+       "word": "submerge",
+       "def": "to go under water"
+      },
+      {
+       "part": "-sky",
+       "meaning": "the air above",
+       "real": false,
+       "word": "subsky"
+      },
+      {
+       "part": "-laugh",
+       "meaning": "to giggle",
+       "real": false,
+       "word": "sublaugh"
+      },
+      {
+       "part": "-happy",
+       "meaning": "glad",
+       "real": false,
+       "word": "subhappy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "pre",
+   "root": "pre",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "before",
+   "art": "art/pre.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-view",
+       "meaning": "to see",
+       "real": true,
+       "word": "preview",
+       "def": "a look before it's out"
+      },
+      {
+       "part": "-heat",
+       "meaning": "to warm",
+       "real": true,
+       "word": "preheat",
+       "def": "to heat the oven before cooking"
+      },
+      {
+       "part": "-school",
+       "meaning": "a place to learn",
+       "real": true,
+       "word": "preschool",
+       "def": "school before kindergarten"
+      },
+      {
+       "part": "-historic",
+       "meaning": "from history",
+       "real": true,
+       "word": "prehistoric",
+       "def": "from before history was written"
+      },
+      {
+       "part": "-jump",
+       "meaning": "to leap",
+       "real": false,
+       "word": "prejump"
+      },
+      {
+       "part": "-sing",
+       "meaning": "to make music",
+       "real": false,
+       "word": "presing"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "inter",
+   "root": "inter",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "between",
+   "art": "art/inter.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-net",
+       "meaning": "a web",
+       "real": true,
+       "word": "internet",
+       "def": "the network between computers"
+      },
+      {
+       "part": "-national",
+       "meaning": "of nations",
+       "real": true,
+       "word": "international",
+       "def": "between countries"
+      },
+      {
+       "part": "-rupt",
+       "meaning": "to break",
+       "real": true,
+       "word": "interrupt",
+       "def": "to break in while someone talks"
+      },
+      {
+       "part": "-sleep",
+       "meaning": "to rest",
+       "real": false,
+       "word": "intersleep"
+      },
+      {
+       "part": "-dog",
+       "meaning": "a pet",
+       "real": false,
+       "word": "interdog"
+      },
+      {
+       "part": "-happy",
+       "meaning": "glad",
+       "real": false,
+       "word": "interhappy"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "trans",
+   "root": "trans",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "across, to the other side",
+   "art": "art/trans.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-port",
+       "meaning": "to carry",
+       "real": true,
+       "word": "transport",
+       "def": "to carry from place to place"
+      },
+      {
+       "part": "-form",
+       "meaning": "shape",
+       "real": true,
+       "word": "transform",
+       "def": "to change shape completely"
+      },
+      {
+       "part": "-plant",
+       "meaning": "to set in the ground",
+       "real": true,
+       "word": "transplant",
+       "def": "to move a plant to a new spot"
+      },
+      {
+       "part": "-fer",
+       "meaning": "to carry",
+       "real": true,
+       "word": "transfer",
+       "def": "to move from one place to another"
+      },
+      {
+       "part": "-sing",
+       "meaning": "to make music",
+       "real": false,
+       "word": "transsing"
+      },
+      {
+       "part": "-cake",
+       "meaning": "a sweet treat",
+       "real": false,
+       "word": "transcake"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "super",
+   "root": "super",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "above, or beyond",
+   "art": "art/super.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-market",
+       "meaning": "a store",
+       "real": true,
+       "word": "supermarket",
+       "def": "a giant food store"
+      },
+      {
+       "part": "-hero",
+       "meaning": "a brave one",
+       "real": true,
+       "word": "superhero",
+       "def": "a hero with powers beyond normal"
+      },
+      {
+       "part": "-sonic",
+       "meaning": "sound",
+       "real": true,
+       "word": "supersonic",
+       "def": "faster than the speed of sound"
+      },
+      {
+       "part": "-spoon",
+       "meaning": "for eating soup",
+       "real": false,
+       "word": "superspoon"
+      },
+      {
+       "part": "-nap",
+       "meaning": "a short sleep",
+       "real": false,
+       "word": "supernap"
+      },
+      {
+       "part": "-sock",
+       "meaning": "a foot cover",
+       "real": false,
+       "word": "supersock"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "con",
+   "root": "con",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "together, with",
+   "art": "art/con.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-nect",
+       "meaning": "to tie",
+       "real": true,
+       "word": "connect",
+       "def": "to join together"
+      },
+      {
+       "part": "-struct",
+       "meaning": "to build",
+       "real": true,
+       "word": "construct",
+       "def": "to build by putting parts together"
+      },
+      {
+       "part": "-tact",
+       "meaning": "to touch",
+       "real": true,
+       "word": "contact",
+       "def": "touching; getting in touch"
+      },
+      {
+       "part": "-sleep",
+       "meaning": "to rest",
+       "real": false,
+       "word": "consleep"
+      },
+      {
+       "part": "-happy",
+       "meaning": "glad",
+       "real": false,
+       "word": "conhappy"
+      },
+      {
+       "part": "-jump",
+       "meaning": "to leap",
+       "real": false,
+       "word": "conjump"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "graph",
+   "root": "graph",
+   "variants": [],
+   "origin": "Greek",
+   "type": "Root",
+   "meaning": "to write or draw",
+   "art": "art/graph.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "auto-",
+       "meaning": "self",
+       "real": true,
+       "word": "autograph",
+       "def": "your own written name"
+      },
+      {
+       "part": "photo-",
+       "meaning": "light",
+       "real": true,
+       "word": "photograph",
+       "def": "a picture made with light"
+      },
+      {
+       "part": "para-",
+       "meaning": "beside",
+       "real": true,
+       "word": "paragraph",
+       "def": "a group of sentences"
+      },
+      {
+       "part": "geo-",
+       "meaning": "earth",
+       "real": true,
+       "word": "geography",
+       "def": "the study of places on Earth"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "ungraph"
+      },
+      {
+       "part": "pre-",
+       "meaning": "before",
+       "real": false,
+       "word": "pregraph"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "dict",
+   "root": "dict",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to say",
+   "art": "art/dict.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ion",
+       "meaning": "act of",
+       "real": true,
+       "word": "diction",
+       "def": "the way you say your words"
+      },
+      {
+       "part": "-ate",
+       "meaning": "to make",
+       "real": true,
+       "word": "dictate",
+       "def": "to say words for someone to write"
+      },
+      {
+       "part": "-ator",
+       "meaning": "one who",
+       "real": true,
+       "word": "dictator",
+       "def": "a ruler whose word is law"
+      },
+      {
+       "part": "-ionary",
+       "meaning": "a book of",
+       "real": true,
+       "word": "dictionary",
+       "def": "a book of words and what they mean"
+      },
+      {
+       "part": "-ful",
+       "meaning": "full of",
+       "real": false,
+       "word": "dictful"
+      },
+      {
+       "part": "-ness",
+       "meaning": "state of",
+       "real": false,
+       "word": "dictness"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "pre-",
+       "meaning": "before",
+       "real": true,
+       "word": "predict",
+       "def": "to say what will happen"
+      },
+      {
+       "part": "contra-",
+       "meaning": "against",
+       "real": true,
+       "word": "contradict",
+       "def": "to say the opposite"
+      },
+      {
+       "part": "ver-",
+       "meaning": "true",
+       "real": true,
+       "word": "verdict",
+       "def": "a jury's \"true saying\""
+      },
+      {
+       "part": "re-",
+       "meaning": "again",
+       "real": false,
+       "word": "redict"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "undict"
+      },
+      {
+       "part": "sub-",
+       "meaning": "under",
+       "real": false,
+       "word": "subdict"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "duc",
+   "root": "duc",
+   "variants": [
+    "duct"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to lead",
+   "art": "art/duc.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "con-",
+       "meaning": "with",
+       "real": true,
+       "word": "conduct",
+       "def": "to lead a band or a group"
+      },
+      {
+       "part": "pro-",
+       "meaning": "forward",
+       "real": true,
+       "word": "product",
+       "def": "something that is made"
+      },
+      {
+       "part": "e-",
+       "meaning": "out",
+       "real": true,
+       "word": "educate",
+       "def": "to lead out of not knowing; to teach"
+      },
+      {
+       "part": "de-",
+       "meaning": "away",
+       "real": true,
+       "word": "deduct",
+       "def": "to take away from a total"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unduct"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "teleduct"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "fac",
+   "root": "fac",
+   "variants": [
+    "fact"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to make or do",
+   "art": "art/fac.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ory",
+       "meaning": "place for",
+       "real": true,
+       "word": "factory",
+       "def": "a place where things are made"
+      },
+      {
+       "part": "-or",
+       "meaning": "thing that",
+       "real": true,
+       "word": "factor",
+       "def": "one thing that helps make a result"
+      },
+      {
+       "part": "-ual",
+       "meaning": "about",
+       "real": true,
+       "word": "factual",
+       "def": "true; about facts"
+      },
+      {
+       "part": "-ling",
+       "meaning": "little one",
+       "real": false,
+       "word": "factling"
+      },
+      {
+       "part": "-hood",
+       "meaning": "state of",
+       "real": false,
+       "word": "facthood"
+      },
+      {
+       "part": "-ify",
+       "meaning": "to make",
+       "real": false,
+       "word": "factify"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "arti-",
+       "meaning": "skill",
+       "real": true,
+       "word": "artifact",
+       "def": "an old object made by people long ago"
+      },
+      {
+       "part": "manu-",
+       "meaning": "by hand",
+       "real": true,
+       "word": "manufacture",
+       "def": "to make things, often in a factory"
+      },
+      {
+       "part": "satis-",
+       "meaning": "enough",
+       "real": true,
+       "word": "satisfaction",
+       "def": "the good feeling of enough done"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "telefact"
+      },
+      {
+       "part": "mis-",
+       "meaning": "wrongly",
+       "real": false,
+       "word": "misfact"
+      },
+      {
+       "part": "sub-",
+       "meaning": "under",
+       "real": false,
+       "word": "subfact"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "vis",
+   "root": "vis",
+   "variants": [
+    "vid"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to see",
+   "art": "art/vis.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ion",
+       "meaning": "act of",
+       "real": true,
+       "word": "vision",
+       "def": "the ability to see"
+      },
+      {
+       "part": "-ible",
+       "meaning": "can be",
+       "real": true,
+       "word": "visible",
+       "def": "able to be seen"
+      },
+      {
+       "part": "-ual",
+       "meaning": "about",
+       "real": true,
+       "word": "visual",
+       "def": "about seeing"
+      },
+      {
+       "part": "-eo",
+       "meaning": "I do",
+       "real": true,
+       "word": "video",
+       "def": "Latin for \"I see\""
+      },
+      {
+       "part": "-ful",
+       "meaning": "full of",
+       "real": false,
+       "word": "visful"
+      },
+      {
+       "part": "-ness",
+       "meaning": "state of",
+       "real": false,
+       "word": "visness"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": true,
+       "word": "television",
+       "def": "pictures sent from far away"
+      },
+      {
+       "part": "in-",
+       "meaning": "not",
+       "real": true,
+       "word": "invisible",
+       "def": "not able to be seen"
+      },
+      {
+       "part": "super-",
+       "meaning": "above",
+       "real": true,
+       "word": "supervisor",
+       "def": "a person who watches over others"
+      },
+      {
+       "part": "e-",
+       "meaning": "out",
+       "real": true,
+       "word": "evidence",
+       "def": "what you can see that proves something"
+      },
+      {
+       "part": "sub-",
+       "meaning": "under",
+       "real": false,
+       "word": "subvision"
+      },
+      {
+       "part": "mis-",
+       "meaning": "wrongly",
+       "real": false,
+       "word": "misvision"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "ex",
+   "root": "ex",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "out, out of",
+   "art": "art/ex.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-it",
+       "meaning": "to go",
+       "real": true,
+       "word": "exit",
+       "def": "the way out"
+      },
+      {
+       "part": "-tract",
+       "meaning": "to pull",
+       "real": true,
+       "word": "extract",
+       "def": "to pull out"
+      },
+      {
+       "part": "-hale",
+       "meaning": "to breathe",
+       "real": true,
+       "word": "exhale",
+       "def": "to breathe out"
+      },
+      {
+       "part": "-pand",
+       "meaning": "to spread",
+       "real": true,
+       "word": "expand",
+       "def": "to spread out bigger"
+      },
+      {
+       "part": "-sleep",
+       "meaning": "to rest",
+       "real": false,
+       "word": "exsleep"
+      },
+      {
+       "part": "-cake",
+       "meaning": "a sweet treat",
+       "real": false,
+       "word": "excake"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "vert",
+   "root": "vert",
+   "variants": [
+    "vers"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to turn",
+   "art": "art/vert.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ical",
+       "meaning": "about",
+       "real": true,
+       "word": "vertical",
+       "def": "standing straight up"
+      },
+      {
+       "part": "-ion",
+       "meaning": "act of",
+       "real": true,
+       "word": "version",
+       "def": "one form of something"
+      },
+      {
+       "part": "-atile",
+       "meaning": "able to",
+       "real": true,
+       "word": "versatile",
+       "def": "able to turn to many things"
+      },
+      {
+       "part": "-ful",
+       "meaning": "full of",
+       "real": false,
+       "word": "vertful"
+      },
+      {
+       "part": "-ness",
+       "meaning": "state of",
+       "real": false,
+       "word": "vertness"
+      },
+      {
+       "part": "-ish",
+       "meaning": "kind of",
+       "real": false,
+       "word": "vertish"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "con-",
+       "meaning": "with",
+       "real": true,
+       "word": "convert",
+       "def": "to change into something else"
+      },
+      {
+       "part": "in-",
+       "meaning": "in",
+       "real": true,
+       "word": "invert",
+       "def": "to turn upside down"
+      },
+      {
+       "part": "ad-",
+       "meaning": "toward",
+       "real": true,
+       "word": "advertise",
+       "def": "to turn people toward buying something"
+      },
+      {
+       "part": "anni-",
+       "meaning": "year",
+       "real": true,
+       "word": "anniversary",
+       "def": "the day a year turns around again"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unvert"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "televert"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "pro",
+   "root": "pro",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Prefix",
+   "meaning": "forward",
+   "art": "art/pro.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ject",
+       "meaning": "to throw",
+       "real": true,
+       "word": "project",
+       "def": "to throw a picture forward"
+      },
+      {
+       "part": "-gress",
+       "meaning": "to step",
+       "real": true,
+       "word": "progress",
+       "def": "stepping forward"
+      },
+      {
+       "part": "-tect",
+       "meaning": "to cover",
+       "real": true,
+       "word": "protect",
+       "def": "to cover and keep safe"
+      },
+      {
+       "part": "-cake",
+       "meaning": "a sweet treat",
+       "real": false,
+       "word": "procake"
+      },
+      {
+       "part": "-happy",
+       "meaning": "glad",
+       "real": false,
+       "word": "prohappy"
+      },
+      {
+       "part": "-rupt",
+       "meaning": "to break",
+       "real": false,
+       "word": "prorupt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "port",
+   "root": "port",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to carry",
+   "art": "art/port.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-able",
+       "meaning": "can be",
+       "real": true,
+       "word": "portable",
+       "def": "easy to carry"
+      },
+      {
+       "part": "-er",
+       "meaning": "one who",
+       "real": true,
+       "word": "porter",
+       "def": "someone who carries bags"
+      },
+      {
+       "part": "-folio",
+       "meaning": "pages",
+       "real": true,
+       "word": "portfolio",
+       "def": "a case that carries your work"
+      },
+      {
+       "part": "-ful",
+       "meaning": "full of",
+       "real": false,
+       "word": "portful"
+      },
+      {
+       "part": "-ness",
+       "meaning": "state of",
+       "real": false,
+       "word": "portness"
+      },
+      {
+       "part": "-ish",
+       "meaning": "kind of",
+       "real": false,
+       "word": "portish"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "trans-",
+       "meaning": "across",
+       "real": true,
+       "word": "transport",
+       "def": "to carry from place to place"
+      },
+      {
+       "part": "ex-",
+       "meaning": "out",
+       "real": true,
+       "word": "export",
+       "def": "to send goods out of a country"
+      },
+      {
+       "part": "im-",
+       "meaning": "into",
+       "real": true,
+       "word": "import",
+       "def": "to bring goods into a country"
+      },
+      {
+       "part": "re-",
+       "meaning": "back",
+       "real": true,
+       "word": "report",
+       "def": "to bring back news"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unport"
+      },
+      {
+       "part": "mis-",
+       "meaning": "wrongly",
+       "real": false,
+       "word": "misport"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "struct",
+   "root": "struct",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to build",
+   "art": "art/struct.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "con-",
+       "meaning": "together",
+       "real": true,
+       "word": "construct",
+       "def": "to build"
+      },
+      {
+       "part": "in-",
+       "meaning": "in",
+       "real": true,
+       "word": "instruct",
+       "def": "to build knowledge in; to teach"
+      },
+      {
+       "part": "ob-",
+       "meaning": "against",
+       "real": true,
+       "word": "obstruct",
+       "def": "to block by building in the way"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unstruct"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "telestruct"
+      },
+      {
+       "part": "mis-",
+       "meaning": "wrongly",
+       "real": false,
+       "word": "misstruct"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "ject",
+   "root": "ject",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to throw",
+   "art": "art/ject.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "pro-",
+       "meaning": "forward",
+       "real": true,
+       "word": "project",
+       "def": "to throw a picture forward"
+      },
+      {
+       "part": "re-",
+       "meaning": "back",
+       "real": true,
+       "word": "reject",
+       "def": "to throw back; to say no"
+      },
+      {
+       "part": "in-",
+       "meaning": "into",
+       "real": true,
+       "word": "inject",
+       "def": "to push medicine in"
+      },
+      {
+       "part": "e-",
+       "meaning": "out",
+       "real": true,
+       "word": "eject",
+       "def": "to throw out"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unject"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "teleject"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "form",
+   "root": "form",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "shape",
+   "art": "art/form.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-al",
+       "meaning": "about",
+       "real": true,
+       "word": "formal",
+       "def": "fancy and proper"
+      },
+      {
+       "part": "-ula",
+       "meaning": "little",
+       "real": true,
+       "word": "formula",
+       "def": "a recipe of steps or numbers"
+      },
+      {
+       "part": "-at",
+       "meaning": "shaped",
+       "real": true,
+       "word": "format",
+       "def": "the shape or layout of something"
+      },
+      {
+       "part": "-ation",
+       "meaning": "act of",
+       "real": true,
+       "word": "formation",
+       "def": "the way things are shaped or lined up"
+      },
+      {
+       "part": "-ish",
+       "meaning": "kind of",
+       "real": false,
+       "word": "formish"
+      },
+      {
+       "part": "-ness",
+       "meaning": "state of",
+       "real": false,
+       "word": "formness"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "trans-",
+       "meaning": "across",
+       "real": true,
+       "word": "transform",
+       "def": "to change shape completely"
+      },
+      {
+       "part": "uni-",
+       "meaning": "one",
+       "real": true,
+       "word": "uniform",
+       "def": "clothes that make everyone look the same"
+      },
+      {
+       "part": "in-",
+       "meaning": "into",
+       "real": true,
+       "word": "inform",
+       "def": "to tell someone facts"
+      },
+      {
+       "part": "mega-",
+       "meaning": "huge",
+       "real": false,
+       "word": "megaform"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "teleform"
+      },
+      {
+       "part": "anti-",
+       "meaning": "against",
+       "real": false,
+       "word": "antiform"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "spect",
+   "root": "spect",
+   "variants": [
+    "spec"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to look at",
+   "art": "art/spect.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ator",
+       "meaning": "one who",
+       "real": true,
+       "word": "spectator",
+       "def": "someone who watches"
+      },
+      {
+       "part": "-acle",
+       "meaning": "a thing",
+       "real": true,
+       "word": "spectacle",
+       "def": "an amazing thing to look at"
+      },
+      {
+       "part": "-imen",
+       "meaning": "a sample",
+       "real": true,
+       "word": "specimen",
+       "def": "a sample to look at closely"
+      },
+      {
+       "part": "-ful",
+       "meaning": "full of",
+       "real": false,
+       "word": "spectful"
+      },
+      {
+       "part": "-ness",
+       "meaning": "state of",
+       "real": false,
+       "word": "spectness"
+      },
+      {
+       "part": "-ish",
+       "meaning": "kind of",
+       "real": false,
+       "word": "spectish"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "in-",
+       "meaning": "into",
+       "real": true,
+       "word": "inspect",
+       "def": "to look closely"
+      },
+      {
+       "part": "re-",
+       "meaning": "back",
+       "real": true,
+       "word": "respect",
+       "def": "to look up to someone"
+      },
+      {
+       "part": "su-",
+       "meaning": "under",
+       "real": true,
+       "word": "suspect",
+       "def": "someone you look at closely"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unspect"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "telespect"
+      },
+      {
+       "part": "mis-",
+       "meaning": "wrongly",
+       "real": false,
+       "word": "misspect"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "mit",
+   "root": "mit",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to send",
+   "art": "art/mit.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "trans-",
+       "meaning": "across",
+       "real": true,
+       "word": "transmit",
+       "def": "to send a signal across"
+      },
+      {
+       "part": "sub-",
+       "meaning": "under",
+       "real": true,
+       "word": "submit",
+       "def": "to hand in"
+      },
+      {
+       "part": "ad-",
+       "meaning": "to",
+       "real": true,
+       "word": "admit",
+       "def": "to let in"
+      },
+      {
+       "part": "per-",
+       "meaning": "through",
+       "real": true,
+       "word": "permit",
+       "def": "to let something happen"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unmit"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "telemit"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "mot",
+   "root": "mot",
+   "variants": [
+    "mob"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to move",
+   "art": "art/mot.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ion",
+       "meaning": "act of",
+       "real": true,
+       "word": "motion",
+       "def": "movement"
+      },
+      {
+       "part": "-or",
+       "meaning": "thing that",
+       "real": true,
+       "word": "motor",
+       "def": "a machine that makes things move"
+      },
+      {
+       "part": "-ive",
+       "meaning": "tending to",
+       "real": true,
+       "word": "motive",
+       "def": "the reason you do something"
+      },
+      {
+       "part": "-ile",
+       "meaning": "able to",
+       "real": true,
+       "word": "mobile",
+       "def": "able to move around"
+      },
+      {
+       "part": "-ful",
+       "meaning": "full of",
+       "real": false,
+       "word": "motful"
+      },
+      {
+       "part": "-ness",
+       "meaning": "state of",
+       "real": false,
+       "word": "motness"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "pro-",
+       "meaning": "forward",
+       "real": true,
+       "word": "promote",
+       "def": "to move up to a better job"
+      },
+      {
+       "part": "re-",
+       "meaning": "back",
+       "real": true,
+       "word": "remote",
+       "def": "far away; moved back"
+      },
+      {
+       "part": "e-",
+       "meaning": "out",
+       "real": true,
+       "word": "emotion",
+       "def": "a feeling that moves you"
+      },
+      {
+       "part": "loco-",
+       "meaning": "place",
+       "real": true,
+       "word": "locomotive",
+       "def": "a train engine that moves from place to place"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unmote"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "telemote"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "fer",
+   "root": "fer",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to carry or bring",
+   "art": "art/fer.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "trans-",
+       "meaning": "across",
+       "real": true,
+       "word": "transfer",
+       "def": "to move from one place to another"
+      },
+      {
+       "part": "of-",
+       "meaning": "toward",
+       "real": true,
+       "word": "offer",
+       "def": "to hold something out to give"
+      },
+      {
+       "part": "pre-",
+       "meaning": "before",
+       "real": true,
+       "word": "prefer",
+       "def": "to like one thing better"
+      },
+      {
+       "part": "suf-",
+       "meaning": "under",
+       "real": true,
+       "word": "suffer",
+       "def": "to feel pain"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unfer"
+      },
+      {
+       "part": "mis-",
+       "meaning": "wrongly",
+       "real": false,
+       "word": "misfer"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "phon",
+   "root": "phon",
+   "variants": [
+    "phone"
+   ],
+   "origin": "Greek",
+   "type": "Root",
+   "meaning": "sound",
+   "art": "art/phon.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": true,
+       "word": "telephone",
+       "def": "a device for faraway talking"
+      },
+      {
+       "part": "micro-",
+       "meaning": "small",
+       "real": true,
+       "word": "microphone",
+       "def": "makes small sounds loud"
+      },
+      {
+       "part": "mega-",
+       "meaning": "huge",
+       "real": true,
+       "word": "megaphone",
+       "def": "a cone that makes your voice huge"
+      },
+      {
+       "part": "xylo-",
+       "meaning": "wood",
+       "real": true,
+       "word": "xylophone",
+       "def": "music from wooden bars"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unphone"
+      },
+      {
+       "part": "sub-",
+       "meaning": "under",
+       "real": false,
+       "word": "subphone"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "scrib",
+   "root": "scrib",
+   "variants": [
+    "scribe"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to write",
+   "art": "art/scrib.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "de-",
+       "meaning": "down",
+       "real": true,
+       "word": "describe",
+       "def": "to write down what it's like"
+      },
+      {
+       "part": "sub-",
+       "meaning": "under",
+       "real": true,
+       "word": "subscribe",
+       "def": "to sign up (write your name under)"
+      },
+      {
+       "part": "pre-",
+       "meaning": "before",
+       "real": true,
+       "word": "prescribe",
+       "def": "a doctor writing an order for medicine"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unscribe"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "telescribe"
+      },
+      {
+       "part": "mega-",
+       "meaning": "huge",
+       "real": false,
+       "word": "megascribe"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "tract",
+   "root": "tract",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to pull",
+   "art": "art/tract.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "at-",
+       "meaning": "toward",
+       "real": true,
+       "word": "attract",
+       "def": "to pull toward"
+      },
+      {
+       "part": "sub-",
+       "meaning": "under",
+       "real": true,
+       "word": "subtract",
+       "def": "to take away"
+      },
+      {
+       "part": "dis-",
+       "meaning": "apart",
+       "real": true,
+       "word": "distract",
+       "def": "to pull attention away"
+      },
+      {
+       "part": "ex-",
+       "meaning": "out",
+       "real": true,
+       "word": "extract",
+       "def": "to pull out"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "untract"
+      },
+      {
+       "part": "mis-",
+       "meaning": "wrongly",
+       "real": false,
+       "word": "mistract"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "rupt",
+   "root": "rupt",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to break or burst",
+   "art": "art/rupt.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "e-",
+       "meaning": "out",
+       "real": true,
+       "word": "erupt",
+       "def": "to burst out"
+      },
+      {
+       "part": "inter-",
+       "meaning": "between",
+       "real": true,
+       "word": "interrupt",
+       "def": "to break in while someone talks"
+      },
+      {
+       "part": "dis-",
+       "meaning": "apart",
+       "real": true,
+       "word": "disrupt",
+       "def": "to break up or mess up"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unrupt"
+      },
+      {
+       "part": "re-",
+       "meaning": "again",
+       "real": false,
+       "word": "rerupt"
+      },
+      {
+       "part": "tele-",
+       "meaning": "far",
+       "real": false,
+       "word": "telerupt"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "aud",
+   "root": "aud",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "to hear",
+   "art": "art/aud.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ience",
+       "meaning": "act of",
+       "real": true,
+       "word": "audience",
+       "def": "the people who listen or watch"
+      },
+      {
+       "part": "-ition",
+       "meaning": "act of",
+       "real": true,
+       "word": "audition",
+       "def": "a tryout where you're heard"
+      },
+      {
+       "part": "-itorium",
+       "meaning": "place for",
+       "real": true,
+       "word": "auditorium",
+       "def": "a big hall for listening"
+      },
+      {
+       "part": "-ible",
+       "meaning": "can be",
+       "real": true,
+       "word": "audible",
+       "def": "loud enough to hear"
+      },
+      {
+       "part": "-ful",
+       "meaning": "full of",
+       "real": false,
+       "word": "audful"
+      },
+      {
+       "part": "-ness",
+       "meaning": "state of",
+       "real": false,
+       "word": "audness"
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

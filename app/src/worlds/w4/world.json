@@ -1,0 +1,991 @@
+{
+ "id": "w4",
+ "order": 4,
+ "name": "Amethyst",
+ "theme": {
+  "name": "amethyst",
+  "bg": "#130F18",
+  "bg2": "#1E1626",
+  "accent": "#C9A8F2",
+  "foil": [
+   "#5A2D8C",
+   "#A775E6",
+   "#F0B6D6",
+   "#8A4FCB",
+   "#D9B8FF"
+  ],
+  "glitter": "#DCC0FF",
+  "particle": "sparkle"
+ },
+ "levels": [
+  {
+   "id": "aqua",
+   "root": "aqua",
+   "variants": [
+    "aque"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "water",
+   "art": "art/aqua.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-rium",
+       "meaning": "place for",
+       "real": true,
+       "word": "aquarium",
+       "def": "a glass home for fish"
+      },
+      {
+       "part": "-tic",
+       "meaning": "of, living in",
+       "real": true,
+       "word": "aquatic",
+       "def": "living in water"
+      },
+      {
+       "part": "-duct",
+       "meaning": "channel",
+       "real": true,
+       "word": "aqueduct",
+       "def": "a bridge that carries water"
+      },
+      {
+       "part": "-marine",
+       "meaning": "of the sea",
+       "real": true,
+       "word": "aquamarine",
+       "def": "blue-green like the sea"
+      },
+      {
+       "part": "-phone",
+       "meaning": "sound",
+       "real": false,
+       "word": "aquaphone"
+      },
+      {
+       "part": "-grade",
+       "meaning": "step",
+       "real": false,
+       "word": "aquagrade"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "ped",
+   "root": "ped",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "foot",
+   "art": "art/ped.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-al",
+       "meaning": "thing for",
+       "real": true,
+       "word": "pedal",
+       "def": "a lever you push with your foot"
+      },
+      {
+       "part": "-estrian",
+       "meaning": "goer",
+       "real": true,
+       "word": "pedestrian",
+       "def": "someone walking on foot"
+      },
+      {
+       "part": "-icure",
+       "meaning": "care",
+       "real": true,
+       "word": "pedicure",
+       "def": "care for your feet"
+      },
+      {
+       "part": "-estal",
+       "meaning": "stand",
+       "real": true,
+       "word": "pedestal",
+       "def": "a stand a statue stands on"
+      },
+      {
+       "part": "-ivore",
+       "meaning": "eater",
+       "real": false,
+       "word": "pedivore"
+      },
+      {
+       "part": "-onaut",
+       "meaning": "sailor",
+       "real": false,
+       "word": "pedonaut"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "manu",
+   "root": "manu",
+   "variants": [
+    "man"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "hand",
+   "art": "art/manu.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-al",
+       "meaning": "done by",
+       "real": true,
+       "word": "manual",
+       "def": "done by hand"
+      },
+      {
+       "part": "-script",
+       "meaning": "written",
+       "real": true,
+       "word": "manuscript",
+       "def": "a book written by hand"
+      },
+      {
+       "part": "-icure",
+       "meaning": "care",
+       "real": true,
+       "word": "manicure",
+       "def": "care for your hands and nails"
+      },
+      {
+       "part": "-phone",
+       "meaning": "sound",
+       "real": false,
+       "word": "manuphone"
+      },
+      {
+       "part": "-dome",
+       "meaning": "roof",
+       "real": false,
+       "word": "manudome"
+      },
+      {
+       "part": "-ful",
+       "meaning": "full of",
+       "real": false,
+       "word": "manuful"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "dent",
+   "root": "dent",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "tooth",
+   "art": "art/dent.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ist",
+       "meaning": "one who",
+       "real": true,
+       "word": "dentist",
+       "def": "a doctor for your teeth"
+      },
+      {
+       "part": "-al",
+       "meaning": "of, about",
+       "real": true,
+       "word": "dental",
+       "def": "about teeth"
+      },
+      {
+       "part": "-ure",
+       "meaning": "thing made",
+       "real": true,
+       "word": "denture",
+       "def": "a set of false teeth"
+      },
+      {
+       "part": "-arium",
+       "meaning": "place for",
+       "real": false,
+       "word": "dentarium"
+      },
+      {
+       "part": "-ivore",
+       "meaning": "eater",
+       "real": false,
+       "word": "dentivore"
+      },
+      {
+       "part": "-ique",
+       "meaning": "style",
+       "real": false,
+       "word": "dentique"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "terr",
+   "root": "terr",
+   "variants": [
+    "terra"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "earth, land",
+   "art": "art/terr.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ain",
+       "meaning": "ground",
+       "real": true,
+       "word": "terrain",
+       "def": "the shape of the land"
+      },
+      {
+       "part": "-itory",
+       "meaning": "place of",
+       "real": true,
+       "word": "territory",
+       "def": "land that belongs to someone"
+      },
+      {
+       "part": "-arium",
+       "meaning": "place for",
+       "real": true,
+       "word": "terrarium",
+       "def": "a glass box of earth and plants"
+      },
+      {
+       "part": "-onaut",
+       "meaning": "sailor",
+       "real": false,
+       "word": "terronaut"
+      },
+      {
+       "part": "-ette",
+       "meaning": "little",
+       "real": false,
+       "word": "terrette"
+      },
+      {
+       "part": "-oscope",
+       "meaning": "viewer",
+       "real": false,
+       "word": "terroscope"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "extra-",
+       "meaning": "beyond",
+       "real": true,
+       "word": "extraterrestrial",
+       "def": "from beyond the Earth"
+      },
+      {
+       "part": "sub-",
+       "meaning": "under",
+       "real": true,
+       "word": "subterranean",
+       "def": "deep under the ground"
+      },
+      {
+       "part": "medi-",
+       "meaning": "middle",
+       "real": true,
+       "word": "mediterranean",
+       "def": "the sea in the middle of lands"
+      },
+      {
+       "part": "anti-",
+       "meaning": "against",
+       "real": false,
+       "word": "antiterrestrial"
+      },
+      {
+       "part": "infra-",
+       "meaning": "below",
+       "real": false,
+       "word": "infraterranean"
+      },
+      {
+       "part": "semi-",
+       "meaning": "half",
+       "real": false,
+       "word": "semiterranean"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "anim",
+   "root": "anim",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "life, spirit, mind",
+   "art": "art/anim.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-al",
+       "meaning": "living thing",
+       "real": true,
+       "word": "animal",
+       "def": "a living, breathing creature"
+      },
+      {
+       "part": "-ate",
+       "meaning": "bring to",
+       "real": true,
+       "word": "animate",
+       "def": "to bring to life"
+      },
+      {
+       "part": "-ation",
+       "meaning": "the act of",
+       "real": true,
+       "word": "animation",
+       "def": "drawings brought to life"
+      },
+      {
+       "part": "-ology",
+       "meaning": "study of",
+       "real": false,
+       "word": "animology"
+      },
+      {
+       "part": "-ish",
+       "meaning": "somewhat",
+       "real": false,
+       "word": "animish"
+      },
+      {
+       "part": "-ster",
+       "meaning": "one who",
+       "real": false,
+       "word": "animster"
+      }
+     ]
+    },
+    "end": {
+     "cards": [
+      {
+       "part": "in-",
+       "meaning": "not",
+       "real": true,
+       "word": "inanimate",
+       "def": "not alive, like a rock"
+      },
+      {
+       "part": "un-",
+       "meaning": "one",
+       "real": true,
+       "word": "unanimous",
+       "def": "everyone agrees as one"
+      },
+      {
+       "part": "magn-",
+       "meaning": "great",
+       "real": true,
+       "word": "magnanimous",
+       "def": "big-hearted and kind"
+      },
+      {
+       "part": "pro-",
+       "meaning": "forward",
+       "real": false,
+       "word": "proanimous"
+      },
+      {
+       "part": "trans-",
+       "meaning": "across",
+       "real": false,
+       "word": "transanimous"
+      },
+      {
+       "part": "mis-",
+       "meaning": "wrongly",
+       "real": false,
+       "word": "misanimate"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "viv",
+   "root": "viv",
+   "variants": [
+    "vit"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "live, alive",
+   "art": "art/viv.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-id",
+       "meaning": "full of",
+       "real": true,
+       "word": "vivid",
+       "def": "bright and full of life"
+      },
+      {
+       "part": "-al",
+       "meaning": "of, for",
+       "real": true,
+       "word": "vital",
+       "def": "needed for life"
+      },
+      {
+       "part": "-amin",
+       "meaning": "compound",
+       "real": true,
+       "word": "vitamin",
+       "def": "something food gives you for life"
+      },
+      {
+       "part": "-ometer",
+       "meaning": "measurer",
+       "real": false,
+       "word": "vivometer"
+      },
+      {
+       "part": "-orama",
+       "meaning": "big view",
+       "real": false,
+       "word": "vivorama"
+      },
+      {
+       "part": "-arium",
+       "meaning": "place for",
+       "real": false,
+       "word": "vitarium"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "vor",
+   "root": "vor",
+   "variants": [
+    "vore"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "eat, swallow",
+   "art": "art/vor.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "carni-",
+       "meaning": "meat",
+       "real": true,
+       "word": "carnivore",
+       "def": "an animal that eats meat"
+      },
+      {
+       "part": "herbi-",
+       "meaning": "plants",
+       "real": true,
+       "word": "herbivore",
+       "def": "an animal that eats plants"
+      },
+      {
+       "part": "insecti-",
+       "meaning": "insects",
+       "real": true,
+       "word": "insectivore",
+       "def": "an animal that eats bugs"
+      },
+      {
+       "part": "petri-",
+       "meaning": "rock",
+       "real": false,
+       "word": "petrivore"
+      },
+      {
+       "part": "nubi-",
+       "meaning": "cloud",
+       "real": false,
+       "word": "nubivore"
+      },
+      {
+       "part": "luni-",
+       "meaning": "moon",
+       "real": false,
+       "word": "lunivore"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "spir",
+   "root": "spir",
+   "variants": [
+    "spire"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "breathe",
+   "art": "art/spir.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "in-",
+       "meaning": "in, into",
+       "real": true,
+       "word": "inspire",
+       "def": "to breathe a big idea in"
+      },
+      {
+       "part": "a-",
+       "meaning": "toward",
+       "real": true,
+       "word": "aspire",
+       "def": "to reach toward a dream"
+      },
+      {
+       "part": "re-",
+       "meaning": "again",
+       "real": true,
+       "word": "respiration",
+       "def": "breathing in and out"
+      },
+      {
+       "part": "per-",
+       "meaning": "through",
+       "real": true,
+       "word": "perspire",
+       "def": "to sweat through your skin"
+      },
+      {
+       "part": "un-",
+       "meaning": "not",
+       "real": false,
+       "word": "unspire"
+      },
+      {
+       "part": "pro-",
+       "meaning": "forward",
+       "real": false,
+       "word": "prospire"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "flor",
+   "root": "flor",
+   "variants": [
+    "flour"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "flower",
+   "art": "art/flor.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ist",
+       "meaning": "one who",
+       "real": true,
+       "word": "florist",
+       "def": "someone who sells flowers"
+      },
+      {
+       "part": "-al",
+       "meaning": "of, like",
+       "real": true,
+       "word": "floral",
+       "def": "made of or like flowers"
+      },
+      {
+       "part": "-ish",
+       "meaning": "to become",
+       "real": true,
+       "word": "flourish",
+       "def": "to grow strong and bloom"
+      },
+      {
+       "part": "-onaut",
+       "meaning": "sailor",
+       "real": false,
+       "word": "floronaut"
+      },
+      {
+       "part": "-ometer",
+       "meaning": "measurer",
+       "real": false,
+       "word": "florometer"
+      },
+      {
+       "part": "-atic",
+       "meaning": "full of",
+       "real": false,
+       "word": "floratic"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "avi",
+   "root": "avi",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "bird",
+   "art": "art/avi.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ary",
+       "meaning": "place for",
+       "real": true,
+       "word": "aviary",
+       "def": "a big home for birds"
+      },
+      {
+       "part": "-ator",
+       "meaning": "one who",
+       "real": true,
+       "word": "aviator",
+       "def": "a pilot who flies planes"
+      },
+      {
+       "part": "-ation",
+       "meaning": "the act of",
+       "real": true,
+       "word": "aviation",
+       "def": "flying aircraft"
+      },
+      {
+       "part": "-naut",
+       "meaning": "sailor",
+       "real": false,
+       "word": "avinaut"
+      },
+      {
+       "part": "-tron",
+       "meaning": "machine",
+       "real": false,
+       "word": "avitron"
+      },
+      {
+       "part": "-tude",
+       "meaning": "state of",
+       "real": false,
+       "word": "avitude"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "opt",
+   "root": "opt",
+   "variants": [],
+   "origin": "Greek",
+   "type": "Root",
+   "meaning": "eye, sight",
+   "art": "art/opt.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ical",
+       "meaning": "about",
+       "real": true,
+       "word": "optical",
+       "def": "about eyes and seeing"
+      },
+      {
+       "part": "-ician",
+       "meaning": "expert",
+       "real": true,
+       "word": "optician",
+       "def": "makes glasses for your eyes"
+      },
+      {
+       "part": "-ometrist",
+       "meaning": "measurer",
+       "real": true,
+       "word": "optometrist",
+       "def": "a doctor who checks your eyes"
+      },
+      {
+       "part": "-arium",
+       "meaning": "place for",
+       "real": false,
+       "word": "optarium"
+      },
+      {
+       "part": "-oscope",
+       "meaning": "viewer",
+       "real": false,
+       "word": "optoscope"
+      },
+      {
+       "part": "-orium",
+       "meaning": "hall",
+       "real": false,
+       "word": "optorium"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "cardi",
+   "root": "cardi",
+   "variants": [],
+   "origin": "Greek",
+   "type": "Root",
+   "meaning": "heart",
+   "art": "art/cardi.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ac",
+       "meaning": "of, about",
+       "real": true,
+       "word": "cardiac",
+       "def": "about the heart"
+      },
+      {
+       "part": "-ologist",
+       "meaning": "expert",
+       "real": true,
+       "word": "cardiologist",
+       "def": "a heart doctor"
+      },
+      {
+       "part": "-ovascular",
+       "meaning": "blood vessels",
+       "real": true,
+       "word": "cardiovascular",
+       "def": "the heart and blood vessels"
+      },
+      {
+       "part": "-onaut",
+       "meaning": "sailor",
+       "real": false,
+       "word": "cardionaut"
+      },
+      {
+       "part": "-vore",
+       "meaning": "eater",
+       "real": false,
+       "word": "cardivore"
+      },
+      {
+       "part": "-otastic",
+       "meaning": "amazing",
+       "real": false,
+       "word": "cardiotastic"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "arbor",
+   "root": "arbor",
+   "variants": [],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "tree",
+   "art": "art/arbor.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-etum",
+       "meaning": "place of",
+       "real": true,
+       "word": "arboretum",
+       "def": "a garden full of trees"
+      },
+      {
+       "part": "-ist",
+       "meaning": "one who",
+       "real": true,
+       "word": "arborist",
+       "def": "a tree doctor"
+      },
+      {
+       "part": "-eal",
+       "meaning": "living in",
+       "real": true,
+       "word": "arboreal",
+       "def": "living in trees"
+      },
+      {
+       "part": "-ology",
+       "meaning": "study of",
+       "real": false,
+       "word": "arborology"
+      },
+      {
+       "part": "-ium",
+       "meaning": "place",
+       "real": false,
+       "word": "arborium"
+      },
+      {
+       "part": "-ette",
+       "meaning": "little",
+       "real": false,
+       "word": "arborette"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lingu",
+   "root": "lingu",
+   "variants": [
+    "langu"
+   ],
+   "origin": "Latin",
+   "type": "Root",
+   "meaning": "tongue, language",
+   "art": "art/lingu.webp",
+   "halves": {
+    "start": {
+     "cards": [
+      {
+       "part": "-ist",
+       "meaning": "expert",
+       "real": true,
+       "word": "linguist",
+       "def": "an expert in languages"
+      },
+      {
+       "part": "-ine",
+       "meaning": "little ones",
+       "real": true,
+       "word": "linguine",
+       "def": "long, flat noodles, like little tongues"
+      },
+      {
+       "part": "-age",
+       "meaning": "system of",
+       "real": true,
+       "word": "language",
+       "def": "the words people speak"
+      },
+      {
+       "part": "-arium",
+       "meaning": "place for",
+       "real": false,
+       "word": "linguarium"
+      },
+      {
+       "part": "-ometer",
+       "meaning": "measurer",
+       "real": false,
+       "word": "linguometer"
+      },
+      {
+       "part": "-ify",
+       "meaning": "make",
+       "real": false,
+       "word": "linguify"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "derm",
+   "root": "derm",
+   "variants": [],
+   "origin": "Greek",
+   "type": "Root",
+   "meaning": "skin",
+   "art": "art/derm.webp",
+   "halves": {
+    "end": {
+     "cards": [
+      {
+       "part": "pachy-",
+       "meaning": "thick",
+       "real": true,
+       "word": "pachyderm",
+       "def": "a thick-skinned animal like an elephant"
+      },
+      {
+       "part": "hypo-",
+       "meaning": "under",
+       "real": true,
+       "word": "hypodermic",
+       "def": "a needle that goes under the skin"
+      },
+      {
+       "part": "taxi-",
+       "meaning": "arranging",
+       "real": true,
+       "word": "taxidermy",
+       "def": "stuffing animal skins to display"
+      },
+      {
+       "part": "ultra-",
+       "meaning": "beyond",
+       "real": false,
+       "word": "ultraderm"
+      },
+      {
+       "part": "poly-",
+       "meaning": "many",
+       "real": false,
+       "word": "polyderm"
+      },
+      {
+       "part": "giga-",
+       "meaning": "giant",
+       "real": false,
+       "word": "gigaderm"
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

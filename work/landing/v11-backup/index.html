@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rootcraft — build real words from Latin &amp; Greek roots</title>
+<meta name="description" content="A game where kids snap Latin and Greek roots together to build real English words.">
+<meta name="theme-color" content="#121110">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<!-- link previews (iMessage plays og:video inline, muted + looping; others show og:image) -->
+<link rel="canonical" href="https://rootcraft.pages.dev/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rootcraft">
+<meta property="og:title" content="Rootcraft — the word-root game for kids">
+<meta property="og:description" content="Snap Latin and Greek roots together to build real English words. A word game for curious kids, ages 8+.">
+<meta property="og:url" content="https://rootcraft.pages.dev/">
+<meta property="og:image" content="https://rootcraft.pages.dev/og.jpg">
+<meta property="og:image:secure_url" content="https://rootcraft.pages.dev/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The root port, meaning to carry, growing branches into transport, portable, export, import, report and portfolio.">
+<meta property="og:video" content="https://rootcraft.pages.dev/og.mp4">
+<meta property="og:video:secure_url" content="https://rootcraft.pages.dev/og.mp4">
+<meta property="og:video:type" content="video/mp4">
+<meta property="og:video:width" content="1200">
+<meta property="og:video:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rootcraft — the word-root game for kids">
+<meta name="twitter:description" content="Snap Latin and Greek roots together to build real English words. A word game for curious kids, ages 8+.">
+<meta name="twitter:image" content="https://rootcraft.pages.dev/og.jpg">
+<meta name="twitter:image:alt" content="The root port growing branches into six real words.">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="fonts/BricolageGrotesque.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="landing.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBDF8E"/><stop offset=".6" stop-color="#ECB43E"/><stop offset="1" stop-color="#D99A26"/></linearGradient>
+    <symbol id="star" viewBox="0 0 24 24"><path d="M12 2.6l2.83 5.95 6.53.8-4.8 4.5 1.22 6.47L12 17.15l-5.78 3.17 1.22-6.47-4.8-4.5 6.53-.8z"/></symbol>
+  </defs>
+</svg>
+
+<header class="nav">
+  <a class="mark" href="./" aria-label="Rootcraft home">Rootcraft</a>
+  <span class="nav-r"><a class="nav-words" href="/play/#/words">Words</a><a class="nav-play" href="/play/">Play</a></span>
+</header>
+
+<main>
+  <!-- ============ TOP: the card parade ============ -->
+  <section class="collect top-sec" id="top" aria-label="Root cards">
+    <canvas class="hero-ascii" aria-hidden="true"></canvas>
+    <h1 class="big top-h rv"><span class="ln"><span>Learn the <em>roots</em></span></span> <span class="ln"><span>of our words</span></span></h1>
+    <div class="shelf">
+      <div class="row" data-dir="-1"></div>
+      <div class="row" data-dir="1"></div>
+    </div>
+    <a class="btn-gold top-cta" href="/play/">Play</a>
+  </section>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="forge">
+    <div class="hero-bg" aria-hidden="true"><img src="img/port.webp" alt="" width="440" height="440" fetchpriority="low"></div>
+    <h2 class="sr-only">Rootcraft: snap Latin and Greek roots together to build real words.</h2>
+    <div class="forge" aria-hidden="true">
+      <span class="w"><span class="p pl"></span><span class="p pr0 root">port</span><span class="p pr"></span><i class="seam"></i></span>
+    </div>
+    <p class="gloss" aria-hidden="true"><span class="gloss-in">to carry</span></p>
+    <div class="hero-foot">
+      <p class="lede">Snap Latin and Greek roots together to build real&nbsp;words.</p>
+    </div>
+  </section>
+
+  <!-- ============ TREE: one root, dozens of words ============ -->
+  <section class="tree-sec" aria-label="One root unlocks many words">
+    <div class="pin tree-pin">
+      <h2 class="mid tree-h"><span class="ln l1"><span>Learn one root.</span></span> <span class="ln l2"><span>Unlock <em>dozens</em> of words.</span></span></h2>
+      <div class="tree" aria-hidden="true">
+        <svg class="tree-svg"></svg>
+        <div class="tree-root"><b>port</b><i>to carry</i></div>
+        <div class="tree-words"></div>
+      </div>
+      <p class="sr-only">port means to carry: transport, import, export, portable, report, portfolio, porter, passport, airport, teleport, deport, support.</p>
+    </div>
+  </section>
+
+  <!-- ============ PIECES ============ -->
+  <section class="split" aria-label="Big words are small pieces">
+    <h2 class="mid rv"><span class="ln"><span>Big words are</span></span> <span class="ln"><span>just small <em>pieces</em>.</span></span></h2>
+    <div class="sp-stage" aria-live="off"><div class="sp-word"></div><p class="sp-def"></p></div>
+  </section>
+
+  <!-- ============ GUESS ============ -->
+  <section class="guess" aria-label="Know the pieces, guess the word">
+    <h2 class="mid rv"><span class="ln"><span>Know the pieces.</span></span> <span class="ln"><span><em>Guess</em> the word.</span></span></h2>
+    <div class="gs-stage" role="img" aria-label="pedometer: ped means foot, meter means measure. It counts your steps.">
+      <div class="gs-word"><span class="gs-p g1">ped<i class="gs-chip">foot</i></span><span class="gs-o">o</span><span class="gs-p g2">meter<i class="gs-chip">measure</i></span><span class="gs-q">?</span></div>
+      <p class="gs-ans">It counts your <em>steps</em>.</p>
+    </div>
+  </section>
+
+  <!-- ============ HOW ============ -->
+  <section class="how" aria-label="How it works">
+    <div class="pin how-pin">
+      <h2 class="how-h">
+        <span class="ln l1"><span>Real words light&nbsp;up.</span></span>
+        <span class="ln l2"><span><em>Fakes</em> crumble.</span></span>
+      </h2>
+      <div class="how-stage">
+        <div class="how-root">
+          <div class="stars" aria-hidden="true">
+            <svg class="star"><use href="#star"/></svg><svg class="star big"><use href="#star"/></svg><svg class="star"><use href="#star"/></svg>
+          </div>
+          <div class="slot-root"></div>
+        </div>
+        <div class="hand" aria-label="port + six word parts"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============ WORLDS ============ -->
+  <section class="worlds" aria-label="Four worlds">
+    <div class="pin worlds-pin">
+      <div class="wtrack"></div>
+      <div class="wprog" aria-hidden="true"><i></i></div>
+    </div>
+  </section>
+
+  <!-- ============ END ============ -->
+  <section class="end">
+    <div class="hero-bg" aria-hidden="true"><img src="img/trans.webp" alt="" width="440" height="440" loading="lazy"></div>
+    <h2 class="huge rv"><span class="ln"><span>Words have</span></span> <span class="ln"><span><em>roots</em>.</span></span></h2>
+    <a class="btn-gold btn-xl rv-fade" href="/play/">Play</a>
+  </section>
+</main>
+
+<footer class="foot">
+  <span class="mark">Rootcraft</span>
+  <span>Latin &amp; Greek, one piece at a time.</span>
+</footer>
+
+<script src="landing.js" defer></script>
+</body>
+</html>

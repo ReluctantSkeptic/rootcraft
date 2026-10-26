@@ -1,0 +1,65 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="/app/src/landing/landing.css">
+<style>
+html,body{width:1200px;height:630px;overflow:hidden;margin:0}
+body::before{display:none}
+body{background:radial-gradient(ellipse 46% 52% at 50% 54%, #241F18 0%, #171513 55%, #121110 100%)}
+.stage{position:absolute;inset:0}
+.top{position:absolute;left:52px;right:52px;top:36px;display:flex;align-items:baseline;justify-content:space-between;z-index:5}
+.wm{font-weight:800;font-size:42px;letter-spacing:-.045em;line-height:1;color:var(--paper)}
+.wm i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--gold);margin-left:3px;transform:translateY(-1px)}
+.line{font-family:var(--italic);font-style:italic;font-weight:500;font-size:30px;color:rgba(241,237,228,.72);letter-spacing:-.01em}
+.line em{color:var(--gold)}
+.tree{position:absolute;left:40px;right:40px;top:96px;bottom:36px;width:auto;max-width:none;margin:0}
+.tree-root b{font-size:150px;transition:none!important}
+.tree-root i{font-size:26px;margin-top:8px}
+.tw-w{font-size:42px}
+.tw-m{font-size:19px;margin-top:6px}
+.tree-h{display:none}
+#fade{position:absolute;inset:0}
+</style></head><body>
+<div class="stage">
+  <div class="top"><span class="wm">Rootcraft</span><span class="line">Learn one root. Unlock <em>dozens</em> of words.</span></div>
+  <h2 class="tree-h"></h2>
+  <div class="tree">
+    <div id="fade"><svg class="tree-svg"></svg><div class="tree-words"></div></div>
+    <div class="tree-root"><b>port</b><i>to carry</i></div>
+  </div>
+</div>
+<script>
+window.NOTWIG = true;
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const RM = false, clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const mark = w => w.replace(/\[(.+?)\]/, '<b>$1</b>');
+const tasks = { add() {} }, kick = () => {};
+/*TREE*/
+tree();
+// deterministic clock: every CSS transition/animation is paused and positioned by our virtual time
+const born = new WeakMap();
+function sync(T) {
+  for (const an of document.getAnimations()) {
+    if (!born.has(an)) born.set(an, T);
+    an.pause(); an.currentTime = Math.max(0, (T - born.get(an)) * 1000);
+  }
+}
+function snap() { for (const an of document.getAnimations()) an.finish(); }
+window.__og = {
+  // loop: full tree (hold) -> fade out -> bare "port" -> regrow -> full tree (hold). First frame == last frame.
+  frame(T, cfg) {
+    const { f0, f1, reset, g0, g1 } = cfg;
+    let fe, gl;
+    if (T < reset) {
+      window.__tree.render(0.8); snap();
+      const fo = 1 - clamp((T - f0) / (f1 - f0)); fe = fo * fo * (3 - 2 * fo); gl = fe;
+    } else {
+      const u = clamp((T - g0) / (g1 - g0));
+      if (!this.didReset) { window.__tree.render(0); snap(); this.didReset = true; }
+      window.__tree.render(T < g0 ? 0 : 0.06 + u * (0.80 - 0.06));
+      sync(T); fe = 1; gl = clamp(u * 3);
+    }
+    document.getElementById('fade').style.opacity = fe;
+    $('.tree-root b').style.textShadow = `0 0 50px rgba(233,185,73,${(.34 * gl).toFixed(3)}), 0 0 120px rgba(233,185,73,${(.16 * gl).toFixed(3)})`;
+  }
+};
+</script></body></html>

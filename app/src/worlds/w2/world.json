@@ -1,0 +1,938 @@
+{
+  "id": "w2",
+  "order": 2,
+  "name": "Gold",
+  "theme": {
+    "name": "gold",
+    "bg": "#13100B",
+    "bg2": "#1E180F",
+    "accent": "#E9B949",
+    "foil": [
+      "#8A5A12",
+      "#F6D57E",
+      "#C48A22"
+    ],
+    "glitter": "#F2C866",
+    "particle": "dust"
+  },
+  "levels": [
+    {
+      "id": "tele",
+      "root": "tele",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Prefix",
+      "meaning": "far, far away",
+      "art": "art/tele.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-phone",
+              "meaning": "sound",
+              "real": true,
+              "word": "telephone",
+              "def": "a phone for talking far away"
+            },
+            {
+              "part": "-scope",
+              "meaning": "look",
+              "real": true,
+              "word": "telescope",
+              "def": "a tube for seeing faraway stars"
+            },
+            {
+              "part": "-vision",
+              "meaning": "seeing",
+              "real": true,
+              "word": "television",
+              "def": "pictures sent from far away"
+            },
+            {
+              "part": "-port",
+              "meaning": "carry",
+              "real": true,
+              "word": "teleport",
+              "def": "to jump far away in a blink"
+            },
+            {
+              "part": "-chair",
+              "meaning": "seat",
+              "real": false,
+              "word": "telechair"
+            },
+            {
+              "part": "-soup",
+              "meaning": "broth",
+              "real": false,
+              "word": "telesoup"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "auto",
+      "root": "auto",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Prefix",
+      "meaning": "self",
+      "art": "art/auto.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-graph",
+              "meaning": "write",
+              "real": true,
+              "word": "autograph",
+              "def": "your name, signed by you"
+            },
+            {
+              "part": "-mobile",
+              "meaning": "moving",
+              "real": true,
+              "word": "automobile",
+              "def": "a car that moves by itself"
+            },
+            {
+              "part": "-matic",
+              "meaning": "acting",
+              "real": true,
+              "word": "automatic",
+              "def": "works all by itself"
+            },
+            {
+              "part": "-biography",
+              "meaning": "life story",
+              "real": true,
+              "word": "autobiography",
+              "def": "your life story, told by you"
+            },
+            {
+              "part": "-nap",
+              "meaning": "short sleep",
+              "real": false,
+              "word": "autonap"
+            },
+            {
+              "part": "-puddle",
+              "meaning": "little pool",
+              "real": false,
+              "word": "autopuddle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bio",
+      "root": "bio",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "life",
+      "art": "art/bio.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-logy",
+              "meaning": "study of",
+              "real": true,
+              "word": "biology",
+              "def": "the study of living things"
+            },
+            {
+              "part": "-graphy",
+              "meaning": "writing",
+              "real": true,
+              "word": "biography",
+              "def": "the story of a real life"
+            },
+            {
+              "part": "-degradable",
+              "meaning": "breaks down",
+              "real": true,
+              "word": "biodegradable",
+              "def": "breaks down back into nature"
+            },
+            {
+              "part": "-nose",
+              "meaning": "sniffer",
+              "real": false,
+              "word": "bionose"
+            },
+            {
+              "part": "-spoon",
+              "meaning": "scoop",
+              "real": false,
+              "word": "biospoon"
+            },
+            {
+              "part": "-hat",
+              "meaning": "cap",
+              "real": false,
+              "word": "biohat"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "geo",
+      "root": "geo",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "earth",
+      "art": "art/geo.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-graphy",
+              "meaning": "describing",
+              "real": true,
+              "word": "geography",
+              "def": "learning about Earth and its places"
+            },
+            {
+              "part": "-logy",
+              "meaning": "study of",
+              "real": true,
+              "word": "geology",
+              "def": "the study of rocks and Earth"
+            },
+            {
+              "part": "-metry",
+              "meaning": "measuring",
+              "real": true,
+              "word": "geometry",
+              "def": "the math of shapes and space"
+            },
+            {
+              "part": "-naut",
+              "meaning": "sailor",
+              "real": false,
+              "word": "geonaut"
+            },
+            {
+              "part": "-cookie",
+              "meaning": "sweet treat",
+              "real": false,
+              "word": "geocookie"
+            },
+            {
+              "part": "-pillow",
+              "meaning": "soft cushion",
+              "real": false,
+              "word": "geopillow"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "photo",
+      "root": "photo",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "light",
+      "art": "art/photo.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-graph",
+              "meaning": "write",
+              "real": true,
+              "word": "photograph",
+              "def": "a picture made with light"
+            },
+            {
+              "part": "-synthesis",
+              "meaning": "putting together",
+              "real": true,
+              "word": "photosynthesis",
+              "def": "how plants make food from light"
+            },
+            {
+              "part": "-copy",
+              "meaning": "copy",
+              "real": true,
+              "word": "photocopy",
+              "def": "a copy made with light"
+            },
+            {
+              "part": "-naut",
+              "meaning": "sailor",
+              "real": false,
+              "word": "photonaut"
+            },
+            {
+              "part": "-sneeze",
+              "meaning": "achoo",
+              "real": false,
+              "word": "photosneeze"
+            },
+            {
+              "part": "-pickle",
+              "meaning": "sour snack",
+              "real": false,
+              "word": "photopickle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "logy",
+      "root": "logy",
+      "variants": [
+        "ology"
+      ],
+      "origin": "Greek",
+      "type": "Suffix",
+      "meaning": "the study of",
+      "art": "art/logy.webp",
+      "halves": {
+        "end": {
+          "cards": [
+            {
+              "part": "techno-",
+              "meaning": "skill",
+              "real": true,
+              "word": "technology",
+              "def": "tools and machines people invent"
+            },
+            {
+              "part": "zoo-",
+              "meaning": "animals",
+              "real": true,
+              "word": "zoology",
+              "def": "the study of animals"
+            },
+            {
+              "part": "myth-",
+              "meaning": "old stories",
+              "real": true,
+              "word": "mythology",
+              "def": "old stories of gods and heroes"
+            },
+            {
+              "part": "eco-",
+              "meaning": "home",
+              "real": true,
+              "word": "ecology",
+              "def": "how living things share their home"
+            },
+            {
+              "part": "sock-",
+              "meaning": "foot warmer",
+              "real": false,
+              "word": "sockology"
+            },
+            {
+              "part": "toast-",
+              "meaning": "crispy bread",
+              "real": false,
+              "word": "toastology"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "scope",
+      "root": "scope",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "look at",
+      "art": "art/scope.webp",
+      "halves": {
+        "end": {
+          "cards": [
+            {
+              "part": "tele-",
+              "meaning": "far",
+              "real": true,
+              "word": "telescope",
+              "def": "a tube for seeing faraway stars"
+            },
+            {
+              "part": "micro-",
+              "meaning": "small",
+              "real": true,
+              "word": "microscope",
+              "def": "a tool for seeing tiny things"
+            },
+            {
+              "part": "peri-",
+              "meaning": "around",
+              "real": true,
+              "word": "periscope",
+              "def": "a tube for looking around corners"
+            },
+            {
+              "part": "kaleido-",
+              "meaning": "beautiful shapes",
+              "real": true,
+              "word": "kaleidoscope",
+              "def": "a tube of twirling pretty patterns"
+            },
+            {
+              "part": "geo-",
+              "meaning": "earth",
+              "real": false,
+              "word": "geoscope"
+            },
+            {
+              "part": "nose-",
+              "meaning": "sniffer",
+              "real": false,
+              "word": "nosescope"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "meter",
+      "root": "meter",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "measure",
+      "art": "art/meter.webp",
+      "halves": {
+        "end": {
+          "cards": [
+            {
+              "part": "thermo-",
+              "meaning": "heat",
+              "real": true,
+              "word": "thermometer",
+              "def": "a tool that measures heat"
+            },
+            {
+              "part": "speedo-",
+              "meaning": "speed",
+              "real": true,
+              "word": "speedometer",
+              "def": "shows how fast you go"
+            },
+            {
+              "part": "peri-",
+              "meaning": "around",
+              "real": true,
+              "word": "perimeter",
+              "def": "the distance all around a shape"
+            },
+            {
+              "part": "dia-",
+              "meaning": "across",
+              "real": true,
+              "word": "diameter",
+              "def": "a line straight across a circle"
+            },
+            {
+              "part": "sleepo-",
+              "meaning": "sleep",
+              "real": false,
+              "word": "sleepometer"
+            },
+            {
+              "part": "giggle-",
+              "meaning": "laugh",
+              "real": false,
+              "word": "gigglemeter"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cycl",
+      "root": "cycl",
+      "variants": [
+        "cycle"
+      ],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "circle, wheel",
+      "art": "art/cycl.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-one",
+              "meaning": "whirling",
+              "real": true,
+              "word": "cyclone",
+              "def": "a huge whirling storm"
+            },
+            {
+              "part": "-ist",
+              "meaning": "one who",
+              "real": true,
+              "word": "cyclist",
+              "def": "someone who rides a bike"
+            },
+            {
+              "part": "-ops",
+              "meaning": "eye",
+              "real": true,
+              "word": "cyclops",
+              "def": "a giant with one round eye"
+            },
+            {
+              "part": "-onaut",
+              "meaning": "sailor",
+              "real": false,
+              "word": "cyclonaut"
+            },
+            {
+              "part": "-ish",
+              "meaning": "sort of",
+              "real": false,
+              "word": "cyclish"
+            },
+            {
+              "part": "-ness",
+              "meaning": "state of",
+              "real": false,
+              "word": "cycleness"
+            }
+          ]
+        },
+        "end": {
+          "cards": [
+            {
+              "part": "bi-",
+              "meaning": "two",
+              "real": true,
+              "word": "bicycle",
+              "def": "a bike with two wheels"
+            },
+            {
+              "part": "tri-",
+              "meaning": "three",
+              "real": true,
+              "word": "tricycle",
+              "def": "a bike with three wheels"
+            },
+            {
+              "part": "uni-",
+              "meaning": "one",
+              "real": true,
+              "word": "unicycle",
+              "def": "a bike with one wheel"
+            },
+            {
+              "part": "motor-",
+              "meaning": "engine",
+              "real": true,
+              "word": "motorcycle",
+              "def": "a bike with an engine"
+            },
+            {
+              "part": "banana-",
+              "meaning": "yellow fruit",
+              "real": false,
+              "word": "bananacycle"
+            },
+            {
+              "part": "sofa-",
+              "meaning": "couch",
+              "real": false,
+              "word": "sofacycle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "therm",
+      "root": "therm",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "heat",
+      "art": "art/therm.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-ometer",
+              "meaning": "measure",
+              "real": true,
+              "word": "thermometer",
+              "def": "a tool that measures heat"
+            },
+            {
+              "part": "-ostat",
+              "meaning": "standing still",
+              "real": true,
+              "word": "thermostat",
+              "def": "keeps a room at one warmth"
+            },
+            {
+              "part": "-al",
+              "meaning": "about",
+              "real": true,
+              "word": "thermal",
+              "def": "about heat; warm and cozy"
+            },
+            {
+              "part": "-onaut",
+              "meaning": "sailor",
+              "real": false,
+              "word": "thermonaut"
+            },
+            {
+              "part": "-oboot",
+              "meaning": "shoe",
+              "real": false,
+              "word": "thermoboot"
+            },
+            {
+              "part": "-ojelly",
+              "meaning": "wobbly treat",
+              "real": false,
+              "word": "thermojelly"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "astro",
+      "root": "astro",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "star",
+      "art": "art/astro.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-naut",
+              "meaning": "sailor",
+              "real": true,
+              "word": "astronaut",
+              "def": "a sailor among the stars"
+            },
+            {
+              "part": "-nomy",
+              "meaning": "arranging",
+              "real": true,
+              "word": "astronomy",
+              "def": "the science of stars and planets"
+            },
+            {
+              "part": "-logy",
+              "meaning": "study of",
+              "real": true,
+              "word": "astrology",
+              "def": "guessing the future from stars"
+            },
+            {
+              "part": "-phone",
+              "meaning": "sound",
+              "real": false,
+              "word": "astrophone"
+            },
+            {
+              "part": "-puppy",
+              "meaning": "young dog",
+              "real": false,
+              "word": "astropuppy"
+            },
+            {
+              "part": "-cookie",
+              "meaning": "sweet treat",
+              "real": false,
+              "word": "astrocookie"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hydr",
+      "root": "hydr",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "water",
+      "art": "art/hydr.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-ant",
+              "meaning": "thing that",
+              "real": true,
+              "word": "hydrant",
+              "def": "a street pipe full of water"
+            },
+            {
+              "part": "-ate",
+              "meaning": "to give",
+              "real": true,
+              "word": "hydrate",
+              "def": "to give your body water"
+            },
+            {
+              "part": "-ogen",
+              "meaning": "maker",
+              "real": true,
+              "word": "hydrogen",
+              "def": "the gas that helps make water"
+            },
+            {
+              "part": "-onaut",
+              "meaning": "sailor",
+              "real": false,
+              "word": "hydronaut"
+            },
+            {
+              "part": "-ofork",
+              "meaning": "prongs",
+              "real": false,
+              "word": "hydrofork"
+            },
+            {
+              "part": "-otoast",
+              "meaning": "crispy bread",
+              "real": false,
+              "word": "hydrotoast"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chron",
+      "root": "chron",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "time",
+      "art": "art/chron.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-ological",
+              "meaning": "in order",
+              "real": true,
+              "word": "chronological",
+              "def": "in the order things happened"
+            },
+            {
+              "part": "-icle",
+              "meaning": "record",
+              "real": true,
+              "word": "chronicle",
+              "def": "a record of events in time"
+            },
+            {
+              "part": "-ic",
+              "meaning": "lasting",
+              "real": true,
+              "word": "chronic",
+              "def": "lasting a long, long time"
+            },
+            {
+              "part": "-ozebra",
+              "meaning": "striped horse",
+              "real": false,
+              "word": "chronozebra"
+            },
+            {
+              "part": "-obounce",
+              "meaning": "hop",
+              "real": false,
+              "word": "chronobounce"
+            },
+            {
+              "part": "-opizza",
+              "meaning": "cheesy pie",
+              "real": false,
+              "word": "chronopizza"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dynam",
+      "root": "dynam",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "power",
+      "art": "art/dynam.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-ite",
+              "meaning": "stuff",
+              "real": true,
+              "word": "dynamite",
+              "def": "a powerful blasting stick"
+            },
+            {
+              "part": "-ic",
+              "meaning": "full of",
+              "real": true,
+              "word": "dynamic",
+              "def": "full of energy and change"
+            },
+            {
+              "part": "-o",
+              "meaning": "machine",
+              "real": true,
+              "word": "dynamo",
+              "def": "a machine that makes power"
+            },
+            {
+              "part": "-ish",
+              "meaning": "sort of",
+              "real": false,
+              "word": "dynamish"
+            },
+            {
+              "part": "-ful",
+              "meaning": "full of",
+              "real": false,
+              "word": "dynamful"
+            },
+            {
+              "part": "-ness",
+              "meaning": "state of",
+              "real": false,
+              "word": "dynamness"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "aero",
+      "root": "aero",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "air",
+      "art": "art/aero.webp",
+      "halves": {
+        "start": {
+          "cards": [
+            {
+              "part": "-dynamic",
+              "meaning": "power",
+              "real": true,
+              "word": "aerodynamic",
+              "def": "shaped to slip through air"
+            },
+            {
+              "part": "-space",
+              "meaning": "space",
+              "real": true,
+              "word": "aerospace",
+              "def": "air and outer space travel"
+            },
+            {
+              "part": "-sol",
+              "meaning": "liquid mix",
+              "real": true,
+              "word": "aerosol",
+              "def": "a mist sprayed into the air"
+            },
+            {
+              "part": "-bics",
+              "meaning": "life",
+              "real": true,
+              "word": "aerobics",
+              "def": "exercise that gets you breathing"
+            },
+            {
+              "part": "-fish",
+              "meaning": "swimmer",
+              "real": false,
+              "word": "aerofish"
+            },
+            {
+              "part": "-noodle",
+              "meaning": "pasta",
+              "real": false,
+              "word": "aeronoodle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "saur",
+      "root": "saur",
+      "variants": [],
+      "origin": "Greek",
+      "type": "Root",
+      "meaning": "lizard",
+      "art": "art/saur.webp",
+      "halves": {
+        "end": {
+          "cards": [
+            {
+              "part": "dino-",
+              "meaning": "terrible",
+              "real": true,
+              "word": "dinosaur",
+              "def": "a terrible giant lizard of long ago"
+            },
+            {
+              "part": "ptero-",
+              "meaning": "wing",
+              "real": true,
+              "word": "pterosaur",
+              "def": "a flying reptile with wings"
+            },
+            {
+              "part": "plesio-",
+              "meaning": "near",
+              "real": true,
+              "word": "plesiosaur",
+              "def": "a long-necked sea reptile"
+            },
+            {
+              "part": "toaster-",
+              "meaning": "bread warmer",
+              "real": false,
+              "word": "toastersaur"
+            },
+            {
+              "part": "kitty-",
+              "meaning": "little cat",
+              "real": false,
+              "word": "kittysaur"
+            },
+            {
+              "part": "pizza-",
+              "meaning": "cheesy pie",
+              "real": false,
+              "word": "pizzasaur"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
