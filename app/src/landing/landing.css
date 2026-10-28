@@ -387,6 +387,7 @@ em { font-family: var(--italic); font-style: italic; font-weight: 500; letter-sp
 .huge { font-weight: 800; font-size: clamp(64px, 13.5vw, 230px); line-height: .86; letter-spacing: -.06em; }
 .foot { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 28px var(--pad) max(28px, env(safe-area-inset-bottom)); border-top: 1px solid var(--line); color: var(--mist-2); font-size: 14px; }
 .foot .mark { color: var(--paper); font-size: 17px; }
+.foot a { color: inherit; margin-left: 14px; }
 
 /* ---------- phone ---------- */
 @media (max-width: 720px) {
