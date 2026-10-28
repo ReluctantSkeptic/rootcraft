@@ -140,6 +140,14 @@
   </section>
 </main>
 
+<form class="contact" data-contact>
+  <input name="email" type="email" required maxlength="200" placeholder="Your email" aria-label="Your email" autocomplete="email">
+  <textarea name="message" required maxlength="5000" rows="3" placeholder="Message" aria-label="Message"></textarea>
+  <input class="contact-hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <div class="contact-row"><button type="submit">Send</button><a href="mailto:admin@yuriystasyuk.com">admin@yuriystasyuk.com</a></div>
+  <p class="contact-status" role="status" aria-live="polite"></p>
+</form>
+
 <footer class="foot">
   <span class="mark">Rootcraft</span>
   <span>Latin &amp; Greek, one piece at a time.</span>
@@ -147,5 +155,6 @@
 
 <script src="bg.js" defer></script>
 <script src="landing.js" defer></script>
+<script src="contact.js" defer></script>
 </body>
 </html>
