@@ -388,16 +388,6 @@ em { font-family: var(--italic); font-style: italic; font-weight: 500; letter-sp
 .foot { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 28px var(--pad) max(28px, env(safe-area-inset-bottom)); border-top: 1px solid var(--line); color: var(--mist-2); font-size: 14px; }
 .foot .mark { color: var(--paper); font-size: 17px; }
 
-.contact { display: grid; gap: 10px; max-width: 520px; margin: 0 auto; padding: 48px var(--pad); }
-.contact input, .contact textarea { font: inherit; font-size: 15px; color: var(--paper); background: var(--night-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; resize: vertical; }
-.contact input:focus, .contact textarea:focus { outline: none; border-color: var(--gold); }
-.contact-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
-.contact button { font: inherit; font-size: 15px; font-weight: 600; color: var(--ink); background: var(--gold); border: 0; border-radius: 999px; padding: 10px 22px; cursor: pointer; }
-.contact button:disabled { opacity: .6; }
-.contact-row a { color: var(--mist); font-size: 14px; }
-.contact-status { color: var(--mist); font-size: 14px; min-height: 1em; margin: 0; }
-.contact-hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
-
 /* ---------- phone ---------- */
 @media (max-width: 720px) {
   .w { font-size: 19vw; letter-spacing: -.05em; }
