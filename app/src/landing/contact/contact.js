@@ -15,23 +15,37 @@
   var sync = function () { var o = sel.selectedOptions[0]; flag.textContent = o ? toFlag(o.dataset.code) : ""; };
   sel.addEventListener("change", sync); sync();
 
+  var sending = false, seq = 0;
   form.addEventListener("submit", async function (event) {
     event.preventDefault();
+    if (sending) return;
+    if (!form.reportValidity()) return;
     var status = form.querySelector("[role=status]");
     var button = form.querySelector("button[type=submit]");
     var d = Object.fromEntries(new FormData(form));
-    button.disabled = true; status.textContent = "Sending…";
+    var mine = ++seq;
+    sending = true;
+    button.disabled = true;
+    form.setAttribute("aria-busy", "true");
+    status.textContent = "Sending…";
+    var ctrl = new AbortController();
+    var timer = setTimeout(function () { ctrl.abort(); }, 20000);
     try {
       var res = await fetch("https://site-contact.ystasyuk.workers.dev", {
-        method: "POST", headers: { "Content-Type": "application/json" },
+        method: "POST", headers: { "Content-Type": "application/json" }, signal: ctrl.signal,
         body: JSON.stringify({ name: (d.first + " " + d.last).trim(), email: d.email, message: "Location: " + d.location + "\n\n" + d.message, website: d.website, site: location.href })
       });
       var out = await res.json();
-      if (!out.ok) throw new Error(out.error);
+      if (mine !== seq) return;
+      if (!out.ok) throw new Error(out.error || "");
       form.reset(); sync();
       status.textContent = "Thanks. Your message is on its way.";
     } catch (err) {
-      status.textContent = (err && err.message) || "Couldn't send. Email admin@yuriystasyuk.com directly.";
-    } finally { button.disabled = false; }
+      if (mine !== seq) return;
+      status.textContent = (err && err.name !== "AbortError" && err.message) || "Couldn't send. Email admin@yuriystasyuk.com directly.";
+    } finally {
+      clearTimeout(timer);
+      if (mine === seq) { sending = false; button.disabled = false; form.removeAttribute("aria-busy"); }
+    }
   });
 })();

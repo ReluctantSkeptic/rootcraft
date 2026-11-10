@@ -419,8 +419,13 @@ function parade() {
       r.off += dx; r.vel = dx / Math.max(8, now - d.t); d.x = e.clientX; d.y = e.clientY; d.t = now;
       r.row.classList.add('dragging'); kick();
     });
-    const end = () => { r.drag = null; r.row.classList.remove('dragging'); };
+    const end = e => {
+      if (!r.drag || (e && e.pointerId !== r.drag.id)) return;
+      r.drag = null; r.row.classList.remove('dragging');
+    };
     r.row.addEventListener('pointerup', end); r.row.addEventListener('pointercancel', end);
+    // releasing outside the shelf does not deliver pointerup to the row, which froze the drift
+    addEventListener('pointerup', end); addEventListener('pointercancel', end);
     r.row.addEventListener('dragstart', e => e.preventDefault());
   });
   tasks.add(dt => {

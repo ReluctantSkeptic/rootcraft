@@ -14,6 +14,8 @@ const ALL = new URLSearchParams(location.search).get('all') === '1';
 let WORLDS = [];
 let prog = {};
 let justDone = null; // {wid, id, unlocked} for the map's arrival animation
+let levelEpoch = 0; // bumped on every navigation and every new level deal; stale half-turn timers compare against it
+let booted = false;
 
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const star = (cls = '') => `<svg class="star ${cls}" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg>`;
@@ -30,19 +32,19 @@ const ICON = {
 
 /* ---------- progress ---------- */
 const pk = (w, l) => `${w.id}/${l.id}`;
+const isProg = o => !!o && typeof o === 'object' && !Array.isArray(o);
 function load() {
-  try { prog = JSON.parse(localStorage.getItem(KEY)) || null; } catch { prog = null; }
-  if (!prog) { // migrate v2 (single world, ids = w1 level ids). Old 12-card scores don't carry over.
-    prog = {};
-    try {
-      const old = JSON.parse(localStorage.getItem(OLD_KEY)) || {};
-      const w1 = WORLDS.find(w => w.id === 'w1');
-      if (w1) for (const [id, v] of Object.entries(old)) {
-        if (w1.levels.some(l => l.id === id) && v && v.stars > 0) prog[`w1/${id}`] = { stars: Math.min(3, v.stars | 0), best: 0 };
-      }
-    } catch {}
-    save();
-  }
+  try { prog = JSON.parse(localStorage.getItem(KEY)); } catch { prog = null; }
+  if (isProg(prog)) return; // keep an existing object as-is, including fields this version does not use
+  prog = {}; // missing or corrupt (a string, array, number): migrate v2, never drop a real v6 object
+  try { // v2 was a single world whose ids are w1 level ids. Old 12-card scores don't carry over.
+    const old = JSON.parse(localStorage.getItem(OLD_KEY));
+    const w1 = WORLDS.find(w => w.id === 'w1');
+    if (w1 && isProg(old)) for (const [id, v] of Object.entries(old)) {
+      if (w1.levels.some(l => l.id === id) && v && v.stars > 0) prog[`w1/${id}`] = { stars: Math.min(3, v.stars | 0), best: 0 };
+    }
+  } catch {}
+  save();
 }
 function save() { try { localStorage.setItem(KEY, JSON.stringify(prog)); } catch {} }
 const starsOf = (w, l) => (prog[pk(w, l)] && prog[pk(w, l)].stars) || 0;
@@ -54,7 +56,13 @@ function worldOpen(i) {
   const p = WORLDS[i - 1];
   return starsOf(p, p.levels[p.levels.length - 1]) > 0;
 }
-const say = t => { live.textContent = ''; setTimeout(() => (live.textContent = t), 30); };
+let sayTimer = 0;
+const say = t => {
+  const e = levelEpoch;
+  live.textContent = '';
+  clearTimeout(sayTimer);
+  sayTimer = setTimeout(() => { if (e === levelEpoch) live.textContent = t; }, 30);
+};
 function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = (Math.random() * (i + 1)) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; }
 function buzz(ms) { if (navigator.vibrate && !RM.matches) try { navigator.vibrate(ms); } catch {} }
 const hrefWorld = w => `#/w/${w.id}`;
@@ -532,7 +540,8 @@ function renderLevel(w, lv) {
   const i = w.levels.indexOf(lv);
   const sides = SIDES.filter(s => lv.halves[s]);
   document.title = `${lv.root} · Rootcraft`;
-  S = { w, lv, i, sides, h: 0, halves: sides.map(s => ({ side: s, order: shuffle(lv.halves[s]), sel: new Set() })), busy: false };
+  const epoch = ++levelEpoch;
+  S = { w, lv, i, sides, h: 0, halves: sides.map(s => ({ side: s, order: shuffle(lv.halves[s]), sel: new Set() })), busy: false, phase: 'play', epoch };
   const best = starsOf(w, lv);
   const H = S.halves[0];
   app.innerHTML = `<div class="screen level-screen" style="${cbVars(lv)}">
@@ -554,7 +563,10 @@ function renderLevel(w, lv) {
   window.scrollTo({ top: 0, behavior: 'instant' });
   bindTilt(app); fitTitles(app);
   bindHand();
-  $('.done', app).addEventListener('click', () => (S.h + 1 < S.halves.length ? turnHalf() : finish()));
+  $('.done', app).addEventListener('click', () => {
+    if (!S || S.phase !== 'play') return;
+    if (S.h + 1 < S.halves.length) turnHalf(); else finish();
+  });
   $('.rcard-name', app).focus({ preventScroll: true });
   say(halfHint(H.side, lv));
 }
@@ -562,7 +574,7 @@ const halfHint = (side, lv) => side === 'start' ? `${lv.root} comes first. Pick 
 function bindHand() {
   const H = S.halves[S.h];
   $$('.pcard', app).forEach(b => b.addEventListener('click', () => {
-    if (S.busy) return;
+    if (!S || S.phase !== 'play' || S.busy) return;
     const k = +b.dataset.k, on = !H.sel.has(k);
     on ? H.sel.add(k) : H.sel.delete(k);
     b.setAttribute('aria-pressed', on); b.classList.toggle('is-sel', on); buzz(on ? 8 : 4);
@@ -572,26 +584,31 @@ function bindHand() {
 /* The page turns over to the second half: old cards flip away, the root card's blank slides to
    the other side with a little flick, and the new hand deals in. Same bubble, no navigation. */
 function turnHalf() {
-  if (S.busy) return;
+  if (!S || S.phase !== 'play' || S.busy) return;
+  S.phase = 'turning';
   S.busy = true;
-  const next = S.halves[S.h + 1], hand = $('.hand', app), done = $('.done', app);
+  const epoch = S.epoch, next = S.halves[S.h + 1], hand = $('.hand', app), done = $('.done', app);
   const old = $$('.pcard', app), slow = !RM.matches;
+  const liveTurn = () => S && S.epoch === epoch && epoch === levelEpoch && S.phase === 'turning';
   done.disabled = true;
   old.forEach((c, k) => { c.style.setProperty('--o', `${(k % 3) * 40 + Math.floor(k / 3) * 30}ms`); c.classList.add('out'); });
   const h1 = $('.rcard-name', app), tilt = $('.tilt-main', app);
   setTimeout(() => {
+    if (!liveTurn()) return;
     h1.dataset.side = next.side;
-    if (tilt.nudge) tilt.nudge(next.side === 'end' ? -1 : 1);
+    if (tilt && tilt.nudge) tilt.nudge(next.side === 'end' ? -1 : 1);
     $$('.hdots i', app).forEach((d, k) => { d.classList.toggle('is-on', k === S.h + 1); d.classList.toggle('is-done', k <= S.h); });
   }, slow ? 140 : 0);
   setTimeout(() => {
+    if (!liveTurn()) return;
     S.h++;
     hand.innerHTML = handHTML(next.order, 'deal2');
     bindHand();
     done.textContent = 'Done';
+    S.phase = 'play';
     S.busy = false;
     say(halfHint(next.side, S.lv));
-    setTimeout(() => fitTitles(app), slow ? 480 : 0);
+    setTimeout(() => { if (S && S.epoch === epoch && epoch === levelEpoch) fitTitles(app); }, slow ? 480 : 0);
   }, slow ? 350 : 0);
 }
 function grade(R, hits, wrong) {
@@ -599,6 +616,9 @@ function grade(R, hits, wrong) {
   return hits === R && wrong === 0 ? 3 : acc >= 0.7 ? 2 : acc >= 0.4 ? 1 : 0;
 }
 function finish() {
+  if (!S || S.phase !== 'play') return;
+  S.phase = 'result';
+  S.busy = true;
   const { w, lv, halves } = S;
   let R = 0, hits = 0, wrong = 0, perfect = true;
   halves.forEach(H => {
@@ -613,10 +633,11 @@ function finish() {
   const score = Math.max(0, hits * PTS.hit + wrong * PTS.wrong + miss * PTS.miss);
   const stars = perfect ? 3 : Math.min(2, grade(R, hits, wrong));
   const key = pk(w, lv);
-  const prev = prog[key] || { stars: 0, best: 0 };
+  const prev = isProg(prog[key]) ? prog[key] : { stars: 0, best: 0 };
   const firstClear = prev.stars === 0 && stars > 0;
   const newBest = score > (prev.best || 0) && (prev.stars > 0 || prev.best > 0);
-  prog[key] = { stars: Math.max(prev.stars, stars), best: Math.max(prev.best || 0, score) };
+  // keep any fields a newer save may have added; only stars and best are rewritten
+  prog[key] = { ...prev, stars: Math.max(prev.stars || 0, stars), best: Math.max(prev.best || 0, score) };
   save();
   const next = w.levels[S.i + 1];
   const wi = WORLDS.indexOf(w), nextWorld = !next && WORLDS[wi + 1] && worldOpen(wi + 1) ? WORLDS[wi + 1] : null;
@@ -625,17 +646,23 @@ function finish() {
 }
 
 /* ---------- result: both directions branch from the root ---------- */
-function splitWord(c, lv, side) {
-  const w = c.w, bare = c.p.replace(/-/g, '').toLowerCase();
-  const forms = lv.forms.map(f => f.toLowerCase()).sort((a, b) => b.length - a.length);
-  let at = -1, f = '';
-  for (const x of forms) {
-    const from = side === 'end' ? Math.max(0, bare.length - 1) : 0;
-    const j = side === 'start' && w.startsWith(x) ? 0 : w.indexOf(x, from);
-    if (j >= 0 && (at < 0 || j < at || (j === at && x.length > f.length))) { at = j; f = x; }
+/* The highlighted root is the form that sits exactly at the join with the part the player picked
+   (start: index 0, end: right after the beginning). A longer variant that overlaps the part by one
+   letter, like "ology" inside "techno-", is not the root of that card. */
+function rootSpan(word, part, forms, side) {
+  const w = String(word).toLowerCase(), bare = String(part).replace(/-/g, '').toLowerCase();
+  const at = side === 'end' ? bare.length : 0;
+  let best = '';
+  for (const f of forms) {
+    const x = String(f).toLowerCase();
+    if (x.length > best.length && w.startsWith(x, at)) best = x;
   }
-  if (at < 0) return esc(w);
-  return `${esc(w.slice(0, at))}<b>${esc(w.slice(at, at + f.length))}</b>${esc(w.slice(at + f.length))}`;
+  return best ? { at, len: best.length } : null;
+}
+function splitWord(c, lv, side) {
+  const span = rootSpan(c.w, c.p, lv.forms, side);
+  if (!span) return esc(c.w);
+  return `${esc(c.w.slice(0, span.at))}<b>${esc(c.w.slice(span.at, span.at + span.len))}</b>${esc(c.w.slice(span.at + span.len))}`;
 }
 function renderResult(r) {
   const { R, hits, wrong, miss, score, stars, newBest, next, nextWorld } = r;
@@ -1070,6 +1097,7 @@ function wordsMode(D, startIdx, startHL) {
     pos: startIdx, vel: 0, target: startIdx, W: stage.clientWidth, drag: null, scrub: false,
     pages: new Map(), active: -1, tree: null, t0: 0, raf: 0, world: -1, hl: startHL ? { i: startIdx, w: startHL } : null,
     wheelT: 0, wheelAnchor: 0, wheelTimer: 0, lastT: 0, xs: [], idx: startIdx, alive: true, settledAt: 0,
+    jumpGen: 0, jumpAnim: null,
   };
   const phone = () => S.W < 700;
 
@@ -1108,7 +1136,7 @@ function wordsMode(D, startIdx, startHL) {
     S.tree = null;
   }
   function activate(i, instant) {
-    if (S.active === i) return;
+    if (!S.alive || S.active === i) return;
     clearTree();
     S.active = i; S.idx = i;
     const pg = mount(i), R = D.roots[i];
@@ -1181,6 +1209,7 @@ function wordsMode(D, startIdx, startHL) {
   /* motion: a spring toward the target root; the visible root's tree grows on arrival */
   function kick() { if (!S.raf && S.alive) S.raf = requestAnimationFrame(frame); }
   function frame(now) {
+    if (!S.alive) { S.raf = 0; return; }
     S.raf = 0;
     const dt = Math.min(.05, (now - (S.lastT || now)) / 1000) || 1 / 60; S.lastT = now;
     let more = false;
@@ -1203,15 +1232,21 @@ function wordsMode(D, startIdx, startHL) {
   function go(i, hlWord) {
     i = clamp(i, 0, N - 1);
     S.lastDir = Math.sign(i - S.pos) || S.lastDir;
+    const gen = ++S.jumpGen;
+    if (S.jumpAnim) { const a = S.jumpAnim; S.jumpAnim = null; a.finished.catch(() => {}); a.cancel(); }
     if (hlWord) {
       S.hl = { i, w: hlWord };
       if (S.active === i) { S.active = -1; } // regrow with the highlight
     }
     if (Math.abs(i - S.pos) > 2.5 && !RM.matches) {
       // far jump: dissolve and reappear instead of racing past every root
-      stage.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 140, easing: 'ease-in' }).onfinish = () => {
+      const anim = stage.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 140, easing: 'ease-in' });
+      S.jumpAnim = anim;
+      anim.onfinish = () => {
+        if (S.jumpAnim === anim) S.jumpAnim = null;
+        if (!S.alive || gen !== S.jumpGen) return; // a newer step, or the player already left
         S.pos = i + Math.sign(S.pos - i) * .35; S.target = i; S.vel = 0; place(); kick();
-        stage.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 260, easing: 'ease-out' });
+        if (S.alive) stage.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 260, easing: 'ease-out' });
       };
       return;
     }
@@ -1259,6 +1294,9 @@ function wordsMode(D, startIdx, startHL) {
   };
   stage.addEventListener('pointerup', endDrag, sig);
   stage.addEventListener('pointercancel', endDrag, sig);
+  // pointerup outside the stage never reaches it, and a drag left open blocks the spring forever
+  addEventListener('pointerup', endDrag, sig);
+  addEventListener('pointercancel', endDrag, sig);
   stage.addEventListener('click', e => { if (S.suppress && performance.now() - S.suppress < 300) { e.preventDefault(); e.stopPropagation(); } }, { capture: true, signal: ac.signal });
   stage.addEventListener('dragstart', e => e.preventDefault(), sig);
 
@@ -1420,12 +1458,14 @@ function wordsMode(D, startIdx, startHL) {
     IX = { wrap, input, setTab, lw, lr, filter, rrows };
   }
   let lastFocus = null;
+  const behind = on => $$('.wm-head, .wm-stage, .wm-foot', scr).forEach(el => { el.inert = on; });
   function openIndex(t) {
     if (!IX) buildIndex();
     lastFocus = document.activeElement;
     IX.setTab(t);
     IX.wrap.classList.add('open');
     scr.classList.add('has-wx');
+    behind(true);
     $$('.wx-row.cur', IX.wrap).forEach(r => r.classList.remove('cur'));
     const cur = IX.rrows[S.idx]; if (cur) cur.classList.add('cur');
     requestAnimationFrame(() => {
@@ -1436,11 +1476,13 @@ function wordsMode(D, startIdx, startHL) {
   function closeIndex() {
     if (!IX || !IX.wrap.classList.contains('open')) return;
     IX.wrap.classList.remove('open'); scr.classList.remove('has-wx');
+    behind(false);
     (lastFocus && lastFocus.isConnected ? lastFocus : stage).focus({ preventScroll: true });
   }
 
   /* size */
   const onResize = () => {
+    if (!S.alive) return;
     S.W = stage.clientWidth;
     S.pages.forEach((pg, i) => seatCard(pg, D.roots[i].words.length));
     measureScrub();
@@ -1459,12 +1501,19 @@ function wordsMode(D, startIdx, startHL) {
   return {
     get idx() { return S.idx; }, get alive() { return S.alive; },
     go, openIndex, closeIndex,
-    destroy() { S.alive = false; ac.abort(); cancelAnimationFrame(S.raf); clearTimeout(S.wheelTimer); document.documentElement.classList.remove('is-words'); },
+    destroy() {
+      S.alive = false; S.jumpGen++;
+      if (S.jumpAnim) { S.jumpAnim.finished.catch(() => {}); S.jumpAnim.cancel(); S.jumpAnim = null; }
+      ac.abort(); cancelAnimationFrame(S.raf); clearTimeout(S.wheelTimer); clearTimeout(rzT);
+      document.documentElement.classList.remove('is-words');
+    },
   };
 }
 
 /* ---------- router ---------- */
 function route() {
+  if (!booted) return; // data is not in yet; an early hash change must not replace the deep link
+  levelEpoch++; // drop half-turn timers and announcements that belong to the screen we are leaving
   let h = location.hash || '#/';
   const legacy = h.match(/^#\/l\/([\w-]+)/); // v2 links
   if (legacy) { history.replaceState(null, '', `#/w/w1/${legacy[1]}`); h = location.hash; }
@@ -1502,11 +1551,24 @@ addEventListener('resize', () => {
   }, 120);
 });
 addEventListener('hashchange', route);
+function bootFail() {
+  document.title = 'Rootcraft';
+  app.innerHTML = `<div class="screen boot-fail"><h1 class="brand">Rootcraft</h1><p class="prompt">The game did not load. Check your connection and try again.</p><p><button class="btn btn-acc" type="button" id="boot-retry">Try again</button></p></div>`;
+  const b = $('#boot-retry');
+  b.addEventListener('click', () => location.reload());
+  b.focus();
+}
 (async function boot() {
-  const res = await fetch(document.documentElement.dataset.data);
-  WORLDS = (await res.json()).worlds.sort((a, b) => a.order - b.order);
-  paintCrayons();
-  load();
-  route();
-  if (document.fonts) document.fonts.ready.then(() => { if (WM) return; fitTitles(app); if ($('.tree', app)) drawTree(false); });
+  try {
+    const res = await fetch(document.documentElement.dataset.data);
+    if (!res.ok) throw new Error(String(res.status));
+    const data = await res.json();
+    WORLDS = (data.worlds || []).slice().sort((a, b) => a.order - b.order);
+    if (!WORLDS.length) throw new Error('empty');
+    paintCrayons();
+    load();
+    booted = true;
+    route();
+    if (document.fonts) document.fonts.ready.then(() => { if (WM) return; fitTitles(app); if ($('.tree', app)) drawTree(false); });
+  } catch (e) { bootFail(); }
 })();
