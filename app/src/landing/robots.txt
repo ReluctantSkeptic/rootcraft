@@ -1,0 +1,5 @@
+# AI-readable summary: https://rootcraft.pages.dev/llms.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://rootcraft.pages.dev/sitemap.xml

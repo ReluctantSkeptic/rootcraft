@@ -6,6 +6,9 @@
 <meta name="theme-color" content="#121110">
 <title>Rootcraft</title>
 <meta name="description" content="A word-root adventure through worlds of Latin and Greek roots.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Rootcraft","url":"https://rootcraft.pages.dev/play/","applicationCategory":"EducationalApplication","operatingSystem":"Web","inLanguage":"en","description":"Snap Latin and Greek roots together to build real English words. A word game for curious kids, ages 8+.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"audience":{"@type":"PeopleAudience","suggestedMinAge":8}}
+</script>
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="manifest" href="/manifest.webmanifest">
 <script src="/pwa/pwa.js" defer></script>
@@ -39,6 +42,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<a class="skip" href="#app">Skip to the game</a>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
     <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset=".55" stop-color="#F0B840"/><stop offset="1" stop-color="#C98A1E"/></linearGradient>
@@ -48,6 +52,13 @@
 <div id="smoke" aria-hidden="true"></div>
 <canvas id="fx" aria-hidden="true"></canvas>
 <main id="app"></main>
+<noscript>
+  <div class="boot-fail">
+    <h1>Rootcraft</h1>
+    <p>Snap Latin and Greek roots together to build real English words. A word game for curious kids, ages 8+.</p>
+    <p>Four worlds: Ink, Gold, Silver and Amethyst. <a href="/">About Rootcraft</a> · <a href="/contact/">Contact</a></p>
+  </div>
+</noscript>
 <div id="live" class="sr-only" aria-live="polite"></div>
 <script src="app.js" defer></script>
 </body>

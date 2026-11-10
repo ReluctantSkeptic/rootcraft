@@ -1,0 +1,24 @@
+# Rootcraft
+
+> A word-root game for curious kids, ages 8+. Snap Latin and Greek roots together to build real English words.
+
+Rootcraft is a free browser game. A level is one root. Each root has one or two halves: the root at the start of the word (pick the endings) or at the end (pick the beginnings). Six cards are dealt, and the real words light up. Stars are saved in the browser.
+
+## Pages
+
+- [Home](https://rootcraft.pages.dev/): what the game is
+- [Play](https://rootcraft.pages.dev/play/): the game
+- [Words](https://rootcraft.pages.dev/play/#/words): every root and the words it builds
+- [Contact](https://rootcraft.pages.dev/contact/): write to the people who make Rootcraft
+
+## Worlds
+
+- Ink (31 roots): the everyday building blocks, mostly Latin. Start here.
+- Gold (16 roots): Greek science and wonder words, like dinosaur, microscope and geography.
+- Silver (17 roots): numbers and measuring words, like bicycle, octopus and centimeter.
+- Amethyst (16 roots): living things and the body, like carnivore, florist and vitamin.
+
+## Contact
+
+- Email: admin@yuriystasyuk.com
+- Form: https://rootcraft.pages.dev/contact/

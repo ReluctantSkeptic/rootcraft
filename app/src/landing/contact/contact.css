@@ -1,5 +1,7 @@
 /* Contact page. Colors/fonts set per site via the :root vars in index.html. */
 *, *::before, *::after { box-sizing: border-box; }
+.skip { position: absolute; left: 12px; top: 12px; z-index: 5; padding: 8px 14px; border-radius: 999px; font-weight: 700; background: var(--cx-fg); color: var(--cx-bg); transform: translateY(-160%); }
+.skip:focus { transform: none; outline: 2px solid var(--cx-accent); outline-offset: 2px; }
 html, body { margin: 0; }
 body.cx-body { background: var(--cx-bg); color: var(--cx-fg); font-family: var(--cx-sans); -webkit-font-smoothing: antialiased; }
 .cx { display: grid; grid-template-columns: minmax(0, 560px) minmax(0, 1fr); min-height: 100vh; overflow: hidden; }
