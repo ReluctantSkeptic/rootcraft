@@ -58,11 +58,14 @@ button { font: inherit; color: inherit; border: 0; background: none; padding: 0;
 h1:focus { outline: none; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .tnum { font-variant-numeric: tabular-nums; }
-.dim { color: var(--mist-2); }
+.dim { color: var(--mist); } /* mist-2 was ~3.2:1 on the page background; 15px "/ 93" needs 4.5:1 */
 
 #fx { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
 #app { position: relative; z-index: 1; max-width: 1040px; margin: 0 auto; padding: max(14px, env(safe-area-inset-top)) clamp(16px, 4vw, 40px) 0; }
 .screen { animation: fade .35s var(--ease) both; }
+.boot-fail { min-height: 70vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.skip { position: absolute; left: 12px; top: 12px; z-index: 80; padding: 8px 14px; border-radius: 999px; font-weight: 700; background: var(--paper); color: var(--ink); transform: translateY(-160%); }
+.skip:focus { transform: none; }
 @keyframes fade { from { opacity: 0; } }
 
 /* ---------- stars ---------- */
@@ -224,7 +227,7 @@ h1:focus { outline: none; }
 /* v11 press sparkle (canvas drawn by holoSparkle, clipped by the card's rounded rect) */
 .spark { position: absolute; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none; z-index: 4; border-radius: inherit; }
 .rcard-mean { font-family: var(--italic); font-style: italic; font-weight: 500; font-size: 7.6cqw; line-height: 1.08; letter-spacing: -.01em; text-align: center; margin-top: .4cqw; text-wrap: balance; }
-.rcard-foot { display: flex; justify-content: space-between; gap: 3cqw; font-size: max(8px, 3.7cqw); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); opacity: .8; border-top: 1px solid rgba(22, 20, 18, .12); padding-top: 2cqw; }
+.rcard-foot { display: flex; justify-content: space-between; gap: 3cqw; font-size: max(8px, 3.7cqw); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); opacity: .92; border-top: 1px solid rgba(22, 20, 18, .12); padding-top: 2cqw; }
 /* card back: solid crayon colour, big grainy riso shape, the Rootcraft wordmark */
 .rback { transform: rotateY(180deg); display: grid; place-items: center; align-content: center; gap: 5cqw; text-align: center; pointer-events: none; }
 .rback::before {
@@ -366,7 +369,7 @@ h1:focus { outline: none; }
 .wcard.is-missed .w-tag { color: var(--mist); box-shadow: inset 0 0 0 1px rgba(241, 237, 228, .25); }
 
 .fakes { max-width: 780px; margin: 30px auto 0; text-align: center; }
-.fakes h2 { font-size: 14px; font-weight: 700; color: var(--mist-2); margin-bottom: 12px; }
+.fakes h2 { font-size: 14px; font-weight: 700; color: var(--mist); margin-bottom: 12px; }
 .fakes ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .fchip { display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px; border-radius: 18px; background: var(--night-2); box-shadow: inset 0 0 0 1px var(--line); color: var(--mist-2); font-family: var(--serif); font-size: 17px; }
 .fchip s { text-decoration-thickness: 1.5px; text-decoration-color: rgba(241, 237, 228, .35); }

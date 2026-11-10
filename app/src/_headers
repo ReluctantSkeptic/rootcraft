@@ -21,3 +21,13 @@
   Access-Control-Allow-Origin: *
 /apple-touch-icon.png
   Cache-Control: public, max-age=86400
+# Landing fonts, images and icons are not content-hashed, so they must not be immutable.
+# An hour of fresh cache, then revalidate; a week of stale-while-revalidate keeps repeat visits fast.
+/fonts/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=604800
+/img/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=604800
+/pwa/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=604800
+/contact/tablet.webp
+  Cache-Control: public, max-age=3600, stale-while-revalidate=604800

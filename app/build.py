@@ -123,6 +123,23 @@ def validate_world(path):
             if len(set(words)) != len(words): errs.append(f'{Q}: duplicate word')
     return W, errs, warns
 
+def install_play_fonts(html):
+    """Content-hash the play fonts. /play/fonts/* is cached immutable, so the names have to change when the bytes do."""
+    src, dest = os.path.join(SRC, 'fonts'), os.path.join(PLAY, 'fonts')
+    os.makedirs(dest, exist_ok=True)
+    css = open(os.path.join(src, 'fonts.css'), encoding='utf-8').read()
+    for fn in sorted(os.listdir(src)):
+        if not fn.endswith('.woff2'): continue
+        raw = open(os.path.join(src, fn), 'rb').read()
+        stem, ext = os.path.splitext(fn)  # .woff2 is 6 characters; slicing it like .webp leaves a stray dot
+        name = f"{stem}.{h(raw)}{ext}"
+        open(os.path.join(dest, name), 'wb').write(raw)
+        css = css.replace(f'url({fn})', f'url({name})')
+        html = html.replace(f'fonts/{fn}', f'fonts/{name}')
+    css_name = f'fonts.{h(css)}.css'
+    open(os.path.join(dest, css_name), 'w', encoding='utf-8').write(css)
+    return html.replace('fonts/fonts.css', f'fonts/{css_name}')
+
 def main():
     paths = sorted(glob.glob(os.path.join(SRC, 'worlds', '*', 'world.json')))
     if not paths: sys.exit('no worlds found in app/src/worlds/*/world.json')
@@ -150,7 +167,6 @@ def main():
 
     if os.path.exists(DIST): shutil.rmtree(DIST)
     os.makedirs(os.path.join(PLAY, 'art'))
-    shutil.copytree(os.path.join(SRC, 'fonts'), os.path.join(PLAY, 'fonts'))
     out = []
     for W in worlds:
         os.makedirs(os.path.join(PLAY, 'art', W['id']), exist_ok=True)
@@ -205,9 +221,10 @@ def main():
         open(os.path.join(PLAY, nm), 'w').write(txt)
     dn = f'data.{h(blob)}.json'
     open(os.path.join(PLAY, dn), 'w').write(blob)
-    html = open(os.path.join(SRC, 'index.html')).read()
+    html = open(os.path.join(SRC, 'index.html'), encoding='utf-8').read()
     html = html.replace('app.js', names['app.js']).replace('styles.css', names['styles.css']).replace('__DATA__', dn)
-    open(os.path.join(PLAY, 'index.html'), 'w').write(html)
+    html = install_play_fonts(html)
+    open(os.path.join(PLAY, 'index.html'), 'w', encoding='utf-8').write(html)
     if os.path.exists(os.path.join(SRC, 'icon.svg')):
         shutil.copy(os.path.join(SRC, 'icon.svg'), PLAY); shutil.copy(os.path.join(SRC, 'icon.svg'), DIST)
     shutil.copy(os.path.join(SRC, '_headers'), DIST)
